@@ -12,10 +12,8 @@ Suite Teardown                End suite
 SCM users don't have read permission on 'PRM member updated' field
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 Accounts
+    LaunchApp                 Contact Journal Relations
 
-
-    LaunchApp    Contact Journal Relations
     
 
     VerifyText    CJR - 1318848
@@ -63,7 +61,7 @@ SCM users don't have read permission on 'PRM member updated' field
     TypeText    Amount_to_be_paid_to_the_editorNum    1234
     ClickText    Next
     
-    
+
 
     TypeText    How_many_months_termination_notice_period_should_the_Editor_give    1
     DropDown    *    QA STAFF
