@@ -35,6 +35,9 @@ SCM users don't have read permission on 'PRM member updated' field
     ClickCheckbox    on
     TypeText    /html[1]/body[1]/div[4]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[4]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[2]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[10]/flowruntime-lwc-field[1]/div[1]/c-input-rich-text-fsc[1]/div[1]/lightning-input-rich-text[1]/div[1]/div[1]/div[1]/div[2]/div[1]    QA Testing CRT
     ClickText    Next
+    
+    
+
     ClickText    Next
     
     
