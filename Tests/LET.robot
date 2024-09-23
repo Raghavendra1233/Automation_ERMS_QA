@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-SCM users don't have read permission on 'PRM member updated' field
+LET Interview flow for Non-Masson Journal
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
