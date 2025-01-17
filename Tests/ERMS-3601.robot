@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-LET Interview flow for Non-Masson Journal
+Rendering Issue with Editorial Board Members' Fields of Interest
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
