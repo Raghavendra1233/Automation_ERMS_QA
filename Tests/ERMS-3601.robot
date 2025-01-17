@@ -9,6 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
+LET Interview flow for Non-Masson Journal
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
