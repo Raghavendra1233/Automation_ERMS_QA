@@ -13,3 +13,10 @@ Web preview not working for home page disabled journal
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
+    
+
+    ClickText                 T1
+    ClickText                 Web Preview
+    UseModal                  On
+    ClickText                 Cancel and close
+    UseModal                  Off
