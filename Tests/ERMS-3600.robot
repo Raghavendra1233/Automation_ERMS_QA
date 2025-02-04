@@ -12,4 +12,7 @@ Suite Teardown                End suite
 Rendering Issue with Editorial Board Members' Fields of Interest
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 Journals 
+    LaunchApp                 Home
+    
+
+   
