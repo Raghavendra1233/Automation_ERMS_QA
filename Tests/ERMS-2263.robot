@@ -28,23 +28,29 @@ ERMS support notification: Editor email update in RH matches other existing cont
     UseModal                  On
     ClickText                 Next
     TypeText                  First Name    contact
-    TypeText                  Last Name    five
+    TypeText                  Last Name    nine
     ComboBox                  Search Accounts...    Account1
-    TypeText                  Email    contactfive@gmail.com
+    TypeText                  Email    contactnine@gmail.com
     ClickText                 Save    partial_match=False
     UseModal                  Off
+    
+    
     ClickText                 Contacts
     ClickText                 New
     UseModal                  On
     ClickText                 Next
     TypeText                  First Name    contact
-    TypeText                  Last Name    six
+    TypeText                  Last Name    ten
     ComboBox                  Search Accounts...    Account1
-    TypeText                  Email    contactsix@gmail.com
+    TypeText                  Email    contactten@gmail.com
     ClickText                 Save    partial_match=False
     UseModal                  Off
     ClickText                 Details
+    
+    
+
     ClickText                 Edit Email
-    VerifyText                contactsix@gmail.com
-    TypeText                  Email    contactfive@gmail.com
+    VerifyText                contactten@gmail.com
+    TypeText                  Email    contactnine@gmail.com
     ClickText                 Save
+    
