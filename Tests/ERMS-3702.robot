@@ -19,7 +19,7 @@ Make the Editorial Manager and Review paper manager fields visible on Journal re
     ClickText                 Setup
     ClickText                 Opens in a new tab
     SwitchWindow              NEW
-    ClickText                 User
+    ClickText                 Susanne Steiginga
     ClickText                 Login
     ClickText                 Journals
     ClickText                 T1
