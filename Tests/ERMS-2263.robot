@@ -19,5 +19,5 @@ ERMS support notification: Editor email update in RH matches other existing cont
     ClickText                 Setup
     ClickText                 Opens in a new tab
     SwitchWindow              NEW
-    ClickText                 Susanne Steiginga
+    ClickText                 API User
     ClickText                 Login
