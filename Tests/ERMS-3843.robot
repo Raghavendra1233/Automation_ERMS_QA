@@ -21,6 +21,7 @@ New template to promote upcoming innovations to the publishing journey
     VerifyText                Show All
     ClickText                 Show All
     VerifyText                Raghu Settypalli
+    Sleep                     4s
     ClickCheckbox             Select Item 6    on    partial_match=False
     VerifyText                Next 
     ClickText                 Next
