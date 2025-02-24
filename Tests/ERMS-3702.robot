@@ -14,15 +14,9 @@ Make the Editorial Manager and Review paper manager fields visible on Journal re
     Appstate                  Home
     LaunchApp                 Journals 
     
-    
 
-    ClickText                 Setup
-    ClickText                 Opens in a new tab
-    SwitchWindow              NEW
-    ClickText                 Susanne Steiginga
-    ClickText                 Login
-    ClickText                 Journals
     ClickText                 T1
     VerifyText                Review Paper Manager
     VerifyText                Editorial Manager
+    Sleep                     3s
 
