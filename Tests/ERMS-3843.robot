@@ -18,7 +18,6 @@ New template to promote upcoming innovations to the publishing journey
 
     ClickText                 T1
     ClickText                 Email    anchor=Homepage Management
-    ClickText                 Show All
     VerifyText                Raghu Settypalli
     ClickCheckbox             Select Item 6    on    partial_match=False
     VerifyText                Next 
