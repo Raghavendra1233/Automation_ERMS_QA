@@ -20,4 +20,4 @@ Web preview not working for home page disabled journal
     UseModal                  On
     ClickText                 Cancel and close
     UseModal                  Off
-    Sleep                     2s
+    Sleep                     3s
