@@ -18,6 +18,7 @@ Replace Document approver for Society Contracts
 
     ClickText                 Select a List View: Contract Agreements
     ClickText                 SOCFOA
+    Sleep                     4s
     ClickText                 Created Date
     ClickText                 CON-049403
     Sleep                     4s
@@ -28,6 +29,7 @@ Replace Document approver for Society Contracts
     
 
     ClickText                 Show more actions    anchor=Clone
+    Sleep                     4s
     ClickText                 Preview & Submit Approvals
     Sleep                     5s
 
