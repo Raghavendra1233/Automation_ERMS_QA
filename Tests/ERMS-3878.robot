@@ -23,11 +23,15 @@ Replace Document approver for Society Contracts
     Sleep                     4s
     
     VerifyText                Total Contract Value Range
+    VerifyText                Clone
+    Sleep                     5s
+    
+
     ClickText                 Show more actions    anchor=Clone
     ClickText                 Preview & Submit Approvals
     Sleep                     5s
 
-    
+
     VerifyText                Jessica Alexander  
     Sleep                     5s                   
     
