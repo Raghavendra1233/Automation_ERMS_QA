@@ -24,7 +24,7 @@ Replace Document approver for Society Contracts
     Sleep                     4s
     
     VerifyText                Total Contract Value Range
-    VerifyText                Clone
+    VerifyText                Edit
     Sleep                     5s
     
 
