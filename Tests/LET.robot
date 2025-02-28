@@ -30,6 +30,10 @@ LET Interview flow for Non-Masson Journal
     Sleep                     5s
     VerifyText                Contract Start Date
     ClickText                 Select a date for    anchor=Contract End Date
+    
+    Sleep                     2s
+    ClickText                 Select a date for    anchor=Please enter some valid input.\nInput is not optional.
+    ClickText                 Today
     Sleep                     5s
     ClickText                 Today
     Sleep                     5s
