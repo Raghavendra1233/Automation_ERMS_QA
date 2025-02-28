@@ -31,7 +31,7 @@ Replace Document approver for Society Contracts
     ClickText                 Show more actions    anchor=Clone
     Sleep                     4s
     ClickText                 Preview & Submit Approvals
-    Sleep                     5s
+    Sleep                     15s
 
 
     VerifyText                Jessica Alexander  
