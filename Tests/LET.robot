@@ -24,10 +24,11 @@ LET Interview flow for Non-Masson Journal
     Sleep                     2s
     
     ClickText                 Begin    anchor=Skip to Navigation
-    Sleep                     5s
+    Sleep                     10s
     UseModal                  On
     DropDown                  Editor's Legal Status    Physical Person
-    Sleep                     2s
+    Sleep                     5s
+    VerifyText                Contract Start Date
     ClickText                 Select a date for    anchor=Contract End Date
     Sleep                     5s
     ClickText                 Today
