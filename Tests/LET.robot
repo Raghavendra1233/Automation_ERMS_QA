@@ -29,7 +29,7 @@ LET Interview flow for Non-Masson Journal
     DropDown                  Editor's Legal Status    Physical Person
     Sleep                     5s
     VerifyText                Contract Start Date
-    ClickText                 Select a date for    anchor=Contract End Date
+    ClickText                 Select a date for    
     
     Sleep                     2s
     ClickText                 Select a date for    anchor=Please enter some valid input.\nInput is not optional.
