@@ -19,9 +19,9 @@ LET Interview flow for Non-Masson Journal
     ClickText                 Select a List View: Contact Journal Relations
     ClickText                 All
     ClickText                 CJR - 1497634
-     Sleep                     2s
+     Sleep                    5s
     VerifyText                Long Editor Contract
-    Sleep                     2s
+    Sleep                     5s
     
     ClickText                 Begin    anchor=Skip to Navigation
     Sleep                     10s
@@ -34,24 +34,24 @@ LET Interview flow for Non-Masson Journal
     ClickText                 Today
     Sleep                     5s
     ClickText                 Next
-    Sleep                     2s
+    Sleep                     5s
     ClickText                 Next
-    Sleep                     2s
+    Sleep                     5s
     ClickText                 Next
-    Sleep                     2s
+    Sleep                     5s
     ClickText                 Next
-    Sleep                     2s
+    Sleep                     5s
 
     DropDown                  Agreement Currency    AUD - Australian Dollar
-    Sleep                     2s
+    Sleep                     5s
     TypeText                  What is the annual amount to be paid to the editor?    11
-    Sleep                     2s
+    Sleep                     5s
     ClickText                 Next
     Sleep                     5s
     DropDown                  Please pick a signatory for this contract    Staff Contact1
     Sleep                     5s
     ClickText                 Next
-    Sleep                     2s
+    Sleep                     5s
     ClickText                 Finish
     Sleep                     10s
     VerifyText                Contract Agreement
