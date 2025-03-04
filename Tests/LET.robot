@@ -16,52 +16,51 @@ LET Interview flow for Non-Masson Journal
 
     
 
-    VerifyText                CJR - 1318848
-    TypeText                  Search this list...    CJR - 1318848
-    ClickText                 CJR - 1318848
-    ClickText                 Begin
-
-
+    ClickText                 Select a List View: Contact Journal Relations
+    ClickText                 All
+    ClickText                 CJR - 1497634
+     Sleep                    5s
+    VerifyText                Long Editor Contract
+    Sleep                     5s
+    
+    ClickText                 Begin    anchor=Skip to Navigation
+    Sleep                     10s
     UseModal                  On
-    DropDown                  *    Physical Person
-    ComboBox                  Search Accounts...    QA TESTING1
-    ClickText                 Select a date for    anchor=*Contract Start Date
+    DropDown                  Editor's Legal Status    Physical Person
+    Sleep                     5s
+    VerifyText                Contract Start Date
+    ClickText                 Select a date for    
+    
+    Sleep                     2s
+    ClickText                 Select a date for    anchor=Please enter some valid input.\nInput is not optional.
     ClickText                 Today
+    Sleep                     5s
+    ClickText                 Today
+    Sleep                     5s
     ClickText                 Next
-   
-   
-    ClickCheckbox             on
-    ClickCheckbox             on
-    TypeText                  /html[1]/body[1]/div[4]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[4]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[2]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[10]/flowruntime-lwc-field[1]/div[1]/c-input-rich-text-fsc[1]/div[1]/lightning-input-rich-text[1]/div[1]/div[1]/div[1]/div[2]/div[1]    QA Testing CRT
+    Sleep                     5s
     ClickText                 Next
-    
-    
+    Sleep                     5s
     ClickText                 Next
+    Sleep                     5s
     ClickText                 Next
+    Sleep                     5s
 
-     
-    VerifyText                Is a non compete clause required for the editor?
-    ClickCheckbox             on
-    PickList                  Country    Afghanistan
-    TypeText                  Street    Test
-    TypeText                  City    oxford
-    TypeText                  Zip/Postal Code    123456
+    DropDown                  Agreement Currency    AUD - Australian Dollar
+    Sleep                     5s
+    TypeText                  What is the annual amount to be paid to the editor?    11
+    Sleep                     5s
     ClickText                 Next
-    
-    
-    DropDown                  *    AED - UAE Dirham
-    ClickCheckbox             on
-    ClickCheckbox             on
-    ClickCheckbox             on
-    DropDown                  Annual
-    ClickCheckbox             January    on
-    ClickCheckbox             on
-    TypeText                  Amount_to_be_paid_to_the_editorNum    1234
+    Sleep                     5s
+    DropDown                  Please pick a signatory for this contract    Staff Contact1
+    Sleep                     5s
     ClickText                 Next
-    
-
-    TypeText                  How_many_months_termination_notice_period_should_the_Editor_give    1
-    DropDown                  *    QA STAFF
-    TypeText                  /html[1]/body[1]/div[4]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[2]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[2]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[8]/flowruntime-lwc-field[1]/div[1]/c-input-rich-text-fsc[1]/div[1]/lightning-input-rich-text[1]/div[1]/div[1]/div[1]/div[2]/div[1]    QA Test
-    ClickText                 Next
+    Sleep                     5s
     ClickText                 Finish
+    Sleep                     10s
+    VerifyText                Contract Agreement
+    Sleep                     5s
+
+    
+
+   
