@@ -17,13 +17,13 @@ Rendering Issue with Editorial Board Members' Fields of Interest
 
     
 
-    ClickText                 T1
+    ClickText                 TJ-2
     ClickText                 Homepage Management
-    ClickText                 Testing1
+    ClickText                 JG-2/6/2025
     SwitchWindow              NEW
 
     ClickText                 Journal Group Members
-    ClickText                 JGM - 0269666
+    ClickText                 JGM - 0269673
     SwitchWindow              NEW
 
     ClickFieldValue           Editor
@@ -31,6 +31,6 @@ Rendering Issue with Editorial Board Members' Fields of Interest
     VerifyText                Fields of Interest
     
     ClickText                 Journals
-    ClickText                 T1
+    ClickText                 TJ-2
     ClickText                 Web Preview
     UseModal                  On
