@@ -20,10 +20,13 @@ New template to promote upcoming innovations to the publishing journey
     ClickText                 Email    anchor=Homepage Management
     ClickText                 Show All
     VerifyText                Raghu Settypalli
+
+    ClickCheckbox             Select Item 1    on    partial_match=False
+    ClickText                 Next
     Sleep                     4s
-    ClickCheckbox             Select Item 6    on    partial_match=False
-    VerifyText                Next 
-    Sleep                     4s
+    
+    
+    
     ClickText                 Next
     Sleep                     4s
     ClickText                 Select Template    anchor=Email Templates
