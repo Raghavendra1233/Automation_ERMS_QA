@@ -18,10 +18,15 @@ New template to promote upcoming innovations to the publishing journey
     
 
     ClickText                 Select a List View: Journals
+    Sleep                     2s
     ClickText                 All
+    Sleep                     2s
     VerifyText                JrlTest
+    Sleep                     2s
     ClickText                 JrlTest
+    Sleep                     2s
     ClickText                 Email    anchor=Homepage Management
+    VerifyText                Show All
     ClickText                 Show All
     VerifyText                Raghu Settypalli
 
