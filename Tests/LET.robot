@@ -27,7 +27,7 @@ LET Interview flow for Non-Masson Journal
     Sleep                     5s
     UseModal                  On
     Sleep                     2s
-    ScrollList                direction=page_down
+    
     VerifyText                Contract Start Date
     
 
