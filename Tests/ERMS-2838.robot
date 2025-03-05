@@ -21,10 +21,12 @@ Suite Teardown                End suite
     ClickText                 User
     Sleep                     2s
     TypeText                  Search Setup    linda brooks
+    ClickText                 Linda Brooks
     Sleep                     2s
     ClickText                 Login
     Sleep                     2s
-
+    
+    LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
     ClickText                 Staff
     ClickText                 Georgina Joyce
