@@ -36,26 +36,25 @@ LET Interview flow for Non-Masson Journal
     
     Sleep                     5s
     ClickText                 Next
-    Sleep                     5s
+    Sleep                     2s
     ClickText                 Next
-    Sleep                     5s
+    Sleep                     2s
     ClickText                 Next
-    Sleep                     5s
+    Sleep                     2s
     ClickText                 Next
-    Sleep                     5s
+    Sleep                     2s
 
     DropDown                  Agreement Currency    AUD - Australian Dollar
-    Sleep                     5s
-    TypeText                  What is the annual amount to be paid to the editor?    11
-    Sleep                     5s
+    Sleep                     2s
     ClickText                 Next
-    Sleep                     5s
-    DropDown                  Please pick a signatory for this contract    Staff Contact1
-    Sleep                     5s
+    Sleep                     2s
+    DropDown                  Please pick a signatory for this contract    Georgina Joyce
+    Sleep                     2s
     ClickText                 Next
-    Sleep                     5s
+    Sleep                     2s
+    VerifyText                Finish
     ClickText                 Finish
-    Sleep                     10s
+    Sleep                     5s
     VerifyText                Contract Agreement
     Sleep                     5s
 
