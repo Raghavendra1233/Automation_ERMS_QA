@@ -51,12 +51,12 @@ LET Interview flow for Non-Masson Journal
     DropDown                  Please pick a signatory for this contract    Georgina Joyce
     Sleep                     2s
     ClickText                 Next
-    Sleep                     2s
-    VerifyText                Finish
-    ClickText                 Finish
+    
+    ClickText   Finish
     Sleep                     5s
     VerifyText                Contract Agreement
-    Sleep                     5s
+    Sleep                     2s
+    VerifyText                LET
 
     
 
