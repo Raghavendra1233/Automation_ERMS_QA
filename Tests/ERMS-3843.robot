@@ -15,7 +15,11 @@ New template to promote upcoming innovations to the publishing journey
     LaunchApp                 Journals
 
     
+    
 
+    ClickText                 Select a List View: Journals
+    ClickText                 All
+    VerifyText                JrlTest
     ClickText                 JrlTest
     ClickText                 Email    anchor=Homepage Management
     ClickText                 Show All
