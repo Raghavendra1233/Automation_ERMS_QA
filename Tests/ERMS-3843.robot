@@ -26,6 +26,7 @@ New template to promote upcoming innovations to the publishing journey
     ClickText                 JrlTest
     Sleep                     2s
     ClickText                 Email    anchor=Homepage Management
+    VerifyText                Show All
     ClickText                 Show All
     VerifyText                Raghu Settypalli
 
