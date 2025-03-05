@@ -19,6 +19,11 @@ Display Active Editorial Board on Related tab of a Journal Record
     ClickText                 JrlTest
     ClickText                 Related
     VerifyText                Active Editorial Board
+    Scrolllist                direction=page_down
+    Scrolllist                direction=page_down
+    ScrollList                direction=page_up
+    ScrollList                direction=page_up
+    
     
     VerifyText                Filtered by Contact Journal Relation: Relation is Active?, Contact Journal Relation: Record Type
     Sleep                     3s
