@@ -18,24 +18,22 @@ LET Interview flow for Non-Masson Journal
 
     ClickText                 Select a List View: Contact Journal Relations
     ClickText                 All
-    ClickText                 CJR - 1497634
-     Sleep                    5s
+    ClickText                 CJR - 1497633
+    Sleep                     2s
     VerifyText                Long Editor Contract
     Sleep                     5s
     
     ClickText                 Begin    anchor=Skip to Navigation
-    Sleep                     10s
+    Sleep                     5s
     UseModal                  On
-    DropDown                  Editor's Legal Status    Physical Person
-    Sleep                     5s
-    VerifyText                Contract Start Date
-    ClickText                 Select a date for    
-    
     Sleep                     2s
-    ClickText                 Select a date for    anchor=Please enter some valid input.\nInput is not optional.
+    ScrollList                direction=page_down
+    VerifyText                Contract Start Date
+    
+
+    ClickText                 Select a date for    anchor=Contract Start Date
     ClickText                 Today
-    Sleep                     5s
-    ClickText                 Today
+    
     Sleep                     5s
     ClickText                 Next
     Sleep                     5s
