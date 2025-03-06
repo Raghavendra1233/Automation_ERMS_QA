@@ -21,7 +21,8 @@ Refer custom setting in guest editor email templates with community link - Accep
     ClickText                 All Open Cases
     ClickText                 00124212
     Sleep                     2s
-    ClickText                 Email    anchor=Update Requests
+    VerifyText                Email
+    ClickText                 Email    
     Sleep                     1s
     ClickCheckbox             Select Item 1    on    partial_match=False
     Sleep                     2s
