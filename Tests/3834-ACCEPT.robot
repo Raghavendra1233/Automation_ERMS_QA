@@ -22,9 +22,8 @@ Refer custom setting in guest editor email templates with community link - Accep
     ClickText                 00124212
     Sleep                     2s
     
-
-
-    ClickText                 Email    anchor=Update Requests
+    ClickText                 Details
+    ClickText                 Email   anchor=Journal Details
     Sleep                     2s
     VerifyText                Show All
     ClickText                 Show All   
