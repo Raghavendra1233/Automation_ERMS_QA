@@ -22,7 +22,9 @@ Refer custom setting in guest editor email templates with community link - Accep
     ClickText                 00124212
     Sleep                     2s
     VerifyText                Email
-    ClickText                 Email    
+    ClickText                 Email 
+    VerifyText                Show All
+    ClickText                 Show All   
     Sleep                     1s
     ClickCheckbox             Select Item 1    on    partial_match=False
     Sleep                     2s
