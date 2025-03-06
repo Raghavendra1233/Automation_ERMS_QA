@@ -11,8 +11,6 @@ Web preview not working for home page disabled journal
     Appstate                  Home
     LaunchApp                 Journals 
 
-    
-
     ClickText                 Select a List View: Journals
     ClickText                 All
     VerifyText                JrlTest
@@ -21,7 +19,7 @@ Web preview not working for home page disabled journal
     ScrollTo                  Enable homepage
     VerifyText                Web Preview
     ClickText                 Web Preview
-    Sleep                     2s
+    Sleep                     5s
     VerifyText                abc, abc abc, abc abc, abc
     Sleep                     2s
 
