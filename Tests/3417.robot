@@ -36,13 +36,13 @@ Email campaign template to engage Editorial Board members
     ClickText                 Next
     Sleep                     2s
     ClickText                 Select Template    anchor=Email Templates
-    Sleep                     1s
-    ClickText                 EAB Engagement Letter January 2025    anchor=Skip to Navigation
     Sleep                     2s
+    ClickText                 EAB Engagement Letter January 2025    anchor=Skip to Navigation
+    Sleep                     3s
     ClickText                 Select From Address    anchor=*From Address
-    Sleep                     1s
+    Sleep                     3s
     ClickText                 Elsevier - No Reply    anchor=Skip to Navigation
-    Sleep                     1s
+    Sleep                     3s
     ClickText                 Next
     Sleep                     1s
     ClickText                 Send    partial_match=False
