@@ -22,5 +22,3 @@ Web preview not working for home page disabled journal
     Sleep                     5s
     VerifyText                abc, abc abc, abc abc, abc
     Sleep                     2s
-
-    
