@@ -20,8 +20,10 @@ User with CAS permissions should be able to edit the “Sponsor for Special Issu
     ClickText                 Opens in a new tab
     SwitchWindow              NEW
     ClickText                 User
-    TypeText                  Search Setup    CAS
+    TypeText                  Search Setup    Test CAS
+    ClickText                 Test CAS
     Sleep                     2s
+    VerifyText                Login
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Invited Content
@@ -38,17 +40,20 @@ User with CAS permissions should be able to edit the “Sponsor for Special Issu
     Sleep                     1s
     PickList                  Sponsor for Special Issue    Yes
     Sleep                     1s
+    VerifyText                Save
     ClickText                 Save
     Sleep                     2s
     ClickText                 Edit Sponsor for Special Issue
     Sleep                     1s
     PickList                  Sponsor for Special Issue    No
     Sleep                     1s
+    VerifyText                Save
     ClickText                 Save
     Sleep                     2s
     ClickText                 Edit Sponsor for Special Issue
     Sleep                     1s
     PickList                  Sponsor for Special Issue    --None--
     Sleep                     1s
+    VerifyText                Save
     ClickText                 Save
     Sleep                     2s
