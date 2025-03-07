@@ -54,3 +54,19 @@ Display the Saved Email component to additional profiles/permission sets
     Sleep                     2s
 
     
+
+    LaunchApp                 Journals
+    ClickText                 Select a List View: Journals
+    ClickText                 All
+    Sleep                     1s
+    VerifyText                JrlTest
+    Sleep                     1s
+    ClickText                 JrlTest
+    Sleep                     1s
+    VerifyText                Track Email
+    Sleep                     1s
+    ClickText                 Track Email
+    VerifyText                This table will display email statistics once emails have been sent. You will see data on the number of emails prepared, how many emails were actually sent and when, as well as the number of emails which resulted in an error.
+    Sleep                     3s
+
+    
