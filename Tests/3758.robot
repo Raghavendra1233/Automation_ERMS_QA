@@ -59,9 +59,9 @@ Display the Saved Email component to additional profiles/permission sets
     ClickText                 Select a List View: Journals
     ClickText                 All
     Sleep                     1s
-    VerifyText                JrlTest
+    VerifyText                BT
     Sleep                     1s
-    ClickText                 JrlTest
+    ClickText                 BT
     Sleep                     1s
     VerifyText                Track Email
     Sleep                     1s
