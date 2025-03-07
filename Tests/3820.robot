@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Template version 1 for Ethics related campaign - B1
+Template version 2 for Ethics related campaign - B2
     [tags]                    Sources
     Appstate                  Home
     
