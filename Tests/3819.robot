@@ -40,7 +40,7 @@ Template version 1 for Ethics related campaign - B1
     Sleep                     2s
     ClickText                 Select Template    anchor=Email Templates
     Sleep                     2s
-    ClickText    Ethics related campaign - B1 “optional” version    anchor=Skip to Navigation
+    ClickText                 Ethics related campaign - B1 “optional” version    anchor=Skip to Navigation
     Sleep                     3s
     ClickText                 Select From Address    anchor=*From Address
     Sleep                     3s
