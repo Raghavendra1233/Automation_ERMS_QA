@@ -37,7 +37,7 @@ Display contract data (if it exists) in the GDPR app for a SAR request
     ClickText                 Search    anchor=Next
     Sleep                     2s
     ClickCheckbox             Select Item 1    on    partial_match=False
-    Sleep                     1s
+    Sleep                     2s
     ClickText                 Next
     Sleep                     1s
     ClickText                 Contract
@@ -55,7 +55,8 @@ Display contract data (if it exists) in the GDPR app for a SAR request
     
 
     ClickText                 Next
-    Sleep                     1s
+    Sleep                     2s
     ClickText                 Export All
     Sleep                     2s
     LaunchApp                 ERMS
+    Sleep                     2s
