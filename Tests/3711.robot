@@ -16,7 +16,7 @@ Web preview not working for home page disabled journal
     VerifyText                JrlTest
     ClickText                 JrlTest
     
-    ScrollTo                  Enable homepage
+    VerifyText                Enable homepage
     VerifyText                Web Preview
     ClickText                 Web Preview
     Sleep                     5s
