@@ -15,7 +15,7 @@ Web preview not working for home page disabled journal
     LaunchApp                 Journals 
     
 
-    ClickText                 T1
+    ClickText                 JrlTest
     ClickText                 Web Preview
     UseModal                  On
     ClickText                 Cancel and close
