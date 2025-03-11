@@ -15,7 +15,7 @@ Make the Editorial Manager and Review paper manager fields visible on Journal re
     LaunchApp                 Journals 
     
 
-    ClickText                 T1
+    ClickText                 JrlTest
     VerifyText                Review Paper Manager
     VerifyText                Editorial Manager
     Sleep                     3s
