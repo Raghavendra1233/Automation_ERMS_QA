@@ -31,7 +31,7 @@ Populate PAC name in signature of RFI email
     ClickText                 All
     Sleep                     2s
     ClickText                 JrlTest
-    Sleep                     2s
+    Sleep                     3s
     ClickText                 Email    anchor=Homepage Management
     Sleep                     2s
     ClickText                 Show All
