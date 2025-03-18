@@ -52,9 +52,6 @@ Populate PAC name in signature of RFI email
     Sleep                     2s
     ClickText                 Next
     Sleep                     2s
-    ClickText                 Raghu Settypalli
-    ClickText                 Raghu Settypalli
-    Sleep                     2s
     ClickText                 Send
     Sleep                     2s
     ClickText                 Please update your Editor profile Sent To 1 Recipients
