@@ -36,8 +36,7 @@ Populate PAC name in signature of RFI email
     Sleep                     2s
     ClickText                 Show All
     Sleep                     2s
-    VerifyText                Raghu Settypalli
-    ClickCheckbox             Select Item 5    on    partial_match=False
+    ClickCheckbox             Select Item 1    on    partial_match=False
 
     
     Sleep                     2s
