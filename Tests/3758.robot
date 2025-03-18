@@ -58,7 +58,7 @@ Display the Saved Email component to additional profiles/permission sets
     LaunchApp                 Journals
     ClickText                 Select a List View: Journals
     ClickText                 All
-    Sleep                     1s
+    Sleep                     3s
     VerifyText                TJ-3
     Sleep                     1s
     ClickText                 TJ-3
