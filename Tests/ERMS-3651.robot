@@ -15,8 +15,8 @@ Updated Editorial Board member Invitation letter
     VerifyText                JrlTest
     ClickText                 JrlTest
     ClickText                 Related
-    VerifyText                CJR - 1497625
-    ClickText                 CJR - 1497625
+    VerifyText                CJR - 1497644
+    ClickText                 CJR - 1497644
     Sleep                     2s
     ClickText                 Email
     Sleep                     2s
