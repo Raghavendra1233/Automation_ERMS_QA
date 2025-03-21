@@ -31,7 +31,8 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Staff
     Sleep                     2s
-    ClickText                 Georgina Joyce
+    ClickText                 Details
+    VerifyText                Contact Record Type
     Sleep                     2s
     VerifyText                Replace Staff Member On Journals
     LaunchApp                 Contacts
