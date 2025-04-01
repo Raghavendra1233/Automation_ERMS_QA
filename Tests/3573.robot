@@ -18,7 +18,7 @@ Update the registered address for the Elsevier Spain account due to office reloc
     ClickText                 Select a List View: Accounts
     ClickText                 Elsevier_accounts
     Sleep                     2s
-    ClickText                 Elsevier España SL
+    ClickText                 Elsevier España S.L.U
     Sleep                     2s
     VerifyText                Organisation Address
     VerifyText                Carrer Tarragona N. 161, 15th Floor
