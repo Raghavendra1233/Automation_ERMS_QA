@@ -37,6 +37,8 @@ Update editor contact details confirmation letter
     Sleep                     1s
     ClickText                 Update Requests
     Sleep                     1s
+    ScrollTo                  Next
+    VerifyText                Next
     ClickText                 Next
     Sleep                     1s
     ClickCheckbox             Select Item 1    on    partial_match=False
