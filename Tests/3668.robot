@@ -45,11 +45,9 @@ Update editor contact details confirmation letter
     Sleep                     1s
     ClickText                 Next
     Sleep                     1s
-    ClickCheckbox             Select Item 1    on    partial_match=False
+    ClickCheckbox             Select All    on
     Sleep                     1s
     ClickText                 Next    anchor=(manual step for ECI team to identify that contract was Active – through weekly report from Exari; ERMS support working on small improvements. In this stage, the ECI team updates final Editor Role + classification and sends welcome letter)
-    Sleep                     1s
-    ClickCheckbox             Select All    on
     Sleep                     1s
     ClickText                 Select Template    anchor=Email Templates
     Sleep                     3s
