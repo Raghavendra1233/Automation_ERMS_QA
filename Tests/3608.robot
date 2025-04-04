@@ -28,9 +28,16 @@ The character limit of the Short Special issue Name should be set to 60 characte
     
 
     ClickText                 Create Special Issue
+    Sleep                     2s
     TypeText                  New Special Issue Name    QA Testing
+    Sleep                     2s
     TypeText                  Short Special Issue Name    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aen
+    Sleep                     2s
     DropDown                  Expected Publication Year    2027
+    Sleep                     2s
     DropDown                  Origins of Idea    CAS
+    Sleep                     2s
     ClickText                 Next
+    Sleep                     2s
     VerifyText                This field cannot exceed 60 characters.
+    Sleep                     3s
