@@ -45,7 +45,8 @@ Update editor contact details confirmation letter
     Sleep                     1s
     ClickText                 Next
     Sleep                     1s
-    ClickCheckbox             Select All    on
+    VerifyText                Test Contact3/13/2025
+    ClickCheckbox             Test Contact3/13/2025    on
     Sleep                     1s
     ClickText                 Next    anchor=(manual step for ECI team to identify that contract was Active – through weekly report from Exari; ERMS support working on small improvements. In this stage, the ECI team updates final Editor Role + classification and sends welcome letter)
     Sleep                     1s
