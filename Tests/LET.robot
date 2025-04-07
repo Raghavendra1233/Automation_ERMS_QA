@@ -36,8 +36,10 @@ LET Interview flow for Non-Masson Journal
     ClickText                 Next
 
     
-    VerifyText               Agreement Currency   
+    VerifyText               Agreement Currency
+    DropDown                 Agreement Currency    AUD - Australian Dollar
+    ClickText                Next
 
-    
+    VerifyText               Please Pick a Signatory for this contract  
 
    
