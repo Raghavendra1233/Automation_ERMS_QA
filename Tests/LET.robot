@@ -23,7 +23,11 @@ LET Interview flow for Non-Masson Journal
     VerifyText                Begin    anchor=Long Editor Contract
     ClickText                 Begin
 
-    
+    ScrollTo                  *Contract Start Date
+    ClickText                 Select a date for    anchor=Contract Start Date
+    VerifyText                Today
+    ClickText                 Today
+    ClickText                 Next
 
     
     
