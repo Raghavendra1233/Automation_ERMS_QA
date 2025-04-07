@@ -14,32 +14,63 @@ LET Interview flow for Non-Masson Journal
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
 
-    
-
     ClickText                 Select a List View: Contact Journal Relations
+    Sleep                     1s
     ClickText                 All
-    ClickText                 CJR - 1497657
+    Sleep                     1s
+    ClickText                 CJR - 1497644
+    Sleep                     1s
     VerifyText                Long Editor Contract
+    Sleep                     1s
     VerifyText                Begin    anchor=Long Editor Contract
+    Sleep                     1s
     ClickText                 Begin
+    Sleep                     3s
 
     ScrollTo                  *Contract Start Date
+    Sleep                     2s
     ClickText                 Select a date for    anchor=Contract Start Date
+    Sleep                     1s
     VerifyText                Today
+    Sleep                     1s
     ClickText                 Today
+    Sleep                     1s
     ClickText                 Next
+    Sleep                     1s
 
     ClickText                 Next
+    Sleep                     1s
 
     ClickText                 Next
+    Sleep                     1s
 
     ClickText                 Next
+    Sleep                     1s
 
     
     VerifyText               Agreement Currency
+    Sleep                    1s
     DropDown                 Agreement Currency    AUD - Australian Dollar
+    Sleep                    1s
     ClickText                Next
+    Sleep                    1s
 
-    VerifyText               Please Pick a Signatory for this contract  
-
+    VerifyText               *Please pick a signatory for this contract  
+    Sleep                    1s
+    DropDown                 Please pick a signatory for this contract    Georgina Joyce
+    Sleep                    1s
+    ClickText                Next
+    Sleep                    1s
+    ClickText                Finish
+    Sleep                    5s
+    VerifyText               Type
+    Sleep                    2s
+    ClickText                Show more actions
+    Sleep                    1s
+    ClickText                Delete
+    Sleep                    1s
+    UseModal                 On
+    Sleep                    1s
+    ClickText                Delete
+    Sleep                    1s
    
