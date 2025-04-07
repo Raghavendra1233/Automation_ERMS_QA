@@ -66,12 +66,5 @@ LET Interview flow for Non-Masson Journal
     Sleep                    10s
     VerifyText               Type
     Sleep                    2s
-    ClickText                Show more actions
-    Sleep                    1s
-    ClickText                Delete
-    Sleep                    1s
-    UseModal                 On
-    Sleep                    1s
-    ClickText                Delete
-    Sleep                    1s
+   
    
