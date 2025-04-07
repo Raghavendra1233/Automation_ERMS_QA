@@ -16,6 +16,15 @@ LET Interview flow for Non-Masson Journal
 
     
 
+    ClickText                 Select a List View: Contact Journal Relations
+    ClickText                 All
+    ClickText                 CJR - 1497657
+    VerifyText                Long Editor Contract
+    VerifyText                Begin    anchor=Long Editor Contract
+    ClickText                 Begin
+
+    
+
     
     
 
