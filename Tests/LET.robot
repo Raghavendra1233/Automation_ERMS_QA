@@ -29,8 +29,14 @@ LET Interview flow for Non-Masson Journal
     ClickText                 Today
     ClickText                 Next
 
+    ClickText                 Next
+
+    ClickText                 Next
+
+    ClickText                 Next
+
     
-    
+    VerifyText               Agreement Currency   
 
     
 
