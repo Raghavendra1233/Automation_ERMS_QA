@@ -13,7 +13,8 @@ Updates to text on ERMS homepage re: Conga
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Home
-
+    
+    Sleep                     2s
     VerifyText                ERMS/Conga Training:
     Sleep                     1s
     VerifyText                Conga – Contracts in ERMS
