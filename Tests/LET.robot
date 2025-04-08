@@ -25,7 +25,7 @@ LET Interview flow for Non-Masson Journal
     VerifyText                Begin    anchor=Long Editor Contract
     Sleep                     1s
     ClickText                 Begin
-    Sleep                     3s
+    Sleep                     10s
 
     ScrollTo                  *Contract Start Date
     Sleep                     2s
