@@ -28,7 +28,9 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     
     ClickText                 Edit Status
     PickList                  Status    Ready For Signature
+    Sleep                     2s
     ClickText                 Save
+    Sleep                     3s
     VerifyText                File Delete
     Sleep                     1s
     VerifyText                Add Chinese Translations
@@ -48,7 +50,9 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
 
     ClickText                 Edit Status
     PickList                  Status    In Signatures
+    Sleep                     2s
     ClickText                 Save
+    Sleep                     3s
     VerifyText                File Delete
     Sleep                     1s
     VerifyText                Add Chinese Translations
@@ -68,7 +72,9 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
      
     ClickText                 Edit Status
     PickList                  Status    Expired
+    Sleep                     2s
     ClickText                 Save
+    Sleep                     3s
     VerifyText                File Delete
     Sleep                     1s
     VerifyText                Add Chinese Translations
@@ -88,7 +94,9 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     
     ClickText                 Edit Status
     PickList                  Status    Terminated
+    Sleep                     2s
     ClickText                 Save
+    Sleep                     3s
     VerifyText                File Delete
     Sleep                     1s
     VerifyText                Add Chinese Translations
@@ -108,7 +116,9 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
 
    ClickText                 Edit Status
     PickList                  Status    Active
+    Sleep                     2s
     ClickText                 Save
+    Sleep                     3s
     VerifyText                File Delete
     Sleep                     1s
     VerifyText                Add Chinese Translations
