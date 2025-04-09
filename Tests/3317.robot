@@ -17,7 +17,7 @@ SocHyb: Conditional Visibility of 'Generate Agreement' Button
     
 
     ClickText                 Select a List View: Contract Agreements
-    ClickText                 Chinese Society Full OA Agreements
+    ClickText                 SOCHYB
     Sleep                     2s
     VerifyText                CON-049514
     Sleep                     1s
