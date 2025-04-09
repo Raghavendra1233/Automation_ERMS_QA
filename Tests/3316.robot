@@ -19,9 +19,9 @@ SocFOA: Conditional Visibility of 'Generate Agreement' Button
     ClickText                 Select a List View: Contract Agreements
     ClickText                 SOCFOA
     Sleep                     2s
-    VerifyText                CON-049519
+    VerifyText                CON-049520
     Sleep                     1s
-    ClickText                 CON-049519
+    ClickText                 CON-049520
     Sleep                     1s
     VerifyText                Record Type
     Sleep                     1s
