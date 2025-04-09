@@ -83,7 +83,7 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     VerifyText                Clone
     
 
-   ClickText                 Edit Status
+    ClickText                 Edit Status
     PickList                  Status    Active
     Sleep                     2s
     ClickText                 Save
@@ -95,7 +95,7 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     VerifyText                Clone
     
 
-     ClickText                 Edit Status
+    ClickText                 Edit Status
     PickList                  Status    Expired
     Sleep                     2s
     ClickText                 Save
