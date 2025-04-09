@@ -45,3 +45,83 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     Sleep                     1s
     VerifyText                Sharing
     Sleep                     1s
+
+    ClickText                 Edit Status
+    PickList                  Status    In Signatures
+    ClickText                 Save
+    VerifyText                File Delete
+    Sleep                     1s
+    VerifyText                Add Chinese Translations
+    Sleep                     1s
+    VerifyText                Clone
+    Sleep                     1s
+    ClickText                 Show more actions
+    Sleep                     1s
+    VerifyText                Delete
+    Sleep                     1s
+    verifyText                View Redline
+    Sleep                     1s
+    VerifyText                My Approvals
+    Sleep                     1s
+    VerifyText                Sharing
+    Sleep                     1s
+     
+    ClickText                 Edit Status
+    PickList                  Status    Expired
+    ClickText                 Save
+    VerifyText                File Delete
+    Sleep                     1s
+    VerifyText                Add Chinese Translations
+    Sleep                     1s
+    VerifyText                Clone
+    Sleep                     1s
+    ClickText                 Show more actions
+    Sleep                     1s
+    VerifyText                Delete
+    Sleep                     1s
+    verifyText                View Redline
+    Sleep                     1s
+    VerifyText                My Approvals
+    Sleep                     1s
+    VerifyText                Sharing
+    Sleep                     1s
+    
+    ClickText                 Edit Status
+    PickList                  Status    Terminated
+    ClickText                 Save
+    VerifyText                File Delete
+    Sleep                     1s
+    VerifyText                Add Chinese Translations
+    Sleep                     1s
+    VerifyText                Clone
+    Sleep                     1s
+    ClickText                 Show more actions
+    Sleep                     1s
+    VerifyText                Delete
+    Sleep                     1s
+    verifyText                View Redline
+    Sleep                     1s
+    VerifyText                My Approvals
+    Sleep                     1s
+    VerifyText                Sharing
+    Sleep                     1s
+
+   ClickText                 Edit Status
+    PickList                  Status    Active
+    ClickText                 Save
+    VerifyText                File Delete
+    Sleep                     1s
+    VerifyText                Add Chinese Translations
+    Sleep                     1s
+    VerifyText                Clone
+    Sleep                     1s
+    ClickText                 Show more actions
+    Sleep                     1s
+    VerifyText                Delete
+    Sleep                     1s
+    verifyText                View Redline
+    Sleep                     1s
+    VerifyText                My Approvals
+    Sleep                     1s
+    VerifyText                Sharing
+    Sleep                     1s  
