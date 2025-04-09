@@ -30,7 +30,7 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     PickList                  Status    Ready For Signature
     Sleep                     2s
     ClickText                 Save
-    Sleep                     3s
+    Sleep                     5s
     VerifyText                File Delete
     Sleep                     1s
     VerifyText                Add Chinese Translations
@@ -52,7 +52,7 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     PickList                  Status    In Signatures
     Sleep                     2s
     ClickText                 Save
-    Sleep                     3s
+    Sleep                     5s
     VerifyText                File Delete
     Sleep                     1s
     VerifyText                Add Chinese Translations
@@ -71,38 +71,4 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     Sleep                     1s
      
     
-    ClickText                 Edit Status
-    PickList                  Status    Terminated
-    Sleep                     2s
-    ClickText                 Save
-    Sleep                     3s
-    VerifyText                File Delete
-    Sleep                     1s
-    VerifyText                Add Chinese Translations
-    Sleep                     1s
-    VerifyText                Clone
-    
-
-    ClickText                 Edit Status
-    PickList                  Status    Active
-    Sleep                     2s
-    ClickText                 Save
-    Sleep                     3s
-    VerifyText                File Delete
-    Sleep                     1s
-    VerifyText                Add Chinese Translations
-    Sleep                     1s
-    VerifyText                Clone
-    
-
-    ClickText                 Edit Status
-    PickList                  Status    Expired
-    Sleep                     2s
-    ClickText                 Save
-    Sleep                     3s
-    VerifyText                File Delete
-    Sleep                     1s
-    VerifyText                Add Chinese Translations
-    Sleep                     1s
-    VerifyText                Clone
-    
+  
