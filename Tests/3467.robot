@@ -17,7 +17,7 @@ Hide 'Save pdf' button on redline screen
 
     ClickText                 Select a List View: Contract Agreements
     Sleep                     1s
-    ClickText                 LET
+    ClickText                 Long Editor Contracts
     Sleep                     1s
     ClickText                 CON-049556
     Sleep                     1s
