@@ -37,7 +37,7 @@ Update the subject line of the Handling GE appointment and non-handling GE appoi
     Sleep                     1s
     ClickText                 Email    anchor=Update Requests
     Sleep                     1s
-    ClickCheckbox             Select All    on
+    ClickCheckbox             Jasmine Rice    on
     Sleep                     1s
     ClickText                 Next    anchor=-> With ECI agent
     Sleep                     1s
@@ -64,7 +64,7 @@ Update the subject line of the Handling GE appointment and non-handling GE appoi
     Sleep                     1s
     ClickText                 Email    anchor=Update Requests
     Sleep                     1s
-    ClickCheckbox             Select All    on
+    ClickCheckbox             Jasmine Rice    on
     Sleep                     1s
     ClickText                 Next    anchor=-> With ECI agent
     Sleep                     1s
