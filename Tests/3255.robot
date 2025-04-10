@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases **
-ChinaSOC - Conditional visibility of 'Preview and submit approvals' button
+GEA - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
