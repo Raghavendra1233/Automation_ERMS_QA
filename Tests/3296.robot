@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-SocHyb: Conditional Visibility of 'Generate Agreement' Button
+SocHyb- Page layout: make "Generate Agreement" button visible
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
