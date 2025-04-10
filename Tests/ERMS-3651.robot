@@ -15,8 +15,8 @@ Updated Editorial Board member Invitation letter
     VerifyText                JrlTest
     ClickText                 JrlTest
     ClickText                 Related
-    VerifyText                CJR - 1497610
-    ClickText                 CJR - 1497610
+    VerifyText                CJR - 1497639
+    ClickText                 CJR - 1497639
     Sleep                     2s
     ClickText                 Email
     Sleep                     2s
@@ -25,7 +25,6 @@ Updated Editorial Board member Invitation letter
     Sleep                     3s
     ClickText                 Insert a template...
     UseModal                  On
-    
     TypeText                  Search templates...    EAB
     ClickText                 EBM (EAB) Invitation letter
     UseModal                  Off
