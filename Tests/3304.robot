@@ -14,9 +14,7 @@ Contract Agreements Related List not available on contact record
     Appstate                  Home
     LaunchApp                 Contacts
 
-    ClickText                 Select a List View: Contacts
-    Sleep                     1s
-    ClickText                 Staff
+    VerifyText                Georgina Joyce
     Sleep                     1s
     ClickText                 Georgina Joyce
     Sleep                     1s
