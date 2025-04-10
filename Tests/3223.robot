@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-Remove option 'Check for agreement' from potential competing interest field
+Hide "Conflict of Interest Statement" field from the page layout of the CSR
     [tags]                    Sources
     Appstate                  Home
 
