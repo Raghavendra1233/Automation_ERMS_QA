@@ -25,7 +25,7 @@ GEA - Conditional visibility of 'Preview and submit approvals' button
     ClickText                 CON-049477
     Sleep                     1s
     
-    VerifyText                Record Type
+    VerifyText                Guest Editor
     Sleep                     1s
     VerifyText                Approval Status
     Sleep                     1s
