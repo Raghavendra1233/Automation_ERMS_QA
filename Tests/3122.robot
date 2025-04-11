@@ -18,9 +18,9 @@ First contracted date in LET no longer being prepopulated
     ClickText                 Select a List View: Contract Agreements
     ClickText                 Long Editor Contracts
     Sleep                     2s
-    VerifyText                CON-049351
+    VerifyText                CON-049549
     Sleep                     1s
-    ClickText                 CON-049351
+    ClickText                 CON-049549
     Sleep                     1s
     VerifyText                LET
     Sleep                     1s
