@@ -12,7 +12,6 @@ Suite Teardown                End suite
 Updates to text on ERMS homepage re: Conga
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 Home
     
     Sleep                     2s
     VerifyText                ERMS/Conga Training:
