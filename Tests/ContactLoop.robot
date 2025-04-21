@@ -25,6 +25,10 @@ Contact Loop on creation and deletion
 
     ComboBox                  Search Accounts...    3902Test
     ClickText                 Save                    Partial_match=False
+    Sleep                     2s
     ClickText                 Show more actions
+    Sleep                     3s
     ClickText                 Delete
+    Sleep                     3s
     ClickText                 Delete
+    Sleep                     3s
