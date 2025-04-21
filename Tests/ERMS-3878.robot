@@ -19,7 +19,7 @@ Replace Document approver for Society Contracts
     ClickText                 Select a List View: Contract Agreements
     ClickText                 SOCFOA
     Sleep                     4s
-    ClickText                 Created Date
+    TypeText                  Search this list...    CON-049403\n
     ClickText                 CON-049403
     Sleep                     4s
     
