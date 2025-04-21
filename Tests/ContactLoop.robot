@@ -23,7 +23,7 @@ Contact Loop on creation and deletion
     TypeText                  Last Name               ${ContactName1}
     
 
-    ComboBox                  Search Accounts...    Account2
+    ComboBox                  Search Accounts...    3902Test
     ClickText                 Save                    Partial_match=False
     ClickText                 Show more actions
     ClickText                 Delete
