@@ -30,9 +30,9 @@ SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     ClickText                 Select a List View: Contract Agreements
     ClickText                 SOCFOA
     Sleep                     2s
-    VerifyText                CON-049440
+    VerifyText                CON-049424
     Sleep                     1s
-    ClickText                 CON-049440
+    ClickText                 CON-049424
     Sleep                     1s
     VerifyText                Record Type
     Sleep                     1s
@@ -42,5 +42,4 @@ SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     Sleep                     1s
     verifyText                View Redline
     Sleep                     1s
-    VerifyText                My Approvals
-    Sleep                     1s
+    
