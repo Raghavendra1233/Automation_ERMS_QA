@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Web preview not working for home page disabled journal
+Contact Loop on creation and deletion
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -23,7 +23,7 @@ Web preview not working for home page disabled journal
     TypeText                  Last Name               ${ContactName1}
     
 
-    ComboBox                  Search Accounts...    Account2
+    ComboBox                  Search Accounts...    3902Test
     ClickText                 Save                    Partial_match=False
     ClickText                 Show more actions
     ClickText                 Delete
