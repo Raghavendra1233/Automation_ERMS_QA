@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Web preview not working for home page disabled journal
+Contact Loop on creation and deletion
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
