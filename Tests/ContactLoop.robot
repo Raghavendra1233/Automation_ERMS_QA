@@ -22,7 +22,6 @@ Contact Loop on creation and deletion
     ${ContactName1}=           Generate Random String      5-10    
     TypeText                  Last Name               ${ContactName1}
     
-
     ComboBox                  Search Accounts...    3902Test
     ClickText                 Save                    Partial_match=False
     Sleep                     2s
