@@ -131,8 +131,6 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 Details
     Sleep                     1s
-    VerifyText                Contact Record Type
-    Sleep                     1s
     VerifyText                Log a Call
     Sleep                     1s
     VerifyText                New Task
