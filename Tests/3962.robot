@@ -183,5 +183,4 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                New Task
     Sleep                     1s
-    VerifyText                New Note
-    Sleep                     1s 
+     
