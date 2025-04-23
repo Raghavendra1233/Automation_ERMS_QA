@@ -115,9 +115,11 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Contact Record Type
     Sleep                     1s
-    VerifyText                Enable Customer User
+    VerifyText                Log a Call
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
+    VerifyText                New Task
+    Sleep                     1s
+    VerifyText                New Note
     Sleep                     1s
     
     LaunchApp                 Contacts
@@ -131,9 +133,11 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Contact Record Type
     Sleep                     1s
-    VerifyText                Enable Customer User
+    VerifyText                Log a Call
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
+    VerifyText                New Task
+    Sleep                     1s
+    VerifyText                New Note
     Sleep                     1s
     
     LaunchApp                 Contacts
@@ -147,10 +151,12 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Contact Record Type
     Sleep                     1s
-    VerifyText                Enable Customer User
+    VerifyText                Log a Call
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
-    Sleep                     1s  
+    VerifyText                New Task
+    Sleep                     1s
+    VerifyText                New Note
+    Sleep                     1s 
 
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
@@ -163,9 +169,11 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Contact Record Type
     Sleep                     1s
-    VerifyText                Enable Customer User
+    VerifyText                Log a Call
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
+    VerifyText                New Task
+    Sleep                     1s
+    VerifyText                New Note
     Sleep                     1s  
 
     LaunchApp                 Contacts
@@ -177,7 +185,9 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 Details
     Sleep                     1s
-    VerifyText                Enable Customer User
+    VerifyText                Log a Call
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
+    VerifyText                New Task
+    Sleep                     1s
+    VerifyText                New Note
     Sleep                     1s 
