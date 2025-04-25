@@ -50,6 +50,6 @@ SocFOA: Conditional Visibility of 'Generate Agreement' Button
     ClickText                 Show more actions
     Sleep                     1s
     verifyText                View Redline
-    Sleep                     1s
+    Sleep                     3s
     VerifyText                My Approvals
-    Sleep                     1s
+    Sleep                     3s

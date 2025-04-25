@@ -18,6 +18,8 @@ Update formula field to ensure that Relation_is_Active__c =True if the CJR statu
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
+    TypeText                  Search this list...    CJR - 1497659\n
+    Sleep                     1s
     ClickText                 CJR - 1497659
     Sleep                     1s
     

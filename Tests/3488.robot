@@ -16,8 +16,13 @@ Remove Contract Field From CJR Page Layout
     
 
     ClickText                 Select a List View: Contact Journal Relations
+    Sleep                     1s
     ClickText                 All
+    Sleep                     1s
+    TypeText                  Search this list...    CJR - 1497657\n
+    Sleep                     2s
     ClickText                 CJR - 1497657
+    Sleep                     1s
     VerifyText                Contact
     Sleep                     1s
     VerifyText                Record Type

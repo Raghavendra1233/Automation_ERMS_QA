@@ -18,8 +18,10 @@ Currency not showing as mandatory field
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
-    ClickText                 CJR - 1497648
+    TypeText                  Search this list...    CJR - 1497648\n
     Sleep                     1s
+    ClickText                 CJR - 1497648
+    Sleep                     2s
     VerifyText                Long Editor Contract
     Sleep                     1s
     VerifyText                Begin    anchor=Long Editor Contract

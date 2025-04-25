@@ -20,6 +20,8 @@ Editor in UK field not populating although the editor is based in UK
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
+    TypeText                  Search this list...    CJR - 1497648\n
+    Sleep                     2s
     ClickText                 CJR - 1497648
     Sleep                     1s
     ClickFieldValue           Contact
