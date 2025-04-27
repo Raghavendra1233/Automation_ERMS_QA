@@ -17,7 +17,10 @@ SOCFOA- Page layout: make "Generate Agreement" button visible
     
 
     ClickText                 Select a List View: Contract Agreements
+    Sleep                     2s
     ClickText                 SOCFOA
+    Sleep                     2s
+    TypeText                  Search this list...    CON-049519\n
     Sleep                     2s
     VerifyText                CON-049519
     Sleep                     1s
