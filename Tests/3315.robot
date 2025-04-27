@@ -28,7 +28,10 @@ SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     LaunchApp                 Contract Agreements
     Sleep                     1s
     ClickText                 Select a List View: Contract Agreements
+    Sleep                     2s
     ClickText                 SOCFOA
+    Sleep                     2s
+    TypeText                  Search this list...    CON-049424\n
     Sleep                     2s
     VerifyText                CON-049424
     Sleep                     1s
