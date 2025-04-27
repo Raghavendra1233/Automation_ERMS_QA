@@ -17,7 +17,10 @@ Suite Teardown                End suite
     
 
     ClickText                 Select a List View: Contract Agreements
+    Sleep                     2s
     ClickText                 SOCFOA
+    Sleep                     2s
+    TypeText                  Search this list...    CON-049544\n
     Sleep                     2s
     VerifyText                CON-049544
     Sleep                     1s
