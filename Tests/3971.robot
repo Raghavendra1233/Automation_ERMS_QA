@@ -111,11 +111,11 @@ Block an Admin user from deleting an editor contact with active relationships
     Sleep                     2s
     ClickText                 All Contacts
     Sleep                     2s
-    TypeText                  Search this list...    New Editor TEST-4\n
+    TypeText                  Search this list...    New Editor TEST-5\n
     Sleep                     2s
-    VerifyText                New Editor TEST-4
+    VerifyText                New Editor TEST-5
     Sleep                     2s
-    ClickText                 New Editor TEST-4
+    ClickText                 New Editor TEST-5
     Sleep                     2s
     ClickText                 Details
     VerifyText                Contact Record Type
@@ -127,7 +127,7 @@ Block an Admin user from deleting an editor contact with active relationships
     Sleep                     2s
     UseModal                  On
     Sleep                     2s
-    VerifyText                Your attempt to delete New Editor TEST-4 could not be completed because it is associated with the following records:
+    VerifyText                Your attempt to delete New Editor TEST-5 could not be completed because it is associated with the following records:
     Sleep                     2s
     VerifyText                Portal User Records: New Editor TEST-5
     Sleep                     2s
