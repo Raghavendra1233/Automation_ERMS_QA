@@ -16,14 +16,23 @@ Editor Contract Agreements Created YTD Report
     ClickText                 Setup
     Sleep                     1s
     ClickText                 Opens in a new tab
+    Sleep                     2s
     SwitchWindow              NEW
+    Sleep                     2s
     ClickText                 User
+    Sleep                     2s
     TypeText                  Search Setup    Iris Dortland
+    Sleep                     2s
+    ClickText                 Iris Dortland
+    Sleep                     2s
+    VerifyText                Iris Dortland
+    Sleep                     2s
     ClickText                 Iris Dortland
     Sleep                     2s
     VerifyText                Login
+    Sleep                     3s
     ClickText                 Login
-    Sleep                     1s
+    Sleep                     3s
     
     LaunchApp                 Reports
     Sleep                     2s
