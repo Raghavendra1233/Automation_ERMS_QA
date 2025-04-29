@@ -25,8 +25,12 @@ Editor Contract Agreements Created YTD Report
     Sleep                     2s
     ClickText                 Iris Dortland
     Sleep                     2s
+    VerifyText                Iris Dortland
+    Sleep                     2s
+    ClickText                 Iris Dortland
+    Sleep                     2s
     VerifyText                Login
-    Sleep                     23s
+    Sleep                     3s
     ClickText                 Login
     Sleep                     3s
     
