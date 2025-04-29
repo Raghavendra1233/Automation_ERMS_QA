@@ -29,3 +29,21 @@ Make the webuser id field visible on the Editor Contact record page layout
     Sleep                     2s
     ClickText                 Details
     Sleep                     2s
+    ScrollTo                  Web User Id
+    Sleep                     2s
+
+
+    Sleep                     3s
+    ClickText                 Edit Web User Id
+    Sleep                     3s
+    ${WebUserId}=             Generate Random String      5-10  
+    Sleep                     4s  
+    TypeText                  Web User Id               ${Web User Id}
+    Sleep                     4s
+    ClickText                 Save
+    Sleep                     2s
+    
+    
+    
+
+   
