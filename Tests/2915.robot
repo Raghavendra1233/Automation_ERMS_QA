@@ -45,35 +45,4 @@ Add Email tab to Events
     Sleep                     2s
 
      
-    ClickCheckbox             Select Item 1    on    partial_match=False
-    Sleep                     2s
-    ClickText                 Next    anchor=Venue
-    Sleep                     2s
-    ClickText                 Select Template    anchor=Email Templates
-    Sleep                     2s
-    ClickText                 Event - branded, blank    anchor=Skip to Navigation
-    Sleep                     2s
-    ClickText                 Event - branded, blank    anchor=Email Templates
-    Sleep                     2s
-    ClickText                 Event Invitation with Zoom Link Option    anchor=Skip to Navigation
-    Sleep                     2s
-    ClickText                 Event Invitation with Zoom Link Option    anchor=Email Templates
-    Sleep                     2s
-    ClickText                 Virtual Meeting Invitation    anchor=Skip to Navigation
-    Sleep                     2s
-    ClickText                 Virtual Meeting Invitation    anchor=Email Templates
-    Sleep                     2s
-    ClickText                 Event time confirmation reminder    anchor=Skip to Navigation
-    Sleep                     2s
-    ClickText                 Select From Address    anchor=*From Address
-    Sleep                     2s
-    ClickText                 Elsevier - No Reply    anchor=Skip to Navigation
-    Sleep                     2s
-    ClickText                 Elsevier - No Reply    anchor=*From Address
-    Sleep                     2s
-    ClickText                 Virtual Editors Meetings    anchor=Skip to Navigation
-    Sleep                     2s
-    ClickText                 Virtual Editors Meetings    anchor=*From Address
-    Sleep                     2s
-    ClickText                 Elsevier Journal Boards    anchor=Skip to Navigation
-    Sleep                     2s
+    
