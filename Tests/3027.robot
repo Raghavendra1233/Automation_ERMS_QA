@@ -9,12 +9,11 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Visibility of Renew button on Society Hybrid and China Society contract agreement page
+Visibility of Renew button on Society Hybrid contract agreement page
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
   
-    
     
     Sleep                     1s
     ClickText                 Select a List View: Contract Agreements
