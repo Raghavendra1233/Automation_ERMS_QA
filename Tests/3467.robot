@@ -19,6 +19,10 @@ Hide 'Save pdf' button on redline screen
     Sleep                     1s
     ClickText                 Long Editor Contracts
     Sleep                     1s
+    TypeText                  Search this list...    CON-049556\n
+    Sleep                     3s
+    VerifyText                CON-049556
+    Sleep                     3s
     ClickText                 CON-049556
     Sleep                     1s
     VerifyText                LET
@@ -26,11 +30,11 @@ Hide 'Save pdf' button on redline screen
     VerifyText                View Redline
     Sleep                     1s
     ClickText                 View Redline
-    Sleep                     5s
+    Sleep                     10s
 
     VerifyText                Open in Word
-    Sleep                     1s
+    Sleep                     2s
     VerifyText                Negotiate
-    Sleep                     1s
+    Sleep                     2s
     VerifyText                True-Up
-    Sleep                     1s
+    Sleep                     2s
