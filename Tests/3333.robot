@@ -21,11 +21,11 @@ Suite Teardown                End suite
     ClickText                 SOCFOA
     Sleep                     2s
     TypeText                  Search this list...    CON-049544\n
-    Sleep                     2s
+    Sleep                     4s
     VerifyText                CON-049544
-    Sleep                     1s
+    Sleep                     4s
     ClickText                 CON-049544
-    Sleep                     1s
+    Sleep                     4s
     VerifyText                Record Type
     Sleep                     1s
     VerifyText                File Delete
