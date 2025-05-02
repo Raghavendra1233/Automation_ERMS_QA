@@ -17,7 +17,7 @@ Generate Document button visibility-SET
 
     ClickText                 Select a List View: Contract Agreements
     Sleep                     2s
-    ClickText                 SET
+    ClickText                 All
     Sleep                     2s
     TypeText                  Search this list...    CON-049582\n
     Sleep                     2s
@@ -46,7 +46,7 @@ Generate Document button visibility-SET
     LaunchApp                 Contract Agreements
     ClickText                 Select a List View: Contract Agreements
     Sleep                     2s
-    ClickText                 SET
+    ClickText                 All
     Sleep                     2s
     TypeText                  Search this list...    CON-049582\n
     Sleep                     2s
@@ -75,7 +75,7 @@ Generate Document button visibility-SET
     LaunchApp                 Contract Agreements
     ClickText                 Select a List View: Contract Agreements
     Sleep                     2s
-    ClickText                 SET
+    ClickText                 All
     Sleep                     2s
     TypeText                  Search this list...    CON-049582\n
     Sleep                     2s
