@@ -60,7 +60,7 @@ Generate Document button visibility-LET
     VerifyText                Send with CongaSign
     Sleep                     2s
     ClickText                 Show more actions
-    Sleep                     2s
+    Sleep                     4s
     VerifyText                My Approvals
     Sleep                     2s
     VerifyText                Sharing
