@@ -25,7 +25,7 @@ Generate Document button visibility-FRLET
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
-    PickList                  *Status    Expired
+    PickList                  Status    Expired
     Sleep                     2s
     ClickText                 Save
     Sleep                     2s
@@ -54,7 +54,7 @@ Generate Document button visibility-FRLET
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
-    PickList                  *Status    Ready For Signature
+    PickList                  Status    Ready For Signature
     Sleep                     2s
     ClickText                 Save
     Sleep                     2s
@@ -83,7 +83,7 @@ Generate Document button visibility-FRLET
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
-    PickList                  *Status    In Signatures
+    PickList                  Status    In Signatures
     Sleep                     2s
     ClickText                 Save
     Sleep                     2s
