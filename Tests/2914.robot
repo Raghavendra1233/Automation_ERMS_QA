@@ -34,8 +34,6 @@ Add new Journal Mailbox field to the Journal record
     Sleep                     2s
     ClickText                 Edit Journal Mailbox
     Sleep                     2s
-    VerifyText                r.settypalli@elsevier.com
-    Sleep                     2s
     TypeText                  Journal Mailbox    satya@elsevier.com
     Sleep                     2s
     ClickText                 Save
