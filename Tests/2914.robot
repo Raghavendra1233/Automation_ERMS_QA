@@ -57,13 +57,9 @@ Add new Journal Mailbox field to the Journal record
     Sleep                     2s
 
     LaunchApp                 Journals
-    ClickText                 Select a List View: Journals
+    VerifyText                JrlTest
     Sleep                     2s
-    ClickText                 All
-    Sleep                     2s
-    TypeText                  Search this list...    JT-1\n
-    Sleep                     2s
-    ClickText                 JT-1
+    ClickText                 JrlTest
     Sleep                     2s
     ScrollTo                  Journal Mailbox 
     Sleep                     2s
