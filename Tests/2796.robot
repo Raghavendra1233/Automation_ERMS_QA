@@ -15,13 +15,7 @@ EMR component permissions: Views and Buttons
     LaunchApp                 Cases
 
 
-    ClickText                 Select a List View: Cases
-    Sleep                     2s
-    ClickText                 Select a List View: Cases
-    Sleep                     3s
-    ClickText                 Guest Editor Onboarding
-    Sleep                     2s
-    TypeText                  Search this list...    00124241\n
+    VerifyText                00124241
     Sleep                     2s
     ClickText                 00124241
     Sleep                     2s
