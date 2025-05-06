@@ -37,13 +37,15 @@ LET - timetable field needs to be required
     ClickText                 Today
     Sleep                     1s
     ClickText                 Next
-    Sleep                     1s
+    Sleep                     5s
 
     ClickText                 Next
-    Sleep                     1s
+    Sleep                     5s
 
     ClickText                 Next
-    Sleep                     1s
+    Sleep                     5s
 
     DropDown                  What are the editor’s obligations relating to the timing of peer review?    The Editor Shall comply with the detailed timetable for handling and refereeing Articles set out in Annex
+    Sleep                     3s
     VerifyText                *Describe the detailed timetable for handling and refereeing Articles
+    Sleep                     3s
