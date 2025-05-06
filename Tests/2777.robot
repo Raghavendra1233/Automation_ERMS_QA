@@ -45,5 +45,5 @@ LET - timetable field needs to be required
     ClickText                 Next
     Sleep                     1s
 
-    ClickText                 Next
-    Sleep                     1s
+    DropDown                  What are the editor’s obligations relating to the timing of peer review?    The Editor Shall comply with the detailed timetable for handling and refereeing Articles set out in Annex
+    VerifyText                *Describe the detailed timetable for handling and refereeing Articles
