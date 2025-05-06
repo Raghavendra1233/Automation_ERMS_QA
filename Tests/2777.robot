@@ -17,9 +17,9 @@ LET - timetable field needs to be required
     ClickText                 Select a List View: Contact Journal Relations
     Sleep                     1s
     ClickText                 All
-    TypeText                  Search this list...    CJR - 1497662\n
+    TypeText                  Search this list...    CJR - 1497625\n
     Sleep                     2s
-    ClickText                 CJR - 1497662
+    ClickText                 CJR - 1497625
     Sleep                     2s
     VerifyText                Long Editor Contract
     Sleep                     1s
