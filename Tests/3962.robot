@@ -18,6 +18,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Test Editor Contact\n
+    Sleep                     2s
     ClickText                 Test Editor Contact
     Sleep                     1s
     ClickText                 Details
@@ -34,6 +36,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Test Author Contact\n
+    Sleep                     2s
     ClickText                 Test Author Contact
     Sleep                     1s
     ClickText                 Details
@@ -50,6 +54,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Test Network Contact\n
+    Sleep                     2s
     ClickText                 Test Network Contact
     Sleep                     1s
     ClickText                 Details
@@ -66,6 +72,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Sponsor Test Contact\n
+    Sleep                     2s
     ClickText                 Sponsor Test Contact
     Sleep                     1s
     ClickText                 Details
@@ -82,6 +90,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Suplier Test Contact\n
+    Sleep                     2s
     ClickText                 Suplier Test Contact
     Sleep                     1s
     ClickText                 Details
@@ -109,6 +119,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Test Editor Contact\n
+    Sleep                     2s
     ClickText                 Test Editor Contact
     Sleep                     1s
     ClickText                 Details
@@ -127,6 +139,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Test Author Contact\n
+    Sleep                     2s
     ClickText                 Test Author Contact
     Sleep                     1s
     ClickText                 Details
@@ -143,6 +157,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Test Network Contact\n
+    Sleep                     2s
     ClickText                 Test Network Contact
     Sleep                     1s
     ClickText                 Details
@@ -159,6 +175,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Sponsor Test Contact\n
+    Sleep                     2s
     ClickText                 Sponsor Test Contact
     Sleep                     1s
     ClickText                 Details
@@ -175,6 +193,8 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
+    TypeText                  Search this list...    Suplier Test Contact\n
+    Sleep                     2s
     ClickText                 Suplier Test Contact
     Sleep                     1s
     ClickText                 Details
