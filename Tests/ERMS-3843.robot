@@ -21,16 +21,21 @@ New template to promote upcoming innovations to the publishing journey
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    VerifyText                JrlTest
+    TypeText                  Search this list...    JrlTest\n
     Sleep                     2s
     ClickText                 JrlTest
     Sleep                     2s
     ClickText                 Email    anchor=Homepage Management
+    Sleep                     2s
     VerifyText                Show All
+    Sleep                     2s
     ClickText                 Show All
+    Sleep                     2s
     VerifyText                Raghu Settypalli
+    Sleep                     2s
 
     ClickCheckbox             Select Item 1    on    partial_match=False
+    Sleep                     2s
     ClickText                 Next
     Sleep                     4s
     
