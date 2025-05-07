@@ -17,8 +17,6 @@ Web preview not working for home page disabled journal
     Sleep                     2s
     TypeText                  Search this list...    JrlTest\n
     Sleep                     2s
-    Sleep                     2s
-    Sleep                     2s
     ClickText                 JrlTest
     Sleep                     2s
     
