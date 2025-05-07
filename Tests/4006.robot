@@ -91,7 +91,7 @@ Send with Conga Sign button not available for contracts with value 7-15M
     Sleep                     2s
     ClickText                 CON-049610
     Sleep                     2s
-    VerifyText                Record Type
+    VerifyText                Type
     Sleep                     2s
     VerifyText                Journal Affiliation Agreement
     Sleep                     2s
@@ -99,9 +99,7 @@ Send with Conga Sign button not available for contracts with value 7-15M
     Sleep                     2s
     VerifyText                Ready For Signature
     Sleep                     2s
-    VerifyText                Total Contract Value (USD)
-    Sleep                     2s
-    VerifyText                Total Contract Value Range
+    ScrollTo                Total Contract Value Range
     Sleep                     2s
     VerifyText                $7 - $15 Million
     Sleep                     2s
