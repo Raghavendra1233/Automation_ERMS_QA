@@ -12,12 +12,14 @@ Suite Teardown                End suite
 *** Test Cases **
 ChinaSOC - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
+    Sleep                     3s
     Appstate                  Home
+    Sleep                     3s
     LaunchApp                 Contract Agreements
-    Sleep                     1s
+    Sleep                     3s
     
     ClickText                 Select a List View: Contract Agreements
-    Sleep                     1s
+    Sleep                     3s
     ClickText                 Chinese Society Full OA Agreements
     Sleep                     1s
     VerifyText                CON-049517
