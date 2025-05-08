@@ -262,7 +262,7 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 Delete
     Sleep                     2s
-    LaunchApp                 Invited content
+    LaunchApp                 Invited Content
     SLeep                     2s
     ClickText                 Select a List View: Invited Content
     Sleep                     2s
