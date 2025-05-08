@@ -11,7 +11,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 'Generate Document' button should not display
     [tags]                    Sources
+    Sleep                     4s
     Appstate                  Home
+    Sleep                     4s
     LaunchApp                 Contract Agreements
     Sleep                     4s
     
