@@ -11,24 +11,26 @@ Suite Teardown                End suite
 *** Test Cases ***
 Editor Contract Agreements Created YTD Report
     [tags]                    Sources
+    Sleep                     3s
     Appstate                  Home
+    Sleep                     3s
 
     ClickText                 Setup
-    Sleep                     1s
+    Sleep                     3s
     ClickText                 Opens in a new tab
-    Sleep                     2s
+    Sleep                     3s
     SwitchWindow              NEW
-    Sleep                     2s
+    Sleep                     3s
     ClickText                 User
-    Sleep                     2s
+    Sleep                     3s
     TypeText                  Search Setup    Iris Dortland
-    Sleep                     2s
+    Sleep                     3s
     ClickText                 Iris Dortland
-    Sleep                     2s
+    Sleep                     3s
     VerifyText                Iris Dortland
-    Sleep                     2s
+    Sleep                     3s
     ClickText                 Iris Dortland
-    Sleep                     2s
+    Sleep                     3s
     VerifyText                Login
     Sleep                     3s
     ClickText                 Login
