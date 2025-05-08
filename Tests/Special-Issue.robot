@@ -241,7 +241,7 @@ Special Issue Functionality
     Sleep                     1s                                 
 
     
-     # DELETION CODE
+     # SI DELETION CODE
     LaunchApp                 Invited Content
     SLeep                     2s
     ClickText                 Select a List View: Invited Content
@@ -262,7 +262,7 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 Delete
     Sleep                     2s
-    LaunchApp                 invited content
+    LaunchApp                 Invited content
     SLeep                     2s
     ClickText                 Select a List View: Invited Content
     Sleep                     2s
