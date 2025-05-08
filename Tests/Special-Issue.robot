@@ -22,18 +22,37 @@ Special Issue Functionality
     ClickText                 Create Special Issue
     Sleep                     2s
     TypeText                  New Special Issue Name    Special Issue Testing-1\n
+    Sleep                     2s
     TypeText                  Short Special Issue Name    SITEST-1\n
+    Sleep                     2s
     DropDown                  Expected Publication Year    2029
+    Sleep                     2s
     DropDown                  Origins of Idea    CAS
-    ClickText                 Next
+    Sleep                     2s
+    ClickText                 Next               
+    Sleep                     2s
     ComboBox                  Search Journals...    JT-1
+    Sleep                     2s
     ClickText                 Next
+    Sleep                     2s                            
+    ClickText                 Next               anchor=No items to display.
+    Sleep                     2s
+    VerifyText                JSR
+    Sleep                     2s
     ClickCheckbox             Select Item 1    on    partial_match=False
+    Sleep                     2s
     ClickText                 Finish
-    LaunchApp                 invited content
+    Sleep                     2s
+    LaunchApp                 Invited Content
+    SLeep                     2s
     ClickText                 Select a List View: Invited Content
+    Sleep                     2s
     ClickText                 All
-    TypeText                  Search this list...    SITEST-1\n   
+    Sleep                     2s
+    TypeText                  Search this list...    SITEST-1\n
+    Sleep                     2s
     ClickText                 SITEST-1
+    Sleep                     2s
     
+
     
