@@ -57,6 +57,15 @@ Special Issue Functionality
     
      # SI DELETION CODE
     LaunchApp                 Invited Content
+    SLeep                     2s
+    ClickText                 Select a List View: Invited Content
+    Sleep                     2s
+    ClickText                 All
+    Sleep                     2s
+    TypeText                  Search this list...    SITEST-1\n
+    Sleep                     2s
+    ClickText                 SITEST-1
+    Sleep                     2s
     ClickText                 Related
     Sleep                     2s
     ClickText                 Show Actions
@@ -73,7 +82,7 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    SITEST-2\n
+    TypeText                  Search this list...    SITEST-1\n
     Sleep                     2s
     ClickText                 Show Actions
     Sleep                     2s
