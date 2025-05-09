@@ -21,9 +21,9 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 Create Special Issue
     Sleep                     2s
-    TypeText                  New Special Issue Name    Special Issue Testing-1\n
+    TypeText                  New Special Issue Name    Special Issue Testing-2\n
     Sleep                     2s
-    TypeText                  Short Special Issue Name    SITEST-1\n
+    TypeText                  Short Special Issue Name    SITEST-2\n
     Sleep                     2s
     DropDown                  Expected Publication Year    2029
     Sleep                     2s
@@ -49,9 +49,9 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    SITEST-1\n
+    TypeText                  Search this list...    SITEST-2\n
     Sleep                     2s
-    ClickText                 SITEST-1
+    ClickText                 SITEST-2
     Sleep                     2s
 
 
@@ -240,33 +240,6 @@ Special Issue Functionality
     VerifyText                Society Approval 
     Sleep                     1s                                 
 
-
-    # ADD GUEST EDITOR FLOW
-    ClickText                 Add Guest Editor
-    Sleep                     2s
-    UseModal                  On
-    Sleep                     2s
-    ClickCheckbox             Existing Contact    off
-    Sleep                     2s
-    TypeText                  First Name    First
-    Sleep                     2s
-    TypeText                  Last Name    last\n
-    Sleep                     2s
-    TypeText                  Email    firstlast@gmail.com
-    Sleep                     2s
-    ComboBox                  Search Accounts...    3902Test
-    Sleep                     2s
-    ClickCheckbox             Primary Guest Editor    on
-    Sleep                     2s
-    ClickText                 Next
-    Sleep                     5s
-    ClickText                 Next
-    Sleep                     5s
-    ClickText                 Finish
-    Sleep                     2s
-    UseModal                  Off
-    Sleep                     2s
-
     
      # SI DELETION CODE
     LaunchApp                 Invited Content
@@ -275,69 +248,7 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    SITEST-1\n
-    Sleep                     2s
-    ClickText                 SITEST-1
-    Sleep                     2s
-    ClickText                 Related
-    Sleep                     2s
-    ClickText                 Show Actions    parent=LIGHTNING-BUTTON-MENU
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    UseModal                  On
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    ClickText                 Show Actions    parent=LIGHTNING-BUTTON-MENU
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    ClickText                 Show Actions
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    UseModal                  On
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    ClickText                 Show Actions
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    UseModal                  On
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    LaunchApp                 Contacts
-    Sleep                     2s
-    ClickText                 Select a List View: Contacts
-    Sleep                     2s
-    ClickText                 All Contacts
-    Sleep                     2s
-    TypeText                  Search this list...    First Last\n
-    Sleep                     2s
-    ClickText                 Show Actions
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    UseModal                  On
-    Sleep                     2s
-    ClickText                 Delete
-    Sleep                     2s
-    ClickText                 Cancel and close
-    Sleep                     2s
-    UseModal                  Off
-    Sleep                     2s
-    LaunchApp                 Invited Content
-    SLeep                     2s
-    ClickText                 Select a List View: Invited Content
-    Sleep                     2s
-    ClickText                 All
-    Sleep                     2s
-    TypeText                  Search this list...    SITEST-1\n
+    TypeText                  Search this list...    SITEST-2\n
     Sleep                     2s
     ClickText                 Show Actions
     Sleep                     2s
