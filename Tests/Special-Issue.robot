@@ -311,6 +311,26 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 Delete
     Sleep                     2s
+    LaunchApp                 Contacts
+    Sleep                     2s
+    ClickText                 Select a List View: Contacts
+    Sleep                     2s
+    ClickText                 All Contacts
+    Sleep                     2s
+    TypeText                  Search this list...    First Last\n
+    Sleep                     2s
+    ClickText                 Show Actions
+    Sleep                     2s
+    ClickText                 Delete
+    Sleep                     2s
+    UseModal                  On
+    Sleep                     2s
+    ClickText                 Delete
+    Sleep                     2s
+    ClickText                 Cancel and close
+    Sleep                     2s
+    UseModal                  Off
+    Sleep                     2s
     LaunchApp                 Invited Content
     SLeep                     2s
     ClickText                 Select a List View: Invited Content
