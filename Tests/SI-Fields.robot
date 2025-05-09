@@ -21,9 +21,9 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 Create Special Issue
     Sleep                     2s
-    TypeText                  New Special Issue Name    Special Issue Testing-1\n
+    TypeText                  New Special Issue Name    Special Issue Testing-2\n
     Sleep                     2s
-    TypeText                  Short Special Issue Name    SITEST-1\n
+    TypeText                  Short Special Issue Name    SITEST-2\n
     Sleep                     2s
     DropDown                  Expected Publication Year    2029
     Sleep                     2s
@@ -49,9 +49,9 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    SITEST-1\n
+    TypeText                  Search this list...    SITEST-2\n
     Sleep                     2s
-    ClickText                 SITEST-1
+    ClickText                 SITEST-2
     Sleep                     2s
 
 
@@ -248,9 +248,9 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    SITEST-1\n
+    TypeText                  Search this list...    SITEST-2\n
     Sleep                     2s
-    ClickText                 SITEST-1
+    ClickText                 SITEST-2
     Sleep                     2s
     ClickText                 Related
     Sleep                     2s
@@ -268,7 +268,7 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    SITEST-1\n
+    TypeText                  Search this list...    SITEST-2\n
     Sleep                     2s
     ClickText                 Show Actions
     Sleep                     2s
