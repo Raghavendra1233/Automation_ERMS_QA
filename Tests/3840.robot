@@ -29,9 +29,11 @@ User with CAS permissions should be able to edit the “Sponsor for Special Issu
     LaunchApp                 Invited Content
     Sleep                     1s
     ClickText                 Select a List View: Invited Content
+    Sleep                     2s
     ClickText                 All
+    Sleep                     2s
     ClickText                 Special Issue - 2/21/25-2
-    Sleep                     1s
+    Sleep                     3s
     ScrollTo                  Sponsor for Special Issue 
     Sleep                     1s            
     
