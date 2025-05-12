@@ -14,7 +14,6 @@ User with CAS permissions should be able to edit the “Sponsor for Special Issu
     Appstate                  Home
     
     
-
     ClickText                 Setup
     Sleep                     1s
     ClickText                 Opens in a new tab
