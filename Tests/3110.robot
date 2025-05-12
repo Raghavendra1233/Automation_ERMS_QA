@@ -29,7 +29,12 @@ Hide the "Assigned To" Field from the Special Issue (SI) Record
     LaunchApp                 Invited Content
     Sleep                     1s
     ClickText                 Select a List View: Invited Content
+    Sleep                     2s
     ClickText                 All
+    Sleep                     2s
+    TypeText                  Search this list...    Special Issue - 2/21/25-2\n
+    Sleep                     2s
     ClickText                 Special Issue - 2/21/25-2
+    Sleep                     2s
     VerifyNoText              Assigned To
     Sleep                     2s
