@@ -35,5 +35,6 @@ Hide the "Assigned To" Field from the Special Issue (SI) Record
     TypeText                  Search this list...    Special Issue - 2/21/25-2\n
     Sleep                     2s
     ClickText                 Special Issue - 2/21/25-2
+    Sleep                     2s
     VerifyNoText              Assigned To
     Sleep                     2s
