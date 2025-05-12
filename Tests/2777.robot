@@ -26,7 +26,7 @@ LET - timetable field needs to be required
     VerifyText                Begin    anchor=Long Editor Contract
     Sleep                     1s
     ClickText                 Begin
-    Sleep                     20s
+    Sleep                     30s                    
 
     ScrollTo                  *Contract Start Date
     Sleep                     2s
