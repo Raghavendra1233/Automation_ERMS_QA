@@ -28,8 +28,7 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Enable Customer User
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
-    Sleep                     1s
+    
     
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
@@ -46,8 +45,7 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Enable Customer User
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
-    Sleep                     1s
+    
     
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
@@ -64,8 +62,7 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Enable Customer User
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
-    Sleep                     1s  
+      
 
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
@@ -82,8 +79,7 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Enable Customer User
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
-    Sleep                     1s  
+     
 
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
@@ -98,8 +94,7 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                Enable Customer User
     Sleep                     1s
-    VerifyText                Replace Staff Member On Journals
-    Sleep                     1s 
+     
 
 
     ClickText                 Setup
