@@ -21,6 +21,8 @@ Hide approval request status on contract agreement page layout
     Sleep                     1s
     ClickText                 SET
     Sleep                     1s
+    TypeText                  Search this list...    CON-049352\n
+    Sleep                     2s
     VerifyText                CON-049352
     Sleep                     1s
     ClickText                 CON-049352
@@ -34,6 +36,8 @@ Hide approval request status on contract agreement page layout
     Sleep                     1s
     ClickText                 FR-LET
     Sleep                     1s
+    TypeText                  Search this list...    CON-049395\n
+    Sleep                     2s
     VerifyText                CON-049395
     Sleep                     1s
     ClickText                 CON-049395

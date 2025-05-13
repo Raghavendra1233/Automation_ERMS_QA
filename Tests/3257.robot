@@ -20,6 +20,8 @@ SocHyb - Conditional visibility of 'Preview and submit approvals' button
     Sleep                     1s
     ClickText                 SOCHYB
     Sleep                     1s
+    TypeText                  Search this list...    CON-049481\n
+    Sleep                     2s
     VerifyText                CON-049481
     Sleep                     1s
     ClickText                 CON-049481
