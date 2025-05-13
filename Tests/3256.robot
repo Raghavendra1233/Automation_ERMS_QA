@@ -22,6 +22,8 @@ ChinaSOC - Conditional visibility of 'Preview and submit approvals' button
     Sleep                     3s
     ClickText                 Chinese Society Full OA Agreements
     Sleep                     1s
+    TypeText                  Search this list...    CON-049517\n
+    Sleep                     2s
     VerifyText                CON-049517
     Sleep                     1s
     ClickText                 CON-049517
