@@ -26,24 +26,22 @@ Ensure the gender data pie chart is visible on the Editor Insights tab again
     Sleep                     1s
     VerifyText                Editors By Country
     Sleep                     1s
+    VerifyText                Level 1/2 Editors By Gender
+    Sleep                     1s
+    ScrollTo                  Level 3 Editors By Gender
+    Sleep                     1s
     VerifyText                Editors By Gender
-    Sleep                     1s
-    ScrollTo                  Contracts With Relations
-    Sleep                     1s
-    VerifyText                L1+2 Relationships and Contracts
     Sleep                     1s
 
     
     VerifyText                Data Quality
     ClickText                 Data Quality
     Sleep                     1s
-    VerifyText                Bounced Emails on Contacts per Journal
+    VerifyText                Bounced Email Addresses by Contact
     Sleep                     1s
     VerifyText                Contact Journal Relationships Without Homepage Entries
     Sleep                     1s
-    ScrollTo                  Contracts With Relations
-    Sleep                     1s
-    VerifyText                L1+2 Relationships and Contracts
+    ScrollTo                  Homepage Entries Without Contact Journal Relationship
     Sleep                     1s
 
     
