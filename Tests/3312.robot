@@ -17,7 +17,10 @@ ChinaSoc- Page layout: make "Generate Agreement" button visible
     
 
     ClickText                 Select a List View: Contract Agreements
+    Sleep                     2s
     ClickText                 Chinese Society Full OA Agreements
+    Sleep                     2s
+    TypeText                  Search this list...    CON-049541\n
     Sleep                     2s
     VerifyText                CON-049541
     Sleep                     1s
