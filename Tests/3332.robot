@@ -17,7 +17,10 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     
 
     ClickText                 Select a List View: Contract Agreements
+    Sleep                     2s
     ClickText                 Chinese Society Full OA Agreements
+    Sleep                     2s
+    TypeText                  Search this list...    CON-049552\n
     Sleep                     2s
     VerifyText                CON-049552
     Sleep                     1s
@@ -27,6 +30,7 @@ ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     Sleep                     1s
     
     ClickText                 Edit Status
+    Sleep                     2s
     PickList                  Status    Ready For Signature
     Sleep                     2s
     ClickText                 Save

@@ -30,28 +30,30 @@ SocFOA: Conditional Visibility of 'Generate Agreement' Button
     Sleep                     1s
     
     ClickText                 Edit Status
+    Sleep                     2s
     PickList                  Status    Ready For Signature
     Sleep                     2s
     ClickText                 Save
     Sleep                     5s
     VerifyText                File Delete
-    Sleep                     1s
+    Sleep                     2s
     ClickText                 Show more actions
-    Sleep                     1s
+    Sleep                     3s
     verifyText                View Redline
-    Sleep                     1s
+    Sleep                     2s
     VerifyText                My Approvals
-    Sleep                     1s
+    Sleep                     2s
 
     ClickText                 Edit Status
+    Sleep                     2s
     PickList                  Status    In Signatures
     Sleep                     2s
     ClickText                 Save
     Sleep                     5s
     VerifyText                File Delete
-    Sleep                     1s
+    Sleep                     2s
     ClickText                 Show more actions
-    Sleep                     1s
+    Sleep                     2s
     verifyText                View Redline
     Sleep                     3s
     VerifyText                My Approvals
