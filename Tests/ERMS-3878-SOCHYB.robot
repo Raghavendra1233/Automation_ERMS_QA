@@ -20,6 +20,9 @@ Replace Document approver for Society Contracts
     ClickText                 SOCHYB
     Sleep                     4s
     ClickText                 Created Date
+    Sleep                     2s
+    TypeText                  Search this list...    CON-049404\n
+    Sleep                     2s
     ClickText                 CON-049404
     Sleep                     4s
     
