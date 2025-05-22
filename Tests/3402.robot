@@ -13,7 +13,11 @@ Display contract data (if it exists) in the GDPR app for a SAR request
     
     
 
-    
+    ClickText                 Select a List View: Contacts
+    Sleep                     2s
+    ClickText                 All Contacts
+    Sleep                     2s
+    TypeText                  Search this list...    Raghu Settypalli\n
     Sleep                     1s
     ClickText                 Raghu Settypalli
     Sleep                     1s
