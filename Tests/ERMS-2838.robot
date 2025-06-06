@@ -41,7 +41,7 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Editors
     Sleep                     2s
-    ClickText                 Aaron Andrew Lowe
+    ClickText                 Abhi Kanan
     Sleep                     2s
     VerifyText                Follow
     VerifyText                Edit
