@@ -23,7 +23,10 @@ EMR component permissions: Review & Action tab visibility
     TypeText                  Search Setup    Test CAS
     ClickText                 Test CAS
     Sleep                     2s
+    ClickText                 Test CAS
+    Sleep                     2s
     VerifyText                Login
+    Sleep                     2s
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Cases
