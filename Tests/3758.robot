@@ -23,7 +23,10 @@ Display the Saved Email component to additional profiles/permission sets
     TypeText                  Search Setup    Test CAS
     ClickText                 Test CAS
     Sleep                     2s
+    ClickText                 Test CAS
+    Sleep                     2s
     VerifyText                Login
+    Sleep                     2s
     ClickText                 Login
     Sleep                     1s
     
