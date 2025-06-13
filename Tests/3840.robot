@@ -22,7 +22,10 @@ User with CAS permissions should be able to edit the “Sponsor for Special Issu
     TypeText                  Search Setup    Test CAS
     ClickText                 Test CAS
     Sleep                     2s
+    ClickText                 Test CAS
+    Sleep                     2s
     VerifyText                Login
+    Sleep                     2s
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Invited Content
