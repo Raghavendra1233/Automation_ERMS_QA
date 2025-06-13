@@ -21,9 +21,13 @@ Hide the "Assigned To" Field from the Special Issue (SI) Record
     SwitchWindow              NEW
     ClickText                 User
     TypeText                  Search Setup    Test CAS
+    Sleep                     2s
+    ClickText                 Test CAS
+    Sleep                     2s
     ClickText                 Test CAS
     Sleep                     2s
     VerifyText                Login
+    Sleep                     2s
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Invited Content
