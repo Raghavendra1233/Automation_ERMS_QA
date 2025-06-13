@@ -21,7 +21,10 @@ Display the "Item Group Code" field on the page layout of a CO SI record
     TypeText                  Search Setup    Test CAS
     ClickText                 Test CAS
     Sleep                     2s
+    ClickText                 Test CAS
+    Sleep                     2s
     VerifyText                Login
+    Sleep                     2s
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Invited Content

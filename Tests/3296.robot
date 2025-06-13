@@ -19,6 +19,8 @@ SocHyb- Page layout: make "Generate Agreement" button visible
     ClickText                 Select a List View: Contract Agreements
     ClickText                 SOCHYB
     Sleep                     2s
+    TypeText                  Search this list...    CON-049513\n
+    Sleep                     2s
     VerifyText                CON-049513
     Sleep                     1s
     ClickText                 CON-049513

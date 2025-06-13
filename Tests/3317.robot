@@ -19,6 +19,7 @@ SocHyb: Conditional Visibility of 'Generate Agreement' Button
     ClickText                 Select a List View: Contract Agreements
     ClickText                 SOCHYB
     Sleep                     2s
+    TypeText                  Search this list...    CON-049514\n
     VerifyText                CON-049514
     Sleep                     1s
     ClickText                 CON-049514

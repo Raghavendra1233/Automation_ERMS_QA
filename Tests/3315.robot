@@ -21,7 +21,10 @@ SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     TypeText                  Search Setup    Susanne Steiginga
     ClickText                 Susanne Steiginga
     Sleep                     2s
+    ClickText                 Susanne Steiginga
+    Sleep                     2s
     VerifyText                Login
+    Sleep                     2s
     ClickText                 Login
     Sleep                     1s
     
