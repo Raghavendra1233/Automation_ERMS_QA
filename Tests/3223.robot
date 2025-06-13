@@ -21,7 +21,10 @@ Hide "Conflict of Interest Statement" field from the page layout of the CSR
     TypeText                  Search Setup    Test CAS
     ClickText                 Test CAS
     Sleep                     2s
+    ClickText                 Test CAS
+    Sleep                     2s
     VerifyText                Login
+    Sleep                     2s
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Invited Content
