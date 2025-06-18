@@ -27,7 +27,7 @@ Currency not showing as mandatory field
     VerifyText                Begin    anchor=Long Editor Contract
     Sleep                     1s
     ClickText                 Begin
-    Sleep                     10s
+    Sleep                     20s
 
     ScrollTo                  *Contract Start Date
     Sleep                     2s
