@@ -30,9 +30,9 @@ Generate Document button visibility-SET
     ClickText                 Save
     Sleep                     2s
     VerifyText                File Delete
-    Sleep                     2s
+    Sleep                     10s
     VerifyText                Renew Short Editor Contract
-    Sleep                     2s
+    Sleep                     10s
     VerifyText                Send for Negotiations
     Sleep                     2s
     VerifyText                View Redline
