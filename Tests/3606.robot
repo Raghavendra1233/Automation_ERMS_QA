@@ -34,6 +34,8 @@ The character limit of the Short Special issue Name on the SI record should be s
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
+    TypeText                  Search this list...    Special Issue - 4/4/25-4\n
+    Sleep                     2s
     ClickText                 Special Issue - 4/4/25-4
     Sleep                     1s
     ClickText                 Edit Short Special Issue Name
