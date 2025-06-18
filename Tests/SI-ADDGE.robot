@@ -71,11 +71,11 @@ Special Issue Functionality
     ComboBox                  Search Accounts...    3902Test
     Sleep                     2s
     ClickCheckbox             Primary Guest Editor    on
-    Sleep                     2s
-    ClickText                 Next
     Sleep                     5s
     ClickText                 Next
     Sleep                     5s
+    ClickText                 Next
+    Sleep                     15s
     ClickText                 Finish
     Sleep                     2s
     UseModal                  Off
