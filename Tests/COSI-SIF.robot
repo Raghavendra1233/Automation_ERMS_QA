@@ -38,7 +38,7 @@ COSI SIF Functionality
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
-    TypeText                  Search this list...    RSET-1\n
+    TypeText                  Search this list...    RJ-2_2035_RSET-2\n
     Sleep                     2s
-    ClickText                 RSET-1
+    ClickText                 RJ-2_2035_RSET-2
     Sleep                     2s
