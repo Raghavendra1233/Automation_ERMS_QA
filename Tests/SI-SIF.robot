@@ -17,7 +17,6 @@ Special Issue Functionality
     LaunchApp                 Invited Content
 
     # 1. updates the stage to Special Issue Configuration then SIF email should be sent to the email address in the Journal mailbox field associated with the record
-     
     ClickText                 Setup
     Sleep                     1s
     ClickText                 Opens in a new tab
