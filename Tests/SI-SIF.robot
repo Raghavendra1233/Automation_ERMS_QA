@@ -38,3 +38,7 @@ Special Issue Functionality
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
+    TypeText                  Search this list...    RSET-1\n
+    Sleep                     2s
+    ClickText                 RSET-1
+    Sleep                     2s
