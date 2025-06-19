@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Special Issue SIF Functionality
+COSI SIF Functionality
     [tags]                    Sources
     Sleep                     3s
     Appstate                  Home
