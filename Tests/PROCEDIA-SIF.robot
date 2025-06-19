@@ -38,7 +38,7 @@ COPROCEDIA SIF Functionality
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
-    TypeText                  Search this list...    RJ-2_2035_RSET-2\n
+    TypeText                  Search this list...    RSET-3\n
     Sleep                     2s
-    ClickText                 RJ-2_2035_RSET-2
+    ClickText                 RSET-3
     Sleep                     2s
