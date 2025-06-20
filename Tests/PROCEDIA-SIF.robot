@@ -56,7 +56,7 @@ COPROCEDIA SIF Functionality
     Sleep                     5s
     ClickText                 Edit Stage
     Sleep                     2s
-    PickList                  *Stage    Idea
+    PickList                  *Stage    Idea Evaluation
     Sleep                     2s
     ClickText                 Save
     Sleep                     5s
