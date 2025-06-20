@@ -42,3 +42,21 @@ COPROCEDIA SIF Functionality
     Sleep                     2s
     ClickText                 RSET-3
     Sleep                     2s
+    ClickText                 Edit Stage
+    Sleep                     2s
+    PickList                  *Stage    Special Issue Configuration
+    Sleep                     2s
+    ClickText                 Save
+    Sleep                     2s
+    VerifyText                Inform JM
+    Sleep                     2s
+    ClickText                 Inform JM
+    Sleep                     15s
+    ClickText                 Finish
+    Sleep                     5s
+    ClickText                 Edit Stage
+    Sleep                     2s
+    PickList                  *Stage    Idea Evaluation
+    Sleep                     2s
+    ClickText                 Save
+    Sleep                     5s
