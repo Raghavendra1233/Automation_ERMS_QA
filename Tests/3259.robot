@@ -17,7 +17,9 @@ Remove option 'Check for agreement' from potential competing interest field
 
     ClickText                 Select a List View: Invited Content
     Sleep                     1s
-    ClickText                 My Special Issues
+    ClickText                 All
+    Sleep                     1s
+    TypeText                  Search this list...    SP-1\n
     Sleep                     1s
     ClickText                 SP-1
     Sleep                     1s
