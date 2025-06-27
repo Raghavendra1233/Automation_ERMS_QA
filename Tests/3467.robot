@@ -33,7 +33,7 @@ Hide 'Save pdf' button on redline screen
     Sleep                     10s
 
     VerifyText                Open in Word
-    Sleep                     2s
+    Sleep                     20s
     VerifyText                Negotiate
     Sleep                     2s
     VerifyText                True-Up
