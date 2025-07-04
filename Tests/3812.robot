@@ -36,7 +36,7 @@ Populate PAC name in signature of RFI reminder email
     ClickText                 Email    anchor=Homepage Management
     Sleep                     2s
     ClickText                 Show All
-    Sleep                     2s
+    Sleep                     10s
     ClickCheckbox             Select Item 1    on    partial_match=False
     Sleep                     2s
     ClickText                 Next
