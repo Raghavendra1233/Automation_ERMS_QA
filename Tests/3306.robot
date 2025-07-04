@@ -44,6 +44,12 @@ If CJR has an end date in the past, it should not be possible to create a new ag
 
     LaunchApp                 Contact Journal Relations
     Sleep                     2s
+    ClickText                 Select a List View: Contact Journal Relations
+    Sleep                     1s
+    ClickText                 All
+    Sleep                     1s
+    TypeText                  Search this list...    CJR - 1497644\n
+    Sleep                     2s
     VerifyText                CJR - 1497644
     Sleep                     1s
     ClickText                 CJR - 1497644
