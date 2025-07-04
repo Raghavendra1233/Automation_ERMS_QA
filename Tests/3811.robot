@@ -28,7 +28,7 @@ Populate PAC name in signature of RFI email
     LaunchApp                 Journals
     Sleep                     2s
     ClickText                 Select a List View: Journals
-    Sleep                     2s
+    Sleep                     10s
     ClickText                 All
     Sleep                     2s
     ClickText                 JrlTest
