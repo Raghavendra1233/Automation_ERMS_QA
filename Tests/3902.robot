@@ -19,7 +19,7 @@ Typo in country list provided needs to be corrected
     Sleep                     2s
     ClickText                 My Accounts
     Sleep                     2s
-    ClickText                 3902Test
+    ClickText                 ECH Test account
     Sleep                     2s
     ClickText                 Details
     Sleep                     2s
