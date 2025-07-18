@@ -19,6 +19,10 @@ Journals: Operating Company Value not Mapped
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
+    TypeText                  Search this list...    JT-1\n
+    Sleep                     1s
+    ClickText                 JT-1
+    Sleep                     2s
     ClickText                 JT-1
     Sleep                     1s
     ClickText                 Edit Operating Company
