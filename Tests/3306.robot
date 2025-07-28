@@ -19,6 +19,8 @@ If CJR has an end date in the past, it should not be possible to create a new ag
     ClickText                 Select a List View: Contract Agreements
     ClickText                 Long Editor Contracts
     Sleep                     2s
+    TypeText                  Search this list...    CON-049549\n
+    Sleep                     2s
     VerifyText                CON-049549
     Sleep                     1s
     ClickText                 CON-049549
