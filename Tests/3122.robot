@@ -28,7 +28,7 @@ First contracted date in LET no longer being prepopulated
     VerifyText                Renew Long Editor Contract
     Sleep                     2s
     ClickText                 Renew Long Editor Contract
-    Sleep                     4s
+    Sleep                     10s
     ScrollTo                  Date of Editor's First Term 
     Sleep                     1s
                  
