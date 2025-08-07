@@ -18,7 +18,7 @@ First contracted date in LET no longer being prepopulated
     ClickText                 Select a List View: Contract Agreements
     ClickText                 Long Editor Contracts
     Sleep                     2s
-    VerifyText                CON-049560
+    TypeText                  Search this list...    CON-049560\n
     Sleep                     1s
     ClickText                 CON-049560
     Sleep                     1s
@@ -28,7 +28,7 @@ First contracted date in LET no longer being prepopulated
     VerifyText                Renew Long Editor Contract
     Sleep                     2s
     ClickText                 Renew Long Editor Contract
-    Sleep                     4s
+    Sleep                     10s
     ScrollTo                  Date of Editor's First Term 
     Sleep                     1s
                  
