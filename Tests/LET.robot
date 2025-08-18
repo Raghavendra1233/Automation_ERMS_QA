@@ -85,3 +85,4 @@ Suite Teardown                End suite
     Sleep                    1s
     ClickText                Next
     Sleep                    1s
+    ClickText                Finish
