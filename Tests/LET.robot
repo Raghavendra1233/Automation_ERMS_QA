@@ -9,14 +9,16 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-LET Interview Flow-1
+********LET Interview Flow-1*******
+     
+    ## 1. CJR Creation ##
+
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
     Sleep                     1s
-    
-    **CJR Creation**
-    
+    VerifyText                New
+    Sleep                     2s
     ClickText                 New
     Sleep                     10s
     UseModal                  On
@@ -38,17 +40,10 @@ LET Interview Flow-1
     ClickText                 Save    partial_match=False
     Sleep                     2s
     UseModal                  Off
-    Sleep                     2s
+    Sleep                     10s
     
+    ## 2. LET Flow ##
 
-   
-    
-    ClickText                 Select a List View: Contact Journal Relations
-    Sleep                     1s
-    ClickText                 All
-    Sleep                     1s
-    ClickText                 CJR - 1497644
-    Sleep                     1s
     VerifyText                Long Editor Contract
     Sleep                     1s
     VerifyText                Begin    anchor=Long Editor Contract
