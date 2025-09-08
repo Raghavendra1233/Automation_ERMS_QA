@@ -120,7 +120,6 @@ Block an Admin user from deleting an editor contact with active relationships
     ClickText                 Details
     VerifyText                Contact Record Type
     Sleep                     2s
-    Sleep                     2s
     ClickText                 Show more actions
     Sleep                     2s
     ClickText                 Delete
