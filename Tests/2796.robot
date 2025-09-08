@@ -24,16 +24,19 @@ EMR component permissions: Views and Buttons
     ClickText                 Review & Action
     Sleep                     2s
 
-    ClickText                 Show menu    anchor=Select a List View
+
+
+    ClickText                 Show menu    anchor=Editor Management Request
     SLeep                     2s
     VerifyText                All EMR View
     SLeep                     2s 
     VerifyText                Contact View
-    SLeep                     2s 
+    SLeep                     2s
     VerifyText                CJR View
     SLeep                     2s
     VerifyText                Error View
     SLeep                     2s 
+
 
     VerifyText                Create Contact
     SLeep                     2s
