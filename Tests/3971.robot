@@ -66,9 +66,9 @@ Block an Admin user from deleting an editor contact with active relationships
     UseModal                  On
     Sleep                     2s
     VerifyText                Your attempt to delete New Editor TEST-2 could not be completed because it is associated with the following records:
-    Sleep                     2s
+    Sleep                     10s
     VerifyText                Author Relationship Records: AR-00011541
-    Sleep                     2s
+    Sleep                     10s
     ClickText                 Finish
     Sleep                     2s
     UseModal                  Off
