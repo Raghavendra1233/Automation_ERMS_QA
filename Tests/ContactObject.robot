@@ -222,7 +222,7 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-4. ##Hide the "Delete" option on contact list view for all record & for all users##
+5. ##Hide the "Delete" option on contact list view for all record & for all users##
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -408,7 +408,7 @@ Suite Teardown                End suite
     Sleep                     1s    
     
 
-5. ##Block an Admin user from deleting an editor contact with active relationships##
+6. ##Block an Admin user from deleting an editor contact with active relationships##
      [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -570,7 +570,7 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-6. ##Replace Staff Member" button should only appear on Staff Contact records##
+7. ##Replace Staff Member" button should only appear on Staff Contact records##
      [tags]                    Sources
     Appstate                  Home
     
