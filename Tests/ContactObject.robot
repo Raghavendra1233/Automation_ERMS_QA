@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Contact Loop on creation and deletion 
 1. ##CONTACT CREATION##   
     [tags]                    Sources
     Appstate                  Home
