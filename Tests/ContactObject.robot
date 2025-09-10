@@ -33,7 +33,7 @@ Suite Teardown                End suite
     Sleep                     2s 
     TypeText                  Last Name               ${ContactName1}
     Sleep                     2s
-    ComboBox                  Search Accounts...    3902Test
+    ComboBox                  Search Accounts...    New Account-5
     Sleep                     2s
     ClickText                 Save                    Partial_match=False
     Sleep                     2s
