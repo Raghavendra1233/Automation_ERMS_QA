@@ -14,6 +14,10 @@ Contact Loop on creation and deletion
     Appstate                  Home
     LaunchApp                 Contacts
     
+
+    ClickText                 Select a List View: Contacts
+    ClickText                 All Contacts
+    VerifyText                New
     ClickText                 New
     ClickText                 Next
     ${ContactName}=           Generate Random String      5-10    
