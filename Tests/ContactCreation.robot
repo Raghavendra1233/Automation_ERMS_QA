@@ -17,8 +17,8 @@ Contact Loop on creation and deletion
 
     ClickText                 Select a List View: Contacts
     ClickText                 All Contacts
-    VerifyText                New
-    ClickText                 New
+    VerifyText                New 
+    ClickText                 New    anchor=Import
     ClickText                 Next
     ${ContactName}=           Generate Random String      5-10    
     TypeText                  First Name               ${ContactName}
