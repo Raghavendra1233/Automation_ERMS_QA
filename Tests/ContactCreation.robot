@@ -16,15 +16,24 @@ Contact Loop on creation and deletion
     
 
     ClickText                 Select a List View: Contacts
-    ClickText                 All Contacts
+    Sleep                     2s
+    ClickText                 Editors
+    Sleep                     2s
     VerifyText                New 
-    ClickText                 New    anchor=Import
+    Sleep                     2s
+    ClickText                 New 
+    Sleep                     2s   
     ClickText                 Next
-    ${ContactName}=           Generate Random String      5-10    
+    Sleep                     5s
+    ${ContactName}=           Generate Random String      5-10   
+    Sleep                     2s 
     TypeText                  First Name               ${ContactName}
-    ${ContactName1}=           Generate Random String      5-10    
+    Sleep                     2s
+    ${ContactName1}=           Generate Random String      5-10  
+    Sleep                     2s  
     TypeText                  Last Name               ${ContactName1}
-    
+    Sleep                     2s
     ComboBox                  Search Accounts...    3902Test
+    Sleep                     2s
     ClickText                 Save                    Partial_match=False
     Sleep                     2s
