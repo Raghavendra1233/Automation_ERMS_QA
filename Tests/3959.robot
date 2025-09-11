@@ -17,7 +17,7 @@ Make the webuser id field visible on the Editor Contact record page layout
 
     ClickText                 Select a List View: Contacts
     Sleep                     2s
-    ClickText                 All Contacts
+    ClickText                 Editors
     Sleep                     2s
     TypeText                  Search this list...    Test Editor Contact\n
     Sleep                     2s
@@ -60,7 +60,7 @@ Make the webuser id field visible on the Editor Contact record page layout
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
     Sleep                     2s
-    ClickText                 All Contacts
+    ClickText                 Editors
     Sleep                     2s
     TypeText                  Search this list...    Test Editor Contact\n
     Sleep                     2s
