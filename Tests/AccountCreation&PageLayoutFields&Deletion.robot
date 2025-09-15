@@ -31,9 +31,9 @@ Suite Teardown                End suite
     UseModal                  On
     
     Sleep                     2s
-    ${AccountName1}=          Generate Random String      5-10 
+    ${AccountName}=          Generate Random String      5-10 
     Sleep                     2s   
-    TypeText                  *Account Name               ${AccountName}
+    TypeText                  Account Name               ${AccountName}
     Sleep                     2s
 
     PickList                  Organisation Country    Afghanistan
@@ -52,8 +52,6 @@ Suite Teardown                End suite
     Sleep                     2s 
     TypeText                  Organisation Zip/Postal Code               ${AccountCode}
     Sleep                     2s
+    ClickText                 Save    partial_match=False
+    Sleep                     2s
     
-    VerifyText                Save                        anchor=Save & New 
-    Sleep                     2s                     
-    ClickText                 Save                        anchor=Save & New
-    Sleep                     2s  
