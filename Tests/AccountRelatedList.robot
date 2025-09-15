@@ -60,5 +60,22 @@ Suite Teardown                End suite
     VerifyText                08029
     Sleep                     2s
     VerifyText                Spain
-    Sleep                     2s    
+    Sleep                     2s  
+
+
+#3. Typo in country list provided needs to be corrected
+    [tags]                    Sources
+    Appstate                  Home
+    LaunchApp                 Accounts
+
+    ClickText                 Select a List View: Accounts
+    Sleep                     2s
+    ClickText                 My Accounts
+    Sleep                     2s
+    ClickText                 ECH Test account
+    Sleep                     2s
+    ClickText                 Details
+    Sleep                     2s
+    VerifyText                South Georgia and the South Sandwich Islands
+    Sleep                     2s  
     
