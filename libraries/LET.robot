@@ -64,3 +64,8 @@ Suite Teardown                End suite
     ClickText                Next
     Sleep                    10s
     ClickText                Finish
+    Sleep                    2s
+    VerifyText               Finish                         partial_match=False
+    Sleep                    2s
+    ClickText                Finish                         partial_match=False
+    Sleep                    20s
