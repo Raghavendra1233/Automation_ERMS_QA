@@ -18,6 +18,8 @@ Suite Teardown                End suite
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
+    TypeText                  Search this list...    CJR - 1497644\n
+    Sleep                     2s
     ClickText                 CJR - 1497644
     Sleep                     1s
     VerifyText                Long Editor Contract
