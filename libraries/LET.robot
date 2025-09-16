@@ -62,4 +62,5 @@ Suite Teardown                End suite
     DropDown                 Please pick a signatory for this contract    Georgina Joyce
     Sleep                    1s
     ClickText                Next
-    Sleep                    1s
+    Sleep                    10s
+    ClickText                Finish
