@@ -39,24 +39,18 @@ Suite Teardown                End suite
     Sleep                     1s
     ClickText                 Next
     Sleep                     1s
-
     ClickText                 Next
     Sleep                     1s
-
     ClickText                 Next
     Sleep                     1s
-
     ClickText                 Next
     Sleep                     1s
-
-    
     VerifyText               Agreement Currency
     Sleep                    1s
     DropDown                 Agreement Currency    AUD - Australian Dollar
     Sleep                    1s
     ClickText                Next
     Sleep                    1s
-
     VerifyText               *Please pick a signatory for this contract  
     Sleep                    1s
     DropDown                 Please pick a signatory for this contract    Georgina Joyce
