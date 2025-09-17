@@ -404,3 +404,26 @@ Suite Teardown                End suite
     Sleep                     3s
     VerifyText                *Describe the detailed timetable for handling and refereeing Articles
     Sleep                     3s
+
+
+
+# 9. Make 'What is the date of the currently existing agreement between the parties?' field mandatory on LET renewal flow
+    [tags]                    Sources
+    Appstate                  Home
+    LaunchApp                 Contract Agreements
+    
+
+    ClickText                 Select a List View: Contract Agreements
+    Sleep                     2s
+    ClickText                 Long Editor Contracts
+    Sleep                     2s
+    TypeText                  Search this list...    CON-049460\n
+    Sleep                     2s
+    ClickText                 CON-049460
+    Sleep                     2s
+    VerifyText                Renew Long Editor Contract
+    Sleep                     2s
+    ClickText                 Renew Long Editor Contract
+    Sleep                     2s
+    ScrollTo                  *What is the date of the currently existing agreement between the parties?
+    Sleep                     2s
