@@ -147,6 +147,27 @@ Suite Teardown                End suite
 
 
 
+# 6. Contract Agreements List view on Journal record page
+    [tags]                    Sources
+    Appstate                  Home
+    LaunchApp                 Journals 
+
+
+    ClickText                 JrlTest
+    Sleep                     1s
+    ClickText                 Related
+    Sleep                     1s
+    VerifyText                Contract Agreements
+    Sleep                     1s
+    VerifyText                Contract Agreement Name
+    Sleep                     1s
+    VerifyText                Effective Date
+    Sleep                     1s
+    VerifyText                Expiration Date
+    Sleep                     1s
+
+
+
 
 
 
