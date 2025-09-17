@@ -11,7 +11,7 @@ Suite Teardown                End suite
 *** Test Cases ***
 # 1. JOURNAL CREATION 
 
-# 2. Journals: Operating Company Value Maping
+# 2. Journals: Operating Company Value Mapping
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
