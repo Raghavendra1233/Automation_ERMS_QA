@@ -427,3 +427,45 @@ Suite Teardown                End suite
     Sleep                     2s
     ScrollTo                  *What is the date of the currently existing agreement between the parties?
     Sleep                     2s
+
+
+
+# 10. Editor in UK field should populate if the editor is based in UK
+    [tags]                    Sources
+    Appstate                  Home
+    LaunchApp                 Contact Journal Relations
+    
+
+    ClickText                 Select a List View: Contact Journal Relations
+    Sleep                     1s
+    ClickText                 All
+    Sleep                     1s
+    TypeText                  Search this list...    CJR - 1497648\n
+    Sleep                     2s
+    ClickText                 CJR - 1497648
+    Sleep                     1s
+    ClickFieldValue           Contact
+    Sleep                     1s
+    ClickText                 Details
+    Sleep                     1s
+    VerifyText                Personal Address
+    Sleep                     1s
+    VerifyText                United Kingdom
+    Sleep                     1s
+
+    LaunchApp                 Contact Journal Relations
+    Sleep                     1s
+    ClickText                 Select a List View: Contact Journal Relations
+    Sleep                     1s
+    ClickText                 All
+    Sleep                     1s
+    TypeText                  Search this list...    CJR - 1497648\n
+    Sleep                     2s
+    ClickText                 CJR - 1497648
+    Sleep                     1s
+    VerifyText                Long Editor Contract
+    Sleep                     1s
+    ClickText                 Begin    anchor=Long Editor Contract
+    Sleep                     4s
+    VerifyText                Editor in UK: true
+    Sleep                     1s
