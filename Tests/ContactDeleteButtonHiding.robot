@@ -7,13 +7,12 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
-
 *** Test Cases ***
-Hide the "Delete" option from a contact record for all users
+# 1. **Hide the "Delete" option on contact list view for all record & for all users**
     [tags]                    Sources
     Appstate                  Home
- 
     LaunchApp                 Contacts
+
     ClickText                 Select a List View: Contacts
     Sleep                     1s
     ClickText                 All Contacts
@@ -29,7 +28,6 @@ Hide the "Delete" option from a contact record for all users
     VerifyText                Enable Customer User
     Sleep                     1s
     
-    
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
     Sleep                     1s
@@ -44,8 +42,7 @@ Hide the "Delete" option from a contact record for all users
     VerifyText                Contact Record Type
     Sleep                     1s
     VerifyText                Enable Customer User
-    Sleep                     1s
-    
+    Sleep                     1s  
     
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
@@ -63,7 +60,6 @@ Hide the "Delete" option from a contact record for all users
     VerifyText                Enable Customer User
     Sleep                     1s
       
-
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
     Sleep                     1s
@@ -80,7 +76,6 @@ Hide the "Delete" option from a contact record for all users
     VerifyText                Enable Customer User
     Sleep                     1s
      
-
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
     Sleep                     1s
@@ -95,7 +90,6 @@ Hide the "Delete" option from a contact record for all users
     VerifyText                Enable Customer User
     Sleep                     1s
      
-
 
     ClickText                 Setup
     Sleep                     1s
@@ -198,4 +192,3 @@ Hide the "Delete" option from a contact record for all users
     Sleep                     1s
     VerifyText                New Task
     Sleep                     1s
-     

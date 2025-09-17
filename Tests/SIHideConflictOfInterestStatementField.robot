@@ -55,5 +55,4 @@ Hide "Conflict of Interest Statement" field from the page layout of the CSR
     ClickText                 CSR-96200
     Sleep                     1s
     VerifyNoText              Conflict of Interest Statement
-    Sleep                     1s
-   
+    Sleep                     2s

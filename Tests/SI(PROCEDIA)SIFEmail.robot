@@ -9,19 +9,20 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Hide the "Assigned To" Field from the Special Issue (SI) Record
+COPROCEDIA SIF Functionality
     [tags]                    Sources
+    Sleep                     3s
     Appstate                  Home
-    
-    
+    Sleep                     3s
+    LaunchApp                 Invited Content
 
+    # 1. updates the stage to Special Issue Configuration then SIF email should be sent to the email address in the Journal mailbox field associated with the record
     ClickText                 Setup
     Sleep                     1s
     ClickText                 Opens in a new tab
     SwitchWindow              NEW
     ClickText                 User
     TypeText                  Search Setup    Test CAS
-    Sleep                     2s
     ClickText                 Test CAS
     Sleep                     2s
     ClickText                 Test CAS
@@ -31,14 +32,31 @@ Hide the "Assigned To" Field from the Special Issue (SI) Record
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Invited Content
-    Sleep                     1s
+
+    
     ClickText                 Select a List View: Invited Content
-    Sleep                     2s
+    Sleep                     1s
     ClickText                 All
+    Sleep                     1s
+    TypeText                  Search this list...    RSET-3\n
     Sleep                     2s
-    TypeText                  Search this list...    Special Issue - 2/21/25-2\n
+    ClickText                 RSET-3
     Sleep                     2s
-    ClickText                 Special Issue - 2/21/25-2
+    ClickText                 Edit Stage
     Sleep                     2s
-    VerifyNoText              Assigned To
+    PickList                  *Stage    Special Issue Configuration
     Sleep                     2s
+    ClickText                 Save
+    Sleep                     2s
+    VerifyText                Inform JM
+    Sleep                     2s
+    ClickText                 Inform JM
+    Sleep                     15s
+    ClickText                 Finish
+    Sleep                     5s
+    ClickText                 Edit Stage
+    Sleep                     2s
+    PickList                  *Stage    Idea Evaluation
+    Sleep                     2s
+    ClickText                 Save
+    Sleep                     5s

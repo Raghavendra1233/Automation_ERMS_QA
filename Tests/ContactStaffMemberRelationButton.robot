@@ -7,10 +7,9 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
-
 *** Test Cases ***
-"Replace Staff Member" button should only appear on Staff Contact records
-    [tags]                    Sources
+# 1. **Replace Staff Member" button should only appear on Staff Contact records**
+     [tags]                    Sources
     Appstate                  Home
     
     ClickText                 Setup

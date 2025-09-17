@@ -7,9 +7,8 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
-
 *** Test Cases ***
-Make the webuser id field visible on the Editor Contact record page layout
+#1. **Make the webuser id field visible on the Editor Contact record page layout only for SysAdmin User with Edit access(Not for Publisher user)**
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -32,7 +31,6 @@ Make the webuser id field visible on the Editor Contact record page layout
     ScrollTo                  Web User Id
     Sleep                     2s
 
-
     Sleep                     3s
     ClickText                 Edit Web User Id
     Sleep                     3s
@@ -43,7 +41,6 @@ Make the webuser id field visible on the Editor Contact record page layout
     ClickText                 Save
     Sleep                     2s
     
-
     ClickText                 Setup
     Sleep                     1s
     ClickText                 Opens in a new tab
@@ -55,7 +52,6 @@ Make the webuser id field visible on the Editor Contact record page layout
     VerifyText                Login
     ClickText                 Login
     Sleep                     1s
-    
     
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
@@ -84,5 +80,3 @@ Make the webuser id field visible on the Editor Contact record page layout
     Sleep                     2s
     VerifyText                Update Homepage Entries
     Sleep                     2s
-
-   

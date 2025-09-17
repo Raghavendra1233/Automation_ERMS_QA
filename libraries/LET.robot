@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Currency not showing as mandatory field
+# 1. LET Interview Flow
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
@@ -18,16 +18,16 @@ Currency not showing as mandatory field
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
-    TypeText                  Search this list...    CJR - 1497648\n
-    Sleep                     1s
-    ClickText                 CJR - 1497648
+    TypeText                  Search this list...    CJR - 1497644\n
     Sleep                     2s
+    ClickText                 CJR - 1497644
+    Sleep                     1s
     VerifyText                Long Editor Contract
     Sleep                     1s
     VerifyText                Begin    anchor=Long Editor Contract
     Sleep                     1s
     ClickText                 Begin
-    Sleep                     20s
+    Sleep                     10s
 
     ScrollTo                  *Contract Start Date
     Sleep                     2s
@@ -39,18 +39,27 @@ Currency not showing as mandatory field
     Sleep                     1s
     ClickText                 Next
     Sleep                     1s
-
     ClickText                 Next
     Sleep                     1s
-
     ClickText                 Next
     Sleep                     1s
-
     ClickText                 Next
     Sleep                     1s
-
     VerifyText               Agreement Currency
+    Sleep                    1s
+    DropDown                 Agreement Currency    AUD - Australian Dollar
     Sleep                    1s
     ClickText                Next
     Sleep                    1s
-    VerifyText               Please select a choice.
+    VerifyText               *Please pick a signatory for this contract  
+    Sleep                    1s
+    DropDown                 Please pick a signatory for this contract    Georgina Joyce
+    Sleep                    1s
+    ClickText                Next
+    Sleep                    10s
+    ClickText                Finish
+    Sleep                    2s
+    VerifyText               Finish                         partial_match=False
+    Sleep                    2s
+    ClickText                Finish                         partial_match=False
+    Sleep                    20s
