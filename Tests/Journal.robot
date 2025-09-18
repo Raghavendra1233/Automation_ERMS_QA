@@ -212,32 +212,6 @@ Only Admin and API user should be able to update Publisher/Publishing Director/J
 
 
 *** Test Cases ***
-Web preview home page journal
-    [tags]                    Sources
-    Appstate                  Home
-    LaunchApp                 Journals 
-
-    ClickText                 Select a List View: Journals
-    Sleep                     2s
-    ClickText                 All
-    Sleep                     2s
-    TypeText                  Search this list...    JrlTest\n
-    Sleep                     2s
-    ClickText                 JrlTest
-    Sleep                     2s  
-    
-    VerifyText                Enable homepage
-    Sleep                     2s
-    VerifyText                Web Preview
-    Sleep                     2s
-    ClickText                 Web Preview
-    Sleep                     2s
-    Sleep                     5s
-    VerifyText                Radionuclides, essential and potentially toxic elements metals, speciation, mercury, environment and health, QA Test, UAT Test, Final Prod Test, QA PASS
-    Sleep                     2s
-
-
-*** Test Cases ***
 Line breaks in biography field in Journal
     [tags]                    Sources
     Appstate                  Home
@@ -247,9 +221,9 @@ Line breaks in biography field in Journal
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    JrlTest\n
+    TypeText                  Search this list...    TOJrnl\n
     Sleep                     2s
-    ClickText                 JrlTest
+    ClickText                 TOJrnl
     Sleep                     2s
     
     VerifyText                Enable homepage
