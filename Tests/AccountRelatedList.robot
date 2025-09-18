@@ -40,8 +40,9 @@ Account Related List
     Sleep                     1s
     VerifyText                CON-049321
     Sleep                     1s
-
-#2. Update the registered address for the Elsevier Spain account due to office relocation.
+    
+*** Test Cases ***
+Update the registered address for the Elsevier Spain account due to office relocation.
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Accounts
@@ -64,7 +65,8 @@ Account Related List
     Sleep                     2s  
 
 
-#3. Typo in country list provided needs to be corrected
+*** Test Cases ***
+Typo in country list provided needs to be corrected
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Accounts
