@@ -9,9 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-# 1. JOURNAL CREATION 
-
-# 2. Journals: Operating Company Value Mapping
+JOURNAL OBJECT
+    # 2. Journals: Operating Company Value Mapping
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -42,7 +41,7 @@ Suite Teardown                End suite
 
 
 
-# 3. Remove EPH legal Owner field from journal Page Layout
+    # 3. Remove EPH legal Owner field from journal Page Layout
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -64,7 +63,7 @@ Suite Teardown                End suite
 
 
 
-# 4. 'View Related Contacts' link visibility on the journal record
+    # 4. 'View Related Contacts' link visibility on the journal record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -88,7 +87,7 @@ Suite Teardown                End suite
 
 
 
-# 5. Add new Journal Mailbox field to the Journal record
+    # 5. Add new Journal Mailbox field to the Journal record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -147,7 +146,7 @@ Suite Teardown                End suite
 
 
 
-# 6. Contract Agreements List view on Journal record page
+    # 6. Contract Agreements List view on Journal record page
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -168,7 +167,7 @@ Suite Teardown                End suite
 
 
 
-# 7. Only Admin and API user should be able to update Publisher/Publishing Director/Journal Manager/Marketing Communication Manager on a journal record
+    # 7. Only Admin and API user should be able to update Publisher/Publishing Director/Journal Manager/Marketing Communication Manager on a journal record
     [tags]                    Sources
     Appstate                  Home
 
@@ -214,7 +213,7 @@ Suite Teardown                End suite
 
 
 
-# 8. Web preview home page journal
+    # 8. Web preview home page journal
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -240,7 +239,7 @@ Suite Teardown                End suite
 
 
 
-# 9. Line breaks in biography field in Journal
+    # 9. Line breaks in biography field in Journal
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -274,7 +273,7 @@ Suite Teardown                End suite
 
 
 
-# 10. Gender data pie chart is visibility on the Editor Insights tab
+    # 10. Gender data pie chart is visibility on the Editor Insights tab
     [tags]                    Sources
     Appstate                  Home
 
@@ -323,7 +322,7 @@ Suite Teardown                End suite
 
 
 
-# 11. Display Active Editorial Board on Related tab of a Journal Record
+    # 11. Display Active Editorial Board on Related tab of a Journal Record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
