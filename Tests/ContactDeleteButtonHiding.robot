@@ -8,7 +8,8 @@ Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
 *** Test Cases ***
-# 1. **Hide the "Delete" option on contact list view for all record & for all users**
+Contact Delete Button Visibility
+    # 1. **Hide the "Delete" option on contact list view for all record & for all users**
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
