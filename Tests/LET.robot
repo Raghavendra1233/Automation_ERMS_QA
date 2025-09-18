@@ -9,6 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
+
 CJR Creation and LET Interview Flow 
     [tags]                    Sources
     Appstate                  Home
@@ -84,7 +85,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 2. Generate Document button visibility-LET
+2. Generate Document button visibility-LET
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -179,7 +180,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 3. Currency field is mandatory on LET Interview flow
+3. Currency field is mandatory on LET Interview flow
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
@@ -227,7 +228,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 4. First contracted date in LET no longer being prepopulated in Renewal Flow
+4. First contracted date in LET no longer being prepopulated in Renewal Flow
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -252,7 +253,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 5. 'Managed Clauseses' Typo on the Contract Agreement page layout
+5. 'Managed Clauseses' Typo on the Contract Agreement page layout
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -274,7 +275,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 6. If CJR has an end date in the past, it should not be possible to create a new agreement (or renew an existing one)
+6. If CJR has an end date in the past, it should not be possible to create a new agreement (or renew an existing one)
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -327,7 +328,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 7. Hide 'Save pdf' button on redline screen
+7. Hide 'Save pdf' button on redline screen
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -359,7 +360,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 8. LET - timetable field needs to be required
+8. LET - timetable field needs to be required
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
@@ -402,7 +403,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 9. Make 'What is the date of the currently existing agreement between the parties?' field mandatory on LET renewal flow
+9. Make 'What is the date of the currently existing agreement between the parties?' field mandatory on LET renewal flow
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -425,7 +426,7 @@ CJR Creation and LET Interview Flow
 
 
 
-    # 10. Editor in UK field should populate if the editor is based in UK
+10. Editor in UK field should populate if the editor is based in UK
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations

@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-JOURNAL OBJECT
     # 2. Journals: Operating Company Value Mapping
     [tags]                    Sources
     Appstate                  Home
