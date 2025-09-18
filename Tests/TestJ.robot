@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Journals: Operating Company Value Mapping
+Journals Operating Company Value Mapping
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals

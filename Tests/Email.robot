@@ -52,7 +52,8 @@ EMAIL OBJECT
 
 
 
-    # 2. New template to support roll out of the Check Integrity tool
+*** Test Cases ***
+New template to support roll out of the Check Integrity tool
     [tags]                    Sources
     Appstate                  Home
     
@@ -98,7 +99,8 @@ EMAIL OBJECT
     Sleep                     3s
 
 
-    # 3. Display the Saved Email component to additional profiles/permission sets
+*** Test Cases ***
+Display the Saved Email component to additional profiles/permission sets
     [tags]                    Sources
     Appstate                  Home
      
@@ -162,7 +164,8 @@ EMAIL OBJECT
     Sleep                     3s
 
 
-    # 4. Populate PAC name in signature of RFI email
+*** Test Cases ***
+Populate PAC name in signature of RFI email
     [tags]                    Sources
     Appstate                  Home
     
@@ -207,8 +210,8 @@ EMAIL OBJECT
     ClickText                 Send
     Sleep                     3s
 
-
-    # 5. Populate PAC name in signature of RFI reminder email
+*** Test Cases ***
+Populate PAC name in signature of RFI reminder email
     [tags]                    Sources
     Appstate                  Home
     
@@ -253,8 +256,8 @@ EMAIL OBJECT
     ClickText                 Send
     Sleep                     3s
 
-
-    # 6. Template version 1 for Ethics related campaign - B1
+*** Test Cases ***
+Template version 1 for Ethics related campaign - B1
     [tags]                    Sources
     Appstate                  Home
     
@@ -296,8 +299,8 @@ EMAIL OBJECT
     ClickText                 Send    partial_match=False
     Sleep                     2s
 
-
-    # 7. Template version 2 for Ethics related campaign - B2
+*** Test Cases ***
+Template version 2 for Ethics related campaign - B2
     [tags]                    Sources
     Appstate                  Home
     
@@ -337,8 +340,8 @@ EMAIL OBJECT
     Sleep                     1s
     ClickText                 Send    partial_match=False
 
-
-    # 8. Updated Editorial Board member Invitation letter
+*** Test Cases ***
+Updated Editorial Board member Invitation letter
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -364,7 +367,8 @@ EMAIL OBJECT
     VerifyText                Invitation to join the board of Test Journal
 
 
-    # 9. New template to promote upcoming innovations to the publishing journey
+*** Test Cases ***
+New template to promote upcoming innovations to the publishing journey
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
