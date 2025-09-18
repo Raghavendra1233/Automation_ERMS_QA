@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-    # 2. Journals: Operating Company Value Mapping
+Journals: Operating Company Value Mapping
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -39,8 +39,8 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-
-    # 3. Remove EPH legal Owner field from journal Page Layout
+*** Test Cases ***
+Remove EPH legal Owner field from journal Page Layout
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -61,8 +61,8 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-
-    # 4. 'View Related Contacts' link visibility on the journal record
+*** Test Cases ***
+'View Related Contacts' link visibility on the journal record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -85,8 +85,8 @@ Suite Teardown                End suite
     VerifyText                View Related Contacts 
 
 
-
-    # 5. Add new Journal Mailbox field to the Journal record
+*** Test Cases ***
+Add new Journal Mailbox field to the Journal record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -144,8 +144,8 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-
-    # 6. Contract Agreements List view on Journal record page
+*** Test Cases ***
+Contract Agreements List view on Journal record page
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -165,8 +165,8 @@ Suite Teardown                End suite
     Sleep                     1s
 
 
-
-    # 7. Only Admin and API user should be able to update Publisher/Publishing Director/Journal Manager/Marketing Communication Manager on a journal record
+*** Test Cases ***
+Only Admin and API user should be able to update Publisher/Publishing Director/Journal Manager/Marketing Communication Manager on a journal record
     [tags]                    Sources
     Appstate                  Home
 
@@ -211,8 +211,8 @@ Suite Teardown                End suite
     Sleep                     1s
 
 
-
-    # 8. Web preview home page journal
+*** Test Cases ***
+Web preview home page journal
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -237,8 +237,8 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-
-    # 9. Line breaks in biography field in Journal
+*** Test Cases ***
+Line breaks in biography field in Journal
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -271,8 +271,8 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-
-    # 10. Gender data pie chart is visibility on the Editor Insights tab
+*** Test Cases ***
+Gender data pie chart is visibility on the Editor Insights tab
     [tags]                    Sources
     Appstate                  Home
 
@@ -320,8 +320,8 @@ Suite Teardown                End suite
     Sleep                     1s
 
 
-
-    # 11. Display Active Editorial Board on Related tab of a Journal Record
+*** Test Cases ***
+Display Active Editorial Board on Related tab of a Journal Record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
