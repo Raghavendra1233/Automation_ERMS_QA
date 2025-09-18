@@ -97,3 +97,39 @@ Generate Document button visibility-FRLET
     Sleep                     2s
     VerifyText                My Approvals
     Sleep                     2s
+
+
+
+*** Test Cases **
+Hide approval request status on contract agreement page layout
+    [tags]                    Sources
+    Appstate                  Home
+    LaunchApp                 Contract Agreements
+    Sleep                     4s
+    
+
+    ClickText                 Select a List View: Contract Agreements
+    Sleep                     1s
+    ClickText                 SET
+    Sleep                     2s
+    VerifyText                CON-049352
+    Sleep                     1s
+    ClickText                 CON-049352
+    Sleep                     1s
+    VerifyNoText              Approval Request Status
+    Sleep                     1s
+
+    LaunchApp                 Contract Agreements
+    Sleep                     4s
+    ClickText                 Select a List View: Contract Agreements
+    Sleep                     1s
+    ClickText                 FR-LET
+    Sleep                     1s
+    TypeText                  Search this list...    CON-049395\n
+    Sleep                     2s
+    VerifyText                CON-049395
+    Sleep                     1s
+    ClickText                 CON-049395
+    Sleep                     1s
+    VerifyNoText              Approval Request Status
+    Sleep                     1s
