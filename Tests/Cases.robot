@@ -23,9 +23,6 @@ EMR component permissions: Views and Buttons
     Sleep                     2s
     ClickText                 Review & Action
     Sleep                     2s
-
-
-
     ClickText                 Show menu    anchor=Editor Management Request
     SLeep                     2s
     VerifyText                All EMR View
@@ -36,8 +33,6 @@ EMR component permissions: Views and Buttons
     SLeep                     2s
     VerifyText                Error View
     SLeep                     2s 
-
-
     VerifyText                Create Contact
     SLeep                     2s
     VerifyText                Create CJR 
@@ -55,8 +50,6 @@ EMR component permissions: Review & Action tab visibility
     [tags]                    Sources
     Appstate                  Home
     
-    
-
     ClickText                 Setup
     Sleep                     1s
     ClickText                 Opens in a new tab
@@ -72,7 +65,6 @@ EMR component permissions: Review & Action tab visibility
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Cases
-
 
     ClickText                 Select a List View: Cases
     Sleep                     2s
