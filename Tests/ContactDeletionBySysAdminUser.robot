@@ -98,7 +98,7 @@ Contact Delete Button Permission
     Sleep                     2s
     VerifyText                Your attempt to delete New Editor TEST-3 could not be completed because it is associated with the following records:
     Sleep                     2s
-    VerifyText                Journal Group Member Records: JGM - 0269685
+    VerifyText                Journal Group Member Records: JGM - 0269810
     Sleep                     2s
     ClickText                 Finish
     Sleep                     2s
