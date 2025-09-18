@@ -15,7 +15,7 @@ EMAIL OBJECT
     Appstate                  Home
     LaunchApp                 Campaigns
 
-    Sleep                     1s
+    Sleep                     5s
     ClickText                 Select a List View: Campaigns
     Sleep                     1s
     ClickText                 All
