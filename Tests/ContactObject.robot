@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-# 1. **CONTACT CREATION**   
+CONTACT OBJECT NEW
+    # 1. **CONTACT CREATION**   
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -40,7 +41,7 @@ Suite Teardown                End suite
 
  
     
-# 2. **CONTACT PAGE LAYOUT FIELDS**
+    # 2. **CONTACT PAGE LAYOUT FIELDS**
    VerifyText                Details
    Sleep                     2s
    ClickText                 Details
@@ -130,7 +131,7 @@ Suite Teardown                End suite
 
 
 
-# 3. **CONTACT DELETION**
+    # 3. **CONTACT DELETION**
    VerifyText                Delete
    Sleep                     2s  
    ClickText                 Delete 
@@ -148,7 +149,7 @@ Suite Teardown                End suite
 
 
 
-# 4. **Make the webuser id field visible on the Editor Contact record page layout only for SysAdmin User with Edit access(Not for Publisher user)**
+    # 4. **Make the webuser id field visible on the Editor Contact record page layout only for SysAdmin User with Edit access(Not for Publisher user)**
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -222,7 +223,7 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-# 5. **Hide the "Delete" option on contact list view for all record & for all users**
+    # 5. **Hide the "Delete" option on contact list view for all record & for all users**
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -408,7 +409,7 @@ Suite Teardown                End suite
     Sleep                     1s    
     
 
-# 6. **Block an Admin user from deleting an editor contact with active relationships**
+    # 6. **Block an Admin user from deleting an editor contact with active relationships**
      [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -570,7 +571,7 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-# 7. **Replace Staff Member" button should only appear on Staff Contact records**
+    # 7. **Replace Staff Member" button should only appear on Staff Contact records**
      [tags]                    Sources
     Appstate                  Home
     

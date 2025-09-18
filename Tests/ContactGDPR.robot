@@ -6,7 +6,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Display contract data (if it exists) in the GDPR app for a SAR request
+Contact GDPR
+    # 1. Display contract data (if it exists) in the GDPR app for a SAR request
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts

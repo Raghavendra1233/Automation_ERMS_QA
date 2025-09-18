@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-# 1. **CONTACT CREATION**   
+CONTACT OBJECT
+    # 1. **CONTACT CREATION**   
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts

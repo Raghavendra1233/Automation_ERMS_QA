@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-# 1. **ACCOUNT CREATION**   
+ACCOUNT OBJECT
+    # 1. **ACCOUNT CREATION**   
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Accounts
