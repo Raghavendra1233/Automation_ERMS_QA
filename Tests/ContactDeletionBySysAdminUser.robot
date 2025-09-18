@@ -8,7 +8,8 @@ Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
 *** Test Cases ***
-# 1. **Block an Admin user from deleting an editor contact with active relationships**
+Contact Delete Button Permission
+    # 1. **Block an Admin user from deleting an editor contact with active relationships**
      [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
