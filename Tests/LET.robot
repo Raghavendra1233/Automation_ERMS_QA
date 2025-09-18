@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-    ## 1. CJR Creation & LET Interview Flow ##
+1. CJR Creation & LET Interview Flow ##
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
@@ -84,7 +84,7 @@ Suite Teardown                End suite
 
 
 
-    # 2. Generate Document button visibility-LET
+2. Generate Document button visibility-LET
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -179,7 +179,7 @@ Suite Teardown                End suite
 
 
 
-    # 3. Currency field is mandatory on LET Interview flow
+3. Currency field is mandatory on LET Interview flow
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
@@ -227,7 +227,7 @@ Suite Teardown                End suite
 
 
 
-    # 4. First contracted date in LET no longer being prepopulated in Renewal Flow
+4. First contracted date in LET no longer being prepopulated in Renewal Flow
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -252,7 +252,7 @@ Suite Teardown                End suite
 
 
 
-    # 5. 'Managed Clauseses' Typo on the Contract Agreement page layout
+5. 'Managed Clauseses' Typo on the Contract Agreement page layout
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -274,7 +274,7 @@ Suite Teardown                End suite
 
 
 
-    # 6. If CJR has an end date in the past, it should not be possible to create a new agreement (or renew an existing one)
+6. If CJR has an end date in the past, it should not be possible to create a new agreement (or renew an existing one)
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -327,7 +327,7 @@ Suite Teardown                End suite
 
 
 
-    # 7. Hide 'Save pdf' button on redline screen
+7. Hide 'Save pdf' button on redline screen
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -359,7 +359,7 @@ Suite Teardown                End suite
 
 
 
-    # 8. LET - timetable field needs to be required
+8. LET - timetable field needs to be required
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
@@ -402,7 +402,7 @@ Suite Teardown                End suite
 
 
 
-    # 9. Make 'What is the date of the currently existing agreement between the parties?' field mandatory on LET renewal flow
+9. Make 'What is the date of the currently existing agreement between the parties?' field mandatory on LET renewal flow
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -425,7 +425,7 @@ Suite Teardown                End suite
 
 
 
-    # 10. Editor in UK field should populate if the editor is based in UK
+10. Editor in UK field should populate if the editor is based in UK
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
