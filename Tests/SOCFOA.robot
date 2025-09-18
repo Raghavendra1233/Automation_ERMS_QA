@@ -388,3 +388,29 @@ Send with Conga Sign button not available for contracts with value 7-15M
     Sleep                     2s
     VerifyText                Send with CongaSign
     Sleep                     2s
+
+
+
+*** Test Cases ***
+Replace Document approver for Society Contracts
+    [tags]                    Sources
+    Appstate                  Home
+    LaunchApp                 Contract Agreements
+    Sleep                     4s  
+
+    ClickText                 Select a List View: Contract Agreements
+    ClickText                 SOCFOA
+    Sleep                     4s
+    TypeText                  Search this list...    CON-049403\n
+    ClickText                 CON-049403
+    Sleep                     4s   
+    VerifyText                Total Contract Value Range
+    VerifyText                Clone
+    Sleep                     5s
+    ClickText                 Show more actions    anchor=Clone
+    Sleep                     4s
+    ClickText                 Preview & Submit Approvals
+    Sleep                     20s
+    VerifyText                Jessica Alexander  
+    Sleep                     5s                   
+    
