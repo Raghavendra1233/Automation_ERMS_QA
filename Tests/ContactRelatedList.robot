@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Contract Agreements Related List not available on contact record
+Contact Related List
+    # 1. Contract Agreements Related List not available on contact record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
