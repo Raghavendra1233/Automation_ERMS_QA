@@ -9,10 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-********LET Interview Flow-1*******
-     
-    ## 1. CJR Creation ##
-
+## 1. CJR Creation & LET Interview Flow ##
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
@@ -42,8 +39,6 @@ Suite Teardown                End suite
     UseModal                  Off
     Sleep                     10s
     
-    ## 2. LET Flow ##
-
     VerifyText                Long Editor Contract
     Sleep                     1s
     VerifyText                Begin    anchor=Long Editor Contract
