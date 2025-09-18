@@ -14,7 +14,7 @@ CJR Creation and LET Interview Flow
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
-    Sleep                     1s
+    Sleep                     2s
     VerifyText                New
     Sleep                     2s
     ClickText                 New
