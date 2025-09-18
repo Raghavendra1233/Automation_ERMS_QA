@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Generate Document button visibility-FRLET
+Generate Document button visibility-SET
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -17,22 +17,22 @@ Generate Document button visibility-FRLET
 
     ClickText                 Select a List View: Contract Agreements
     Sleep                     2s
-    ClickText                 FR-LET
+    ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    CON-049583\n
+    TypeText                  Search this list...    CON-049582\n
     Sleep                     2s
-    ClickText                 CON-049583
+    ClickText                 CON-049582
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
-    PickList                  Status    Expired
+    PickList                  *Status    Expired
     Sleep                     2s
     ClickText                 Save
     Sleep                     2s
     VerifyText                File Delete
-    Sleep                     2s
-    VerifyText                Renew French Long Editor Contract
-    Sleep                     2s
+    Sleep                     10s
+    VerifyText                Renew Short Editor Contract
+    Sleep                     10s
     VerifyText                Send for Negotiations
     Sleep                     2s
     VerifyText                View Redline
@@ -46,15 +46,15 @@ Generate Document button visibility-FRLET
     LaunchApp                 Contract Agreements
     ClickText                 Select a List View: Contract Agreements
     Sleep                     2s
-    ClickText                 FR-LET
+    ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    CON-049583\n
+    TypeText                  Search this list...    CON-049582\n
     Sleep                     2s
-    ClickText                 CON-049583
+    ClickText                 CON-049582
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
-    PickList                  Status    Ready For Signature
+    PickList                  *Status    Ready For Signature
     Sleep                     2s
     ClickText                 Save
     Sleep                     2s
@@ -75,15 +75,15 @@ Generate Document button visibility-FRLET
     LaunchApp                 Contract Agreements
     ClickText                 Select a List View: Contract Agreements
     Sleep                     2s
-    ClickText                 FR-LET
+    ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    CON-049583\n
+    TypeText                  Search this list...    CON-049582\n
     Sleep                     2s
-    ClickText                 CON-049583
+    ClickText                 CON-049582
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
-    PickList                  Status    In Signatures
+    PickList                  *Status    In Signatures
     Sleep                     2s
     ClickText                 Save
     Sleep                     2s
@@ -93,8 +93,5 @@ Generate Document button visibility-FRLET
     Sleep                     2s
     VerifyText                View Redline
     Sleep                     2s
-    ClickText                 Show more actions
-    Sleep                     2s
     VerifyText                My Approvals
     Sleep                     2s
-    
