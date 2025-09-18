@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-1. CJR Creation & LET Interview Flow 
+CJR Creation and LET Interview Flow 
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
