@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-# 1. Email campaign template to engage Editorial Board members
+EMAIL OBJECT 
+    # 1. Email campaign template to engage Editorial Board members
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Campaigns
@@ -51,7 +52,7 @@ Suite Teardown                End suite
 
 
 
-# 2. New template to support roll out of the Check Integrity tool
+    # 2. New template to support roll out of the Check Integrity tool
     [tags]                    Sources
     Appstate                  Home
     
@@ -97,7 +98,7 @@ Suite Teardown                End suite
     Sleep                     3s
 
 
-# 3. Display the Saved Email component to additional profiles/permission sets
+    # 3. Display the Saved Email component to additional profiles/permission sets
     [tags]                    Sources
     Appstate                  Home
      
@@ -161,7 +162,7 @@ Suite Teardown                End suite
     Sleep                     3s
 
 
-# 4. Populate PAC name in signature of RFI email
+    # 4. Populate PAC name in signature of RFI email
     [tags]                    Sources
     Appstate                  Home
     
@@ -207,7 +208,7 @@ Suite Teardown                End suite
     Sleep                     3s
 
 
-# 5. Populate PAC name in signature of RFI reminder email
+    # 5. Populate PAC name in signature of RFI reminder email
     [tags]                    Sources
     Appstate                  Home
     
@@ -253,7 +254,7 @@ Suite Teardown                End suite
     Sleep                     3s
 
 
-# 6. Template version 1 for Ethics related campaign - B1
+    # 6. Template version 1 for Ethics related campaign - B1
     [tags]                    Sources
     Appstate                  Home
     
@@ -296,7 +297,7 @@ Suite Teardown                End suite
     Sleep                     2s
 
 
-# 7. Template version 2 for Ethics related campaign - B2
+    # 7. Template version 2 for Ethics related campaign - B2
     [tags]                    Sources
     Appstate                  Home
     
@@ -337,7 +338,7 @@ Suite Teardown                End suite
     ClickText                 Send    partial_match=False
 
 
-# 8. Updated Editorial Board member Invitation letter
+    # 8. Updated Editorial Board member Invitation letter
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -363,7 +364,7 @@ Suite Teardown                End suite
     VerifyText                Invitation to join the board of Test Journal
 
 
-# 9. New template to promote upcoming innovations to the publishing journey
+    # 9. New template to promote upcoming innovations to the publishing journey
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
