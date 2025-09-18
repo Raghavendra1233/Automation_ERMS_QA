@@ -111,3 +111,26 @@ Remove Contract Field From CJR Page Layout
     Sleep                     1s
     VerifyText                Comments
     Sleep                     1s
+
+
+*** Test Cases ***
+Update formula field to ensure that Relation_is_Active__c =True if the CJR status equals "Display only"
+    [tags]                    Sources
+    Appstate                  Home
+    LaunchApp                 Contact Journal Relations
+
+    ClickText                 Select a List View: Contact Journal Relations
+    Sleep                     1s
+    ClickText                 All
+    Sleep                     1s
+    TypeText                  Search this list...    CJR - 1497659\n
+    Sleep                     1s
+    ClickText                 CJR - 1497659
+    Sleep                     1s
+    
+    VerifyText                Status
+    Sleep                     2s
+    VerifyText                Display Only
+    Sleep                     2s
+    VerifyText                Relation is Active?
+    Sleep                     2s
