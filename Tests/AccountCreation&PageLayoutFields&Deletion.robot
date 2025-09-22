@@ -59,7 +59,7 @@ ACCOUNT OBJECT
     ClickText                 Save    partial_match=False
     Sleep                     2s
 
-
+*** Test Cases ***
 2. ACCOUNT PAGE LAYOUT FIELDS
     VerifyText                Details
     Sleep                     2s
@@ -155,7 +155,7 @@ ACCOUNT OBJECT
     Sleep                     2s
 
 
-
+*** Test Cases ***
 3. ACCOUNT DELETION
     VerifyText                Delete
     Sleep                     2s
