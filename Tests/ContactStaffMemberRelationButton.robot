@@ -48,3 +48,5 @@ Contact Staff Member Relation Button Visibility
     VerifyText                Log a Call
     VerifyText                New Task
     Sleep                     2s
+
+    ClickText                 Log out as Linda Brooks
