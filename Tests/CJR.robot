@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-CJR Creation
+Contact Journal Relation
+1. CJR Creation
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
@@ -41,7 +42,7 @@ CJR Creation
 
 
 *** Test Cases ***
-Rename Create relationship button to Create CJR
+2. Rename Create relationship button to Create CJR
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Cases
@@ -62,7 +63,7 @@ Rename Create relationship button to Create CJR
 
 
 *** Test Cases ***
-Remove Contract Field From CJR Page Layout
+3. Remove Contract Field From CJR Page Layout
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
@@ -114,7 +115,7 @@ Remove Contract Field From CJR Page Layout
 
 
 *** Test Cases ***
-Update formula field to ensure that Relation_is_Active__c =True if the CJR status equals "Display only"
+4. Update formula field to ensure that Relation_is_Active__c =True if the CJR status equals "Display only"
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
