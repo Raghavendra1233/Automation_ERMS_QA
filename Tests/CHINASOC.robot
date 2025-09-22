@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Visibility of Renew button on Society Hybrid contract agreement page
+CHINASOC
+1. Visibility of Renew button on Society Hybrid contract agreement page
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -34,7 +35,7 @@ Visibility of Renew button on Society Hybrid contract agreement page
 
 
 *** Test Cases ***
-ChinaSOC - Conditional visibility of 'Preview and submit approvals' button
+2. ChinaSOC - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
     Sleep                     3s
     Appstate                  Home
@@ -65,7 +66,7 @@ ChinaSOC - Conditional visibility of 'Preview and submit approvals' button
 
 
 *** Test Cases ***
-ChinaSoc- Page layout: make "Generate Agreement" button visible
+3. ChinaSoc- Page layout: make "Generate Agreement" button visible
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -94,7 +95,7 @@ ChinaSoc- Page layout: make "Generate Agreement" button visible
 
 
 *** Test Cases ***
-ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
+4. ChinaSoc: Conditional Visibility of 'Generate Agreement' Button
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
