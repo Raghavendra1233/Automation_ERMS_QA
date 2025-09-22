@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Generate Document button visibility-FRLET
+1. Generate Document button visibility-FRLET
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -101,7 +101,7 @@ Generate Document button visibility-FRLET
 
 
 *** Test Cases **
-Hide approval request status on contract agreement page layout
+2. Hide approval request status on contract agreement page layout
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
