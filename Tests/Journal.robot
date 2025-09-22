@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Journals Operating Company Value Mapping
+1. Journals Operating Company Value Mapping
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -40,7 +40,7 @@ Journals Operating Company Value Mapping
 
 
 *** Test Cases ***
-Remove EPH legal Owner field from journal Page Layout
+2. Remove EPH legal Owner field from journal Page Layout
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -62,7 +62,7 @@ Remove EPH legal Owner field from journal Page Layout
 
 
 *** Test Cases ***
-'View Related Contacts' link visibility on the journal record
+3. 'View Related Contacts' link visibility on the journal record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -86,7 +86,7 @@ Remove EPH legal Owner field from journal Page Layout
 
 
 *** Test Cases ***
-Add new Journal Mailbox field to the Journal record
+4. Add new Journal Mailbox field to the Journal record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -147,7 +147,7 @@ Add new Journal Mailbox field to the Journal record
 
 
 *** Test Cases ***
-Contract Agreements List view on Journal record page
+5. Contract Agreements List view on Journal record page
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -168,7 +168,7 @@ Contract Agreements List view on Journal record page
 
 
 *** Test Cases ***
-Only Admin and API user should be able to update Publisher/Publishing Director/Journal Manager/Marketing Communication Manager on a journal record
+6. Only Admin and API user should be able to update Publisher/Publishing Director/Journal Manager/Marketing Communication Manager on a journal record
     [tags]                    Sources
     Appstate                  Home
 
@@ -216,7 +216,7 @@ Only Admin and API user should be able to update Publisher/Publishing Director/J
 
 
 *** Test Cases ***
-Line breaks in biography field in Journal
+7. Line breaks in biography field in Journal
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -250,7 +250,7 @@ Line breaks in biography field in Journal
 
 
 *** Test Cases ***
-Gender data pie chart is visibility on the Editor Insights tab
+8. Gender data pie chart is visibility on the Editor Insights tab
     [tags]                    Sources
     Appstate                  Home
 
@@ -299,7 +299,7 @@ Gender data pie chart is visibility on the Editor Insights tab
 
 
 *** Test Cases ***
-Display Active Editorial Board on Related tab of a Journal Record
+9. Display Active Editorial Board on Related tab of a Journal Record
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals

@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-User with CAS permissions should be able to edit the “Sponsor for Special Issue” field on the SI record
+1. User with CAS permissions should be able to edit the “Sponsor for Special Issue” field on the SI record
     [tags]                    Sources
     Appstate                  Home
     

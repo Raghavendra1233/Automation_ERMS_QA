@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-Make the "Potential competing interests info" field visible on the page layout of a SI record
+1. Make the "Potential competing interests info" field visible on the page layout of a SI record
     [tags]                    Sources
     Appstate                  Home
 

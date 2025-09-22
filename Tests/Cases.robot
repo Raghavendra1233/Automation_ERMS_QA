@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-EMR component permissions: Views and Buttons
+1. EMR component permissions: Views and Buttons
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Cases
@@ -46,7 +46,7 @@ EMR component permissions: Views and Buttons
 
 
 *** Test Cases ***
-EMR component permissions: Review & Action tab visibility
+2. EMR component permissions: Review & Action tab visibility
     [tags]                    Sources
     Appstate                  Home
     

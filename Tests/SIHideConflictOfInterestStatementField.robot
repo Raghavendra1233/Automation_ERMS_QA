@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-Hide "Conflict of Interest Statement" field from the page layout of the CSR
+1. Hide "Conflict of Interest Statement" field from the page layout of the CSR
     [tags]                    Sources
     Appstate                  Home
 

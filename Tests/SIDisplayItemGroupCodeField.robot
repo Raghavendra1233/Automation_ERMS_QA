@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-Display the "Item Group Code" field on the page layout of a CO SI record
+1. Display the "Item Group Code" field on the page layout of a CO SI record
     [tags]                    Sources
     Appstate                  Home
 

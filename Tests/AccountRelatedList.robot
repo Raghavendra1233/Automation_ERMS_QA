@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 Account Related List
-    #1. Contract Agreements related list to be visible on Society Account record
+1. Contract Agreements related list to be visible on Society Account record
     [tags]                    Sources
     Appstate                  Home
     
@@ -42,7 +42,7 @@ Account Related List
     Sleep                     1s
     
 *** Test Cases ***
-Update the registered address for the Elsevier Spain account due to office relocation.
+2. Update the registered address for the Elsevier Spain account due to office relocation.
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Accounts
@@ -66,7 +66,7 @@ Update the registered address for the Elsevier Spain account due to office reloc
 
 
 *** Test Cases ***
-Typo in country list provided needs to be corrected
+3. Typo in country list provided needs to be corrected
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Accounts

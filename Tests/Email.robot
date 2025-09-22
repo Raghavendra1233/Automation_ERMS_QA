@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 EMAIL OBJECT 
-    # 1. Email campaign template to engage Editorial Board members
+1. Email campaign template to engage Editorial Board members
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Campaigns
@@ -53,7 +53,7 @@ EMAIL OBJECT
 
 
 *** Test Cases ***
-New template to support roll out of the Check Integrity tool
+2. New template to support roll out of the Check Integrity tool
     [tags]                    Sources
     Appstate                  Home
     
@@ -102,7 +102,7 @@ New template to support roll out of the Check Integrity tool
 
 
 *** Test Cases ***
-Display the Saved Email component to additional profiles/permission sets
+3. Display the Saved Email component to additional profiles/permission sets
     [tags]                    Sources
     Appstate                  Home
      
@@ -169,7 +169,7 @@ Display the Saved Email component to additional profiles/permission sets
 
 
 *** Test Cases ***
-Populate PAC name in signature of RFI email
+4. Populate PAC name in signature of RFI email
     [tags]                    Sources
     Appstate                  Home
     
@@ -217,7 +217,7 @@ Populate PAC name in signature of RFI email
     ClickText                 Log out as Linda Brooks
 
 *** Test Cases ***
-Populate PAC name in signature of RFI reminder email
+5. Populate PAC name in signature of RFI reminder email
     [tags]                    Sources
     Appstate                  Home
     
@@ -265,7 +265,7 @@ Populate PAC name in signature of RFI reminder email
     ClickText                 Log out as Linda Brooks
 
 *** Test Cases ***
-Template version 1 for Ethics related campaign - B1
+6. Template version 1 for Ethics related campaign - B1
     [tags]                    Sources
     Appstate                  Home
     
@@ -308,7 +308,7 @@ Template version 1 for Ethics related campaign - B1
     Sleep                     2s
 
 *** Test Cases ***
-Template version 2 for Ethics related campaign - B2
+7. Template version 2 for Ethics related campaign - B2
     [tags]                    Sources
     Appstate                  Home
     
@@ -349,7 +349,7 @@ Template version 2 for Ethics related campaign - B2
     ClickText                 Send    partial_match=False
 
 *** Test Cases ***
-Updated Editorial Board member Invitation letter
+8. Updated Editorial Board member Invitation letter
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals 
@@ -376,7 +376,7 @@ Updated Editorial Board member Invitation letter
 
 
 *** Test Cases ***
-New template to promote upcoming innovations to the publishing journey
+9. New template to promote upcoming innovations to the publishing journey
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Journals
@@ -420,7 +420,7 @@ New template to promote upcoming innovations to the publishing journey
     
     
 *** Test Cases ***   
-Add Email tab to Events
+10. Add Email tab to Events
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Elsevier Events

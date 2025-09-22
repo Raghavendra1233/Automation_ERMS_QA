@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-CJR Creation and LET Interview Flow 
+LET INTERVIEW FLOW
+1. CJR Creation and LET Interview Flow 
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
@@ -83,7 +84,7 @@ CJR Creation and LET Interview Flow
     ClickText                Finish
 
 
-
+*** Test Cases ***
 2. Generate Document button visibility-LET
     [tags]                    Sources
     Appstate                  Home
@@ -178,7 +179,7 @@ CJR Creation and LET Interview Flow
     Sleep                     2s
 
 
-
+*** Test Cases ***
 3. Currency field is mandatory on LET Interview flow
     [tags]                    Sources
     Appstate                  Home
@@ -226,7 +227,7 @@ CJR Creation and LET Interview Flow
     VerifyText               Please select a choice.
 
 
-
+*** Test Cases ***
 4. First contracted date in LET no longer being prepopulated in Renewal Flow
     [tags]                    Sources
     Appstate                  Home
@@ -251,7 +252,7 @@ CJR Creation and LET Interview Flow
     Sleep                     1s
 
 
-
+*** Test Cases ***
 5. 'Managed Clauseses' Typo on the Contract Agreement page layout
     [tags]                    Sources
     Appstate                  Home
@@ -273,7 +274,7 @@ CJR Creation and LET Interview Flow
     ClickText                 Managed Clauses
 
 
-
+*** Test Cases ***
 6. If CJR has an end date in the past, it should not be possible to create a new agreement (or renew an existing one)
     [tags]                    Sources
     Appstate                  Home
@@ -326,7 +327,7 @@ CJR Creation and LET Interview Flow
     Sleep                     1s
 
 
-
+*** Test Cases ***
 7. Hide 'Save pdf' button on redline screen
     [tags]                    Sources
     Appstate                  Home
@@ -358,7 +359,7 @@ CJR Creation and LET Interview Flow
     Sleep                     2s
 
 
-
+*** Test Cases ***
 8. LET - timetable field needs to be required
     [tags]                    Sources
     Appstate                  Home
@@ -401,7 +402,7 @@ CJR Creation and LET Interview Flow
     Sleep                     3s
 
 
-
+*** Test Cases ***
 9. Make 'What is the date of the currently existing agreement between the parties?' field mandatory on LET renewal flow
     [tags]                    Sources
     Appstate                  Home
@@ -424,7 +425,7 @@ CJR Creation and LET Interview Flow
     Sleep                     2s
 
 
-
+*** Test Cases ***
 10. Editor in UK field should populate if the editor is based in UK
     [tags]                    Sources
     Appstate                  Home

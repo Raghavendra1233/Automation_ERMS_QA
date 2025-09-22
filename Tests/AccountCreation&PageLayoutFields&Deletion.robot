@@ -9,8 +9,9 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
+
 ACCOUNT OBJECT
-    # 1. **ACCOUNT CREATION**   
+1. ACCOUNT CREATION  
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Accounts
@@ -58,8 +59,8 @@ ACCOUNT OBJECT
     ClickText                 Save    partial_match=False
     Sleep                     2s
 
-
-    # 2. **ACCOUNT PAGE LAYOUT FIELDS**
+*** Test Cases ***
+2. ACCOUNT PAGE LAYOUT FIELDS
     VerifyText                Details
     Sleep                     2s
     ClickText                 Details
@@ -154,7 +155,8 @@ ACCOUNT OBJECT
     Sleep                     2s
 
 
-    # 3. **ACCOUNT DELETION**
+*** Test Cases ***
+3. ACCOUNT DELETION
     VerifyText                Delete
     Sleep                     2s
     ClickText                 Delete

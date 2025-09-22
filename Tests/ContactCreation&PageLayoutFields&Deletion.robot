@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 CONTACT OBJECT
-    # 1. **CONTACT CREATION**   
+1. CONTACT CREATION  
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
@@ -40,8 +40,8 @@ CONTACT OBJECT
     Sleep                     2s
 
  
-    
-# 2. **CONTACT PAGE LAYOUT FIELDS**
+*** Test Cases ***   
+2. CONTACT PAGE LAYOUT FIELDS
    VerifyText                Details
    Sleep                     2s
    ClickText                 Details
@@ -130,8 +130,8 @@ CONTACT OBJECT
    Sleep                     2s  
 
 
-
-# 3. **CONTACT DELETION**
+*** Test Cases ***
+3. CONTACT DELETION
    VerifyText                Delete
    Sleep                     2s  
    ClickText                 Delete 

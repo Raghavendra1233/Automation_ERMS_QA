@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-Remove option 'Check for agreement' from potential competing interest field
+1. Remove option 'Check for agreement' from potential competing interest field
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Invited Content

@@ -16,7 +16,7 @@ Special Issue Functionality
     Sleep                     3s
     LaunchApp                 Invited Content
 
-    # 1. Special Issue Creation
+1. Special Issue Creation
     VerifyText                Create Special Issue                
     Sleep                     2s
     ClickText                 Create Special Issue
@@ -54,8 +54,8 @@ Special Issue Functionality
     ClickText                 SITEST-2
     Sleep                     2s
 
-
-    # 2. Special Issue Fields
+*** Test Cases ***
+2. Special Issue Fields
         # A. Synopsis
     VerifyText                Special Issue Name
     Sleep                     1s
@@ -240,8 +240,8 @@ Special Issue Functionality
     VerifyText                Society Approval 
     Sleep                     1s                                 
 
-    
-     # SI DELETION CODE
+*** Test Cases ***    
+3. SI DELETION CODE
     LaunchApp                 Invited Content
     SLeep                     2s
     ClickText                 Select a List View: Invited Content

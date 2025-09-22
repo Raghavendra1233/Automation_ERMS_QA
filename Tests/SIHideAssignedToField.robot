@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Hide the "Assigned To" Field from the Special Issue (SI) Record
+1. Hide the "Assigned To" Field from the Special Issue (SI) Record
     [tags]                    Sources
     Appstate                  Home
     
