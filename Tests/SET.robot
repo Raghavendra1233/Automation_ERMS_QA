@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Generate Document button visibility-SET
+SET INTERVIEW FLOW
+1. Generate Document button visibility-SET
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
