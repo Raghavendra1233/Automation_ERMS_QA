@@ -16,7 +16,7 @@ Special Issue Functionality
     Sleep                     3s
     LaunchApp                 Invited Content
 
-    # 1. Special Issue Creation
+1. Special Issue Creation
     VerifyText                Create Special Issue                
     Sleep                     2s
     ClickText                 Create Special Issue
@@ -54,8 +54,8 @@ Special Issue Functionality
     ClickText                 SITEST-3
     Sleep                     2s                      
 
-
-    # ADD GUEST EDITOR FLOW
+*** Test Cases ***
+2. ADD GUEST EDITOR FLOW
     ClickText                 Add Guest Editor
     Sleep                     2s
     UseModal                  On
@@ -81,8 +81,8 @@ Special Issue Functionality
     UseModal                  Off
     Sleep                     2s
 
-    
-     # SI DELETION CODE
+*** Test Cases ***    
+3. SI DELETION CODE
     LaunchApp                 Invited Content
     SLeep                     2s
     ClickText                 Select a List View: Invited Content
