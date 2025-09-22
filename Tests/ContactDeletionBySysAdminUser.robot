@@ -169,3 +169,5 @@ Contact Delete Button Permission
     Sleep                     2s
     VerifyText                New Note
     Sleep                     2s
+    
+    ClickText                 Log out as Susanne Steiginga
