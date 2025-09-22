@@ -74,6 +74,8 @@ EMR component permissions: Review & Action tab visibility
     Sleep                     2s
     VerifyText                Review & Action
     Sleep                     2s
+    
+    ClickText                 Log out as Test CAS
 
 
 
