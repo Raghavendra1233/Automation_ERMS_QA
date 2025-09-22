@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 Contact Delete Button Permission
-    # 1. **Block an Admin user from deleting an editor contact with active relationships**
+1. Block an Admin user from deleting an editor contact with active relationships
      [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contacts
