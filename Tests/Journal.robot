@@ -142,6 +142,8 @@ Add new Journal Mailbox field to the Journal record
     Sleep                     2s
     ScrollTo                  Journal Mailbox 
     Sleep                     2s
+    
+    ClickText                 Log out as Susanne Steiginga
 
 
 *** Test Cases ***
@@ -209,6 +211,8 @@ Only Admin and API user should be able to update Publisher/Publishing Director/J
     Sleep                     1s
     VerifyText                Marketing Manager
     Sleep                     1s
+
+    ClickText                 Log out as Susanne Steiginga
 
 
 *** Test Cases ***
