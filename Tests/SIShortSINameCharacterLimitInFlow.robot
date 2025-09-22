@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-The character limit of the Short Special issue Name should be set to 60 characters max in the Create SI flow
+1. The character limit of the Short Special issue Name should be set to 60 characters max in the Create SI flow
     [tags]                    Sources
     Appstate                  Home
     
