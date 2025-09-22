@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases **
-SocHyb - Conditional visibility of 'Preview and submit approvals' button
+1. SocHyb - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -39,7 +39,7 @@ SocHyb - Conditional visibility of 'Preview and submit approvals' button
 
 
 *** Test Cases ***
-SocHyb- Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
+2. SocHyb- Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     [tags]                    Sources
     Appstate                  Home
 
@@ -82,7 +82,7 @@ SocHyb- Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
 
 
 *** Test Cases ***
-SocHyb- Page layout: make "Generate Agreement" button visible
+3. SocHyb- Page layout: make "Generate Agreement" button visible
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -106,7 +106,7 @@ SocHyb- Page layout: make "Generate Agreement" button visible
 
 
 *** Test Cases ***
-SocHyb: Conditional Visibility of 'Generate Agreement' Button
+4. SocHyb: Conditional Visibility of 'Generate Agreement' Button
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -155,7 +155,7 @@ SocHyb: Conditional Visibility of 'Generate Agreement' Button
 
 
 *** Test Cases ***
-Replace Document approver for Society Contracts
+5. Replace Document approver for Society Contracts
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
