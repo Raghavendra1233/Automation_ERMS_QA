@@ -9,7 +9,8 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Modify report type
+Reports
+1. Modify report type
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Reports
@@ -41,7 +42,7 @@ Modify report type
 
 
 *** Test Cases ***
-Editor Contract Agreements Created YTD Report
+2. Editor Contract Agreements Created YTD Report
     [tags]                    Sources
     Sleep                     3s
     Appstate                  Home
