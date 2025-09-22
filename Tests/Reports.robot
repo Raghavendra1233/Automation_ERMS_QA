@@ -95,4 +95,6 @@ Editor Contract Agreements Created YTD Report
     VerifyText                Publishing Assistant Editorial C & P
     Sleep                     3s
 
+    ClickText                 Log out as Iris Dortland
+
 

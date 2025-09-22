@@ -98,6 +98,8 @@ New template to support roll out of the Check Integrity tool
     ClickText                 Send
     Sleep                     3s
 
+    ClickText                 Log out as Linda Brooks
+
 
 *** Test Cases ***
 Display the Saved Email component to additional profiles/permission sets
@@ -163,6 +165,8 @@ Display the Saved Email component to additional profiles/permission sets
     VerifyText                This table will display email statistics once emails have been sent. You will see data on the number of emails prepared, how many emails were actually sent and when, as well as the number of emails which resulted in an error.
     Sleep                     3s
 
+    ClickText                 Log out as Test CAS
+
 
 *** Test Cases ***
 Populate PAC name in signature of RFI email
@@ -209,6 +213,8 @@ Populate PAC name in signature of RFI email
     Sleep                     2s
     ClickText                 Send
     Sleep                     3s
+    
+    ClickText                 Log out as Linda Brooks
 
 *** Test Cases ***
 Populate PAC name in signature of RFI reminder email
@@ -255,6 +261,8 @@ Populate PAC name in signature of RFI reminder email
     Sleep                     2s
     ClickText                 Send
     Sleep                     3s
+
+    ClickText                 Log out as Linda Brooks
 
 *** Test Cases ***
 Template version 1 for Ethics related campaign - B1

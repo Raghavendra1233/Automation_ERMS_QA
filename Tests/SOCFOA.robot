@@ -131,6 +131,8 @@ SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     verifyText                View Redline
     Sleep                     1s
 
+    ClickText                 Log out as Susanne Steiginga
+
 
 *** Test Cases ***
 SocFOA: Conditional Visibility of 'Generate Agreement' Button
@@ -340,7 +342,7 @@ Send with Conga Sign button not available for contracts with value 7-15M
     Sleep                     2s
     VerifyText                Ready For Signature
     Sleep                     2s
-    ScrollTo                Total Contract Value Range
+    ScrollTo                  Total Contract Value Range
     Sleep                     2s
     VerifyText                $7 - $15 Million
     Sleep                     2s
