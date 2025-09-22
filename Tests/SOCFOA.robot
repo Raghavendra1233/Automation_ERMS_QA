@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Visibility of Renew button on Society OA contract agreement page
+1. Visibility of Renew button on Society OA contract agreement page
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -34,7 +34,7 @@ Visibility of Renew button on Society OA contract agreement page
 
 
 *** Test Cases ***
-SocFOA - Conditional visibility of 'Preview and submit approvals' button
+2. SocFOA - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -62,7 +62,7 @@ SocFOA - Conditional visibility of 'Preview and submit approvals' button
 
 
 *** Test Cases ***
-SOCFOA- Page layout: make "Generate Agreement" button visible
+3. SOCFOA- Page layout: make "Generate Agreement" button visible
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -91,7 +91,7 @@ SOCFOA- Page layout: make "Generate Agreement" button visible
 
 
 *** Test Cases ***
-SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
+4. SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     [tags]                    Sources
     Appstate                  Home
 
@@ -135,7 +135,7 @@ SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
 
 
 *** Test Cases ***
-SocFOA: Conditional Visibility of 'Generate Agreement' Button
+5. SocFOA: Conditional Visibility of 'Generate Agreement' Button
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -188,7 +188,7 @@ SocFOA: Conditional Visibility of 'Generate Agreement' Button
 
 
 *** Test Cases ***
-'Generate Document' button should not display
+6. 'Generate Document' button should not display
     [tags]                    Sources
     Sleep                     4s
     Appstate                  Home
@@ -227,7 +227,7 @@ SocFOA: Conditional Visibility of 'Generate Agreement' Button
 
 
 *** Test Cases ***
-Display 'Owner' on SOCFOA agreements
+7. Display 'Owner' on SOCFOA agreements
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -252,7 +252,7 @@ Display 'Owner' on SOCFOA agreements
 
 
 *** Test Cases ***
-Send with Conga Sign button not available for contracts with value 7-15M
+8. Send with Conga Sign button not available for contracts with value 7-15M
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
@@ -394,7 +394,7 @@ Send with Conga Sign button not available for contracts with value 7-15M
 
 
 *** Test Cases ***
-Replace Document approver for Society Contracts
+9. Replace Document approver for Society Contracts
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
