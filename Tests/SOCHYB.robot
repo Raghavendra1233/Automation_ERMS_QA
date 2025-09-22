@@ -78,6 +78,8 @@ SocHyb- Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     VerifyText                My Approvals
     Sleep                     1s
 
+    ClickText                 Log out as Susanne Steiginga
+
 
 *** Test Cases ***
 SocHyb- Page layout: make "Generate Agreement" button visible
