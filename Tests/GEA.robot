@@ -9,8 +9,8 @@ Suite Teardown                End suite
 
 
 
-*** Test Cases **
-GEA - Conditional visibility of 'Preview and submit approvals' button
+*** Test Cases ***
+1. GEA - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
