@@ -8,7 +8,6 @@ Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
 *** Test Cases ***
-Contact Web user id field visibility
 1. Make the webuser id field visible on the Editor Contact record page layout only for SysAdmin User with Edit access(Not for Publisher user)
     [tags]                    Sources
     Appstate                  Home
