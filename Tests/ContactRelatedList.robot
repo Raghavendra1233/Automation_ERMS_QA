@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Contact Related List
 1. Contract Agreements Related List not available on contact record
     [tags]                    Sources
     Appstate                  Home
