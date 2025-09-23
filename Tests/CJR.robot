@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Contact Journal Relation
 1. CJR Creation
     [tags]                    Sources
     Appstate                  Home

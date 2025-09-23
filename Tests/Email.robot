@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-EMAIL OBJECT 
 1. Email campaign template to engage Editorial Board members
     [tags]                    Sources
     Appstate                  Home
