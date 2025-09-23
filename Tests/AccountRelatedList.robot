@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Account Related List
 1. Contract Agreements related list to be visible on Society Account record
     [tags]                    Sources
     Appstate                  Home
