@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 
-*** Test Cases **
+*** Test Cases ***
 1. SocHyb - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
     Appstate                  Home
