@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-Reports
 1. Modify report type
     [tags]                    Sources
     Appstate                  Home
