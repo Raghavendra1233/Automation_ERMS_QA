@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-CHINASOC
 1. Visibility of Renew button on Society Hybrid contract agreement page
     [tags]                    Sources
     Appstate                  Home
