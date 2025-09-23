@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-LET INTERVIEW FLOW
 1. CJR Creation and LET Interview Flow 
     [tags]                    Sources
     Appstate                  Home
