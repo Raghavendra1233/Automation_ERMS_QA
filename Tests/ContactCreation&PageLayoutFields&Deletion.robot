@@ -9,7 +9,6 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-CONTACT OBJECT
 1. CONTACT CREATION  
     [tags]                    Sources
     Appstate                  Home
