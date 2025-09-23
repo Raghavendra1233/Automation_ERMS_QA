@@ -17,7 +17,7 @@ Suite Teardown                End suite
 
     ClickText                 Select a List View: Contacts
     Sleep                     2s
-    ClickText                 Editors
+    ClickText                 Network Record
     Sleep                     2s
     VerifyText                New
     Sleep                     2s 
