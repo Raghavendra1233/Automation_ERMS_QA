@@ -348,10 +348,10 @@ Suite Teardown                End suite
     VerifyText                View Redline
     Sleep                     1s
     ClickText                 View Redline
-    Sleep                     10s
+    Sleep                     20s
 
     VerifyText                Open in Word
-    Sleep                     20s
+    Sleep                     30s
     VerifyText                Negotiate
     Sleep                     2s
     VerifyText                True-Up
