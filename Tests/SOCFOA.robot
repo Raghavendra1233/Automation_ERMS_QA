@@ -179,7 +179,7 @@ Suite Teardown                End suite
     VerifyText                File Delete
     Sleep                     2s
     ClickText                 Show more actions
-    Sleep                     2s
+    Sleep                     20s
     verifyText                View Redline
     Sleep                     3s
     VerifyText                My Approvals
