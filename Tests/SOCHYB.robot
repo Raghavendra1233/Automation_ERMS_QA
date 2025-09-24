@@ -146,7 +146,7 @@ Suite Teardown                End suite
     VerifyText                File Delete
     Sleep                     1s
     ClickText                 Show more actions
-    Sleep                     1s
+    Sleep                     10s
     verifyText                View Redline
     Sleep                     1s
     VerifyText                My Approvals
