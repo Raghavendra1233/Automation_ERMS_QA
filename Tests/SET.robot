@@ -150,7 +150,7 @@ Suite Teardown                End suite
     Sleep                     10s
     ClickText                 Finish                        anchor=Previous
     Sleep                     20s
-1. Generate Document button visibility-SET
+2. Generate Document button visibility-SET
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
