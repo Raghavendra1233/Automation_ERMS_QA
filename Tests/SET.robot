@@ -9,6 +9,106 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
+
+1. CJR Creation and SET Interview Flow 
+    [tags]                    Sources
+    Appstate                  Home
+    LaunchApp                 Contact Journal Relations 
+    Sleep                     2s
+    VerifyText                New
+    Sleep                     2s
+    ClickText                 New
+    Sleep                     10s
+    UseModal                  On
+    Sleep                     2s
+    ClickText                 Next
+    Sleep                     2s
+    ComboBox                  Search Contacts...    Georgina Joyce
+    Sleep                     2s
+    PickList                  Role    Accepting Editor
+    Sleep                     2s
+    ComboBox                  Search Journals...    JrlTest
+    Sleep                     2s
+    PickList                  Classifications    2
+    Sleep                     2s
+    ClickText                 Select a date for Start Date
+    Sleep                     2s
+    ClickText                 Today
+    Sleep                     2s
+    ClickText                 Save    partial_match=False
+    Sleep                     2s
+    UseModal                  Off
+    Sleep                     10s
+    
+    VerifyText                Short Editor Contract
+    Sleep                     2s
+    VerifyText                Begin              anchor=Short Editor Contract
+    Sleep                     2s
+    ClickText                 Begin              anchor=Short Editor Contract
+    Verify Text               Editor and Journal Details
+    Sleep                     2s
+    VerifyText                In this section please confirm the editor, journal, and high-level agreement details.
+    Sleep                     2s
+    VerifyText                If the information in this section is incorrect, or incomplete, please return to the onboarding process
+    Sleep                     2s
+    VerifyText                Contact Name:
+    Sleep                     2s
+    VerifyText                Role:
+    Sleep                     2s
+    VerifyText                Affiliation:
+    Sleep                     2s
+    VerifyText                Address:
+    Sleep                     2s
+    VerifyText                Editor in UK:
+    Sleep                     2s
+    VerifyText                Journal Name: 
+    Sleep                     2s
+    VerifyText                Acronym: 
+    Sleep                     2s
+    VerifyText                EPH Legal Ownership:
+    Sleep                     2s
+    VerifyText                EPH Ownership Description:
+    Sleep                     2s
+    VerifyText                Legal Entity:
+    Sleep                     2s
+    VerifyText                Date of editor's first term:
+    Sleep                     2s
+    ScrollTo                  *Contract Start Date
+    Sleep                     2s
+    ClickText                 Select a date for    anchor=Contract Start Date
+    Sleep                     1s
+    VerifyText                Today
+    Sleep                     1s
+    ClickText                 Today
+    Sleep                     1s
+    ClickText                 Next
+    Sleep                     10s
+    
+    ClickText                 Help    anchor=Is this for an Economics Editor who receives payment on a per manuscript basis?
+    Sleep                     2s
+    VerifyText                This is only applicable for Economics Journals with Submission Fees, please leave unchecked if this is not the case for your journal
+    Sleep                     2s
+    VerifyText                This is only applicable for Economics Journals with Submission Fees, please leave unchecked if this is not the case for your journal
+    Sleep                     2s
+    ClickText                 Close
+    Sleep                     2s
+    ClickText                 Help    anchor=Besides the Editor-in-Chief, will the Editor be coordinating with anyone else?
+    Sleep                     2s
+    ClickText                 Close
+    Sleep                     2s
+    VerifyText                Next
+    ClickText                 Next
+    Sleep                     2s
+
+    ClickText                 Help    anchor=During the term of this Agreement, will the Publisher cover expenses?    partial_match=False
+    Sleep                     2s
+    VerifyText                Expenses should not be offered proactively to an Editor as a standard clause but should only be agreed as part of the overall negotiations
+    Sleep                     2s
+    ClickText                 Close
+    Sleep                     2s
+    VerifyCheckbox            Will the Editor be paid Honorarium?
+
+
 1. Generate Document button visibility-SET
     [tags]                    Sources
     Appstate                  Home
