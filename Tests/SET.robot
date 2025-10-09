@@ -136,8 +136,20 @@ Suite Teardown                End suite
     ClickText                 Next
     Sleep                     2s
     
-
-
+    VerifyText                Please ensure the Publisher selected as the signatory for this contract is employed by Elsevier Inc.
+    Sleep                     2s
+    VerifyText                Please pick a signatory for this contract
+    Sleep                     2s
+    DropDown                  Please pick a signatory for this contract    Georgina Joyce
+    Sleep                     2s
+    VerifyText                Please pick a signatory for this contract
+    Sleep                     2s
+    VerifyText                Next
+    Sleep                     2s
+    ClickText                 Next
+    Sleep                     10s
+    ClickText                 Finish                        anchor=Previous
+    Sleep                     20s
 1. Generate Document button visibility-SET
     [tags]                    Sources
     Appstate                  Home
