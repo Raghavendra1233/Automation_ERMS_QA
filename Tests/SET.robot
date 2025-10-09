@@ -105,8 +105,37 @@ Suite Teardown                End suite
     VerifyText                Expenses should not be offered proactively to an Editor as a standard clause but should only be agreed as part of the overall negotiations
     Sleep                     2s
     ClickText                 Close
+    Sleep                     2s  
+    ClickCheckbox             Will the Editor be paid Honorarium?    off
     Sleep                     2s
-    VerifyCheckbox            Will the Editor be paid Honorarium?
+    ClickCheckbox             Will the Editor be paid Honorarium?    on
+    Sleep                     2s
+    VerifyText                In which currency will the Editor be paid?
+    Sleep                     2s
+    DropDown                  In which currency will the Editor be paid?    EUR - Euro
+    Sleep                     2s
+    TypeText                  How much is the Editor’s Honorarium?    1234
+    Sleep                     2s
+    DropDown                  In what installments will you pay the honorarium?    Annual
+    Sleep                     2s
+    VerifyText                Please select the months in which the honorarium payments will be made
+    ClickCheckbox             January    on
+    Sleep                     2s
+    ClickText                 Next
+    Sleep                     2s
+
+    VerifyText                For more information about termination issues please see Termination Issues in Journal Editor Agreements
+    Sleep                     2s
+    ClickText                 Next
+    Sleep                     2s
+
+    ClickCheckbox             Are the Aims and Scope set forth in the Annex?    on
+    Sleep                     2s
+    TypeText                  Include Aims & Scope in the text box below (copy information from journal home page)    QA Testing
+    Sleep                     2s
+    ClickText                 Next
+    Sleep                     2s
+    
 
 
 1. Generate Document button visibility-SET
