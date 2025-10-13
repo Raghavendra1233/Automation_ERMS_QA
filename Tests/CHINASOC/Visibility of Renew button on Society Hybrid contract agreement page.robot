@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-1. Visibility of Renew button on Society Hybrid contract agreement page
+1. Visibility of Renew button on ChinaSOC agreement page
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
