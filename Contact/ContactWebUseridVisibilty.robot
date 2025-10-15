@@ -24,6 +24,8 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Test Editor Contact
     Sleep                     2s
+    ClickText                 Details
+    Sleep                     2s
     VerifyText                Contact Record Type
     Sleep                     2s
     ClickText                 Details
