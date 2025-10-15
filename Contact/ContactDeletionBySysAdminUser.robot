@@ -142,6 +142,7 @@ Suite Teardown                End suite
     ClickText                 User
     TypeText                  Search Setup    Susanne Steiginga
     ClickText                 Susanne Steiginga
+    ClickText                 Susanne Steiginga
     Sleep                     2s
     VerifyText                Login
     ClickText                 Login
