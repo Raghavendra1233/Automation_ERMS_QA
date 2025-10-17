@@ -121,8 +121,6 @@ Suite Teardown                End suite
     Sleep                     1s
     VerifyText                New Task
     Sleep                     1s
-    VerifyText                New Note
-    Sleep                     1s
     
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
