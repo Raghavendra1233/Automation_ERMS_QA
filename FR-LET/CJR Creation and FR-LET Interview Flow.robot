@@ -27,7 +27,7 @@ CJR Creation and FR-LET Interview Flow
     Sleep                     2s
     PickList                  Role    Accepting Editor
     Sleep                     2s
-    ComboBox                  Search Journals...    JrlTest
+    ComboBox                  Search Journals...    JFNCR04
     Sleep                     2s
     PickList                  Classifications    2
     Sleep                     2s
