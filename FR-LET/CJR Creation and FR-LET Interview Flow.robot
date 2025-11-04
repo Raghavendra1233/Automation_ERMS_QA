@@ -141,10 +141,6 @@ CJR Creation and FR-LET Interview Flow
     Sleep                     2s
     TypeText                  Combien de semaines au total pour le processus d'approbation et de gestion par le Rédacteur et le Comité de rédaction ?    2
     Sleep                     2s
-    ClickCheckbox             Souhaitez-vous inclure une clause pour que le Rédacteur réponde aux Sondages de Rétroaction des Rédacteurs ?    on
-    Sleep                     2s
-    ClickCheckbox             Souhaitez-vous inclure une clause obligeant le Rédacteur à collaborer avec l'Editeur pour obtenir la cession des droits d'auteur ?    on
-    Sleep                     2s
     ClickText                 Next
     Sleep                     2s
 
