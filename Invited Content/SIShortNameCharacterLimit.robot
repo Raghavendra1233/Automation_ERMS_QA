@@ -2,14 +2,15 @@
 # before running this suite.
 
 *** Settings ***
-Library                        QForce
-Library                        QWeb
+Library    QForce
 Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+
 *** Test Cases ***
-1. The character limit of the Short Special issue Name on the SI record should be set to 60 characters max
+
+The character limit of the Short Special issue Name on the SI record should be set to 60 characters max
     [tags]                    Sources
     Appstate                  Home
     
