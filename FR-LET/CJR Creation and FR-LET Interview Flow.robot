@@ -98,8 +98,6 @@ CJR Creation and FR-LET Interview Flow
     Sleep                     2s
     VerifyText                1) Si dans le cadre de ce contrat, le rédacteur en chef en partage son rôle avec d'autres corédacteurs, par exemple lorsqu'il y a deux corédacteurs en chef pour cette revue, vous pouvez énumérer les responsabilités de chaque corédacteur en chef afin de bien distinguer ou séparer leurs responsabilités ; 
     Sleep                     2s
-    ClickCheckbox             Souhaitez-vous décrire en Annexe 1.5/1.6/1.7 les responsabilités du Rédacteurs de cette Revue?    on
-    Sleep                     2s
     ClickCheckbox             Souhaitez-vous décrire en Annexe 1.5/1.6/1.7 les responsabilités des autres Rédacteurs de cette Revue?    on
     Sleep                     2s
     TypeText                  Annexe 1.5/1.6/1.7    QA TESTING-1
