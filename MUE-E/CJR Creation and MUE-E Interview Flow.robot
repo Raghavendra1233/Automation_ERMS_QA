@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-FR-LET Interview Flow and page layouy fields
+MUE-E Interview Flow and page layouy fields
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
