@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 7. Line breaks in biography field in Journal
     [tags]                    Sources
     Appstate                  Home
