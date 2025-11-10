@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 4. Add new Journal Mailbox field to the Journal record
     [tags]                    Sources
     Appstate                  Home
