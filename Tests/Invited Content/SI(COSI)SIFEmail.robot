@@ -9,14 +9,13 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-COSI SIF Functionality
+COSI SIF Functionality (Updates the stage to Special Issue Configuration then SIF email should be sent to the email address in the Journal mailbox field associated with the record)
     [tags]                    Sources
     Sleep                     3s
     Appstate                  Home
     Sleep                     3s
     LaunchApp                 Invited Content
 
-1. updates the stage to Special Issue Configuration then SIF email should be sent to the email address in the Journal mailbox field associated with the record
     ClickText                 Setup
     Sleep                     1s
     ClickText                 Opens in a new tab
