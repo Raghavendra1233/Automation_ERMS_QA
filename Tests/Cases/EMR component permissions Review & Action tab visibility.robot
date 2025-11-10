@@ -8,6 +8,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 2. EMR component permissions: Review & Action tab visibility
     [tags]                    Sources
     Appstate                  Home
