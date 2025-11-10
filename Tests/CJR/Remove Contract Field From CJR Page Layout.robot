@@ -8,6 +8,7 @@ Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
 
+*** Test Cases ***
 3. Remove Contract Field From CJR Page Layout
     [tags]                    Sources
     Appstate                  Home
