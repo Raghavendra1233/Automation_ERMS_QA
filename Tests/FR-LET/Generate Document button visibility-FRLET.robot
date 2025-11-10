@@ -9,7 +9,7 @@ Suite Teardown                End suite
 
 
 *** Test Cases ***
-1. Generate Document button visibility-FRLET
+2. Generate Document button visibility-FRLET
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contract Agreements
