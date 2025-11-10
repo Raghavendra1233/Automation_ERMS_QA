@@ -62,9 +62,13 @@ CJR Creation and FR-LET Interview Flow
     VerifyText                Nom de la Revue: 
     Sleep                     2s
     VerifyText                Nom de la Revue: 
+    Sleep                     2s
     VerifyText                Acronyme: 
+    Sleep                     2s
     VerifyText                Propriété de la revue: 
+    Sleep                     2s
     VerifyText                Description de la propriété du journal: 
+    Sleep                     2s
     ScrollTo                  *Date de début du contrat
     Sleep                     2s
     ClickText                 Select a date for    anchor=Date de début du contrat
