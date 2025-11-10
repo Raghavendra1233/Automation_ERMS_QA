@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 8. Updated Editorial Board member Invitation letter
     [tags]                    Sources
     Appstate                  Home
