@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 3. Currency field is mandatory on LET Interview flow
     [tags]                    Sources
     Appstate                  Home
