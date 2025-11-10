@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 5. SocFOA: Conditional Visibility of 'Generate Agreement' Button
     [tags]                    Sources
     Appstate                  Home

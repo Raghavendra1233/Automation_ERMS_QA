@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 5. Contract Agreements List view on Journal record page
     [tags]                    Sources
     Appstate                  Home

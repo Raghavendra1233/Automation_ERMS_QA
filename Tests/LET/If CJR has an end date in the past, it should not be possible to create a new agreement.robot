@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 6. If CJR has an end date in the past, it should not be possible to create a new agreement (or renew an existing one)
     [tags]                    Sources
     Appstate                  Home

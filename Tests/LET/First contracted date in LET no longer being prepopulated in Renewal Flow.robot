@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 4. First contracted date in LET no longer being prepopulated in Renewal Flow
     [tags]                    Sources
     Appstate                  Home

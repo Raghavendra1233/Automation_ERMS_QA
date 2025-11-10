@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 2. SocHyb- Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     [tags]                    Sources
     Appstate                  Home

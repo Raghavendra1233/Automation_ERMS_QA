@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 6. 'Generate Document' button should not display
     [tags]                    Sources
     Sleep                     4s

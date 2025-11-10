@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 2. Hide approval request status on contract agreement page layout
     [tags]                    Sources
     Appstate                  Home

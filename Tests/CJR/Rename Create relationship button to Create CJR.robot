@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 2. Rename Create relationship button to Create CJR
     [tags]                    Sources
     Appstate                  Home

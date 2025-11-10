@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 5. Populate PAC name in signature of RFI reminder email
     [tags]                    Sources
     Appstate                  Home

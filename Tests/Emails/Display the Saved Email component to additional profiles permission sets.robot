@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 3. Display the Saved Email component to additional profiles/permission sets
     [tags]                    Sources
     Appstate                  Home

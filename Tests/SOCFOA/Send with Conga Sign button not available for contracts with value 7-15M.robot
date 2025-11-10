@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 8. Send with Conga Sign button not available for contracts with value 7-15M
     [tags]                    Sources
     Appstate                  Home

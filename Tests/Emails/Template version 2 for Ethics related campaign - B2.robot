@@ -7,6 +7,8 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+
+*** Test Cases ***
 7. Template version 2 for Ethics related campaign - B2
     [tags]                    Sources
     Appstate                  Home

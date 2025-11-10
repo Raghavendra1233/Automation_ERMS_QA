@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 2. Remove EPH legal Owner field from journal Page Layout
     [tags]                    Sources
     Appstate                  Home

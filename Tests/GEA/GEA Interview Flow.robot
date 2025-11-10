@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-CJR Creation and GEA Interview Flow 
+2. CJR Creation and GEA Interview Flow 
     [tags]                    Sources
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 

@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 2. New template to support roll out of the Check Integrity tool
     [tags]                    Sources
     Appstate                  Home

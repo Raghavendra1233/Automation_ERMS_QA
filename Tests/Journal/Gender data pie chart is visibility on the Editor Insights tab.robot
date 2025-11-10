@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 8. Gender data pie chart is visibility on the Editor Insights tab
     [tags]                    Sources
     Appstate                  Home

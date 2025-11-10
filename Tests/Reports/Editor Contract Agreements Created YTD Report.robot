@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 2. Editor Contract Agreements Created YTD Report
     [tags]                    Sources
     Sleep                     3s
