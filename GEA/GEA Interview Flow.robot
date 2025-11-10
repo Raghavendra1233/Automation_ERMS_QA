@@ -39,3 +39,18 @@ CJR Creation and GEA Interview Flow
     Sleep                     2s
     UseModal                  Off
     Sleep                     10s
+
+
+    VerifyText                Guest Editor Contract
+    Sleep                     2s
+    VerifyText                Begin              anchor=Guest Editor Contract
+    Sleep                     2s
+    ClickText                 Begin              anchor=Guest Editor Contract
+    Sleep                     2s
+    
+    VerifyText                In this section please confirm the editor, journal, and high-level agreement details.
+    VerifyText                If the information in this section is incorrect, or incomplete, please return to the onboarding process
+    VerifyText                *What type of Guest Editor agreement is this?
+    DropDown                  What type of Guest Editor agreement is this?    Supplement
+    VerifyText                *Please select the name of the Journal Editor who is overseeing the issue?
+    DropDown                  Please select the name of the Journal Editor who is overseeing the issue?    Clive Dennis
