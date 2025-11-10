@@ -7,6 +7,7 @@ Resource                      ../resources/common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
+*** Test Cases ***
 6. Only Admin and API user should be able to update Publisher/Publishing Director/Journal Manager/Marketing Communication Manager on a journal record
     [tags]                    Sources
     Appstate                  Home
