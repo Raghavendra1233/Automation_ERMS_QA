@@ -34,7 +34,11 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Email    anchor=Homepage Management
     Sleep                     2s
+    VerifyText                Show All
+    Sleep                     2s
     ClickText                 Show All
+    Sleep                     2s
+    VerifyText                Contact 2/21/25-1
     Sleep                     2s
     ClickCheckbox             Select Item 1    on    partial_match=False
     Sleep                     2s
