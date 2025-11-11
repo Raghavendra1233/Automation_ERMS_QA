@@ -17,7 +17,7 @@ Suite Teardown                End suite
 
     ClickText                 Select a List View: Contract Agreements
     Sleep                     1s
-    ClickText                 SET
+    ClickText                 All
     Sleep                     2s
     VerifyText                CON-049352
     Sleep                     1s
