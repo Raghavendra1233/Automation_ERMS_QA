@@ -21,6 +21,8 @@ Suite Teardown                End suite
     Sleep                     2s
     VerifyText                CON-049352
     Sleep                     1s
+    TypeText                  Search this list...    CON-049352\n
+    Sleep                     2s
     ClickText                 CON-049352
     Sleep                     1s
     VerifyNoText              Approval Request Status
