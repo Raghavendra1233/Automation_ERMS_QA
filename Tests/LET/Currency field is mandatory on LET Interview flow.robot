@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 3. Currency field is mandatory on LET Interview flow
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Contact Journal Relations
 
     ClickText                 Select a List View: Contact Journal Relations
