@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 10. Editor in UK field should populate if the editor is based in UK
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Contact Journal Relations
     
 
