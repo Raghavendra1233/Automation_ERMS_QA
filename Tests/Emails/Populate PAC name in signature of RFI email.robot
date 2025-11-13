@@ -40,7 +40,7 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Show All
     Sleep                     2s
-    ClickCheckbox             Select Item 1    on    partial_match=False
+    ClickCheckbox             Select Item 3    on    partial_match=False
     Sleep                     2s
     ClickText                 Next
     Sleep                     2s
