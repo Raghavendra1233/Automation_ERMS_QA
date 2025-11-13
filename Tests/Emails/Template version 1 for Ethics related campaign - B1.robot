@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 6. Template version 1 for Ethics related campaign - B1
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     
 
     LaunchApp                 Campaigns
