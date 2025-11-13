@@ -11,9 +11,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 3. Remove Contract Field From CJR Page Layout
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Contact Journal Relations
     
     ClickText                 Select a List View: Contact Journal Relations
