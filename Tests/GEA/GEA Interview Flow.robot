@@ -12,6 +12,8 @@ Suite Teardown                End suite
 
 2. CJR Creation and GEA Interview Flow 
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
     Sleep                     2s
