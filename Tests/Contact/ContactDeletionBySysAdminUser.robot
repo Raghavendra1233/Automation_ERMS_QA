@@ -9,10 +9,10 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 1. Block an Admin user from deleting an editor contact with active relationships
-     [tags]                    Sources
-     LaunchApp                 ERMS
-    Sleep                     10s
+    [tags]                    Sources
     Appstate                  Home
+    LaunchApp                 ERMS
+    Sleep                     10s
     LaunchApp                 Contacts
     
 
