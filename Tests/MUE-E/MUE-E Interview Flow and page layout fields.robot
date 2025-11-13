@@ -12,6 +12,8 @@ Suite Teardown                End suite
 
 MUE-E Interview Flow and page layout fields
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
     Sleep                     2s
