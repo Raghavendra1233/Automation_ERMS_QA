@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 8. Updated Editorial Board member Invitation letter
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Journals 
     
