@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 4. Populate PAC name in signature of RFI email
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     
     ClickText                 Setup
     Sleep                     3s

@@ -11,9 +11,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. User with CAS permissions should be able to edit the “Sponsor for Special Issue” field on the SI record
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     
     
     ClickText                 Setup

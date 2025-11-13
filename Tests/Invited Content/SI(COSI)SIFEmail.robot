@@ -11,10 +11,10 @@ Suite Teardown                End suite
 *** Test Cases ***
 COSI SIF Functionality (Updates the stage to Special Issue Configuration then SIF email should be sent to the email address in the Journal mailbox field associated with the record)
     [tags]                    Sources
-    LaunchApp                 ERMS
-    Sleep                     10s
     Sleep                     3s
     Appstate                  Home
+    LaunchApp                 ERMS
+    Sleep                     10s
     Sleep                     3s
     LaunchApp                 Invited Content
 

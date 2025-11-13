@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 4. SocFOA - Hide 'Clone' and 'Delete' buttons for none Admin /Super User users
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
 
     ClickText                 Setup
     Sleep                     1s

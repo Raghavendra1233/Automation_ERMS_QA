@@ -11,9 +11,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. ACCOUNT CREATION  
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Accounts
     
     ClickText                 Select a List View: Accounts

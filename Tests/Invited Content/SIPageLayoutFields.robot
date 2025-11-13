@@ -11,10 +11,10 @@ Suite Teardown                End suite
 *** Test Cases ***
 Special Issue Functionality
     [tags]                    Sources
-    LaunchApp                 ERMS
-    Sleep                     10s
     Sleep                     3s
     Appstate                  Home
+    LaunchApp                 ERMS
+    Sleep                     10s
     Sleep                     3s
     LaunchApp                 Invited Content
 

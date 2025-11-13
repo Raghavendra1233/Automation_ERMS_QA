@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 2. New template to support roll out of the Check Integrity tool
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     
     ClickText                 Setup
     Sleep                     3s
