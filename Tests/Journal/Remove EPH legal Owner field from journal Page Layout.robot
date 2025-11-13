@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 2. Remove EPH legal Owner field from journal Page Layout
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Journals
 
