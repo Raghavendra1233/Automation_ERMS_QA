@@ -11,9 +11,9 @@ Suite Teardown                End suite
 
 1. Make the "Potential competing interests info" field visible on the page layout of a SI record
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
 
     ClickText                 Setup
     Sleep                     1s
