@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 4. First contracted date in LET no longer being prepopulated in Renewal Flow
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contract Agreements
     Sleep                     1s

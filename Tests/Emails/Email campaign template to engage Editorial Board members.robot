@@ -11,6 +11,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. Email campaign template to engage Editorial Board members
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Campaigns
 

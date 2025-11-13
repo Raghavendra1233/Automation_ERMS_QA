@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 4. Add new Journal Mailbox field to the Journal record
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Journals
 

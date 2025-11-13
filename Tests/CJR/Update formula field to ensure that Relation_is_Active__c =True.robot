@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 4. Update formula field to ensure that Relation_is_Active__c =True if the CJR status equals "Display only"
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contact Journal Relations
 

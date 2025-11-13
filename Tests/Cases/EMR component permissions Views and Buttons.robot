@@ -11,6 +11,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. EMR component permissions: Views and Buttons
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Cases
 

@@ -11,6 +11,8 @@ Suite Teardown                End suite
 
 1. Display the "Item Group Code" field on the page layout of a CO SI record
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
 
     ClickText                 Setup

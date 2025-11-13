@@ -11,6 +11,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. Journals Operating Company Value Mapping
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Journals
 

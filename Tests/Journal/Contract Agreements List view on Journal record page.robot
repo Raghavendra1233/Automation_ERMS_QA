@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 5. Contract Agreements List view on Journal record page
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Journals 
 

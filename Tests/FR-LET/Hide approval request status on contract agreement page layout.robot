@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 2. Hide approval request status on contract agreement page layout
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contract Agreements
     Sleep                     4s

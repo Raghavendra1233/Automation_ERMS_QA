@@ -12,6 +12,8 @@ Suite Teardown                End suite
 
 The character limit of the Short Special issue Name on the SI record should be set to 60 characters max
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     
     ClickText                 Setup

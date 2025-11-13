@@ -11,6 +11,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. CJR Creation
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
     Sleep                     2s

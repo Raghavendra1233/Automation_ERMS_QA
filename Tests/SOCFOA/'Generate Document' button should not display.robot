@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 6. 'Generate Document' button should not display
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Sleep                     4s
     Appstate                  Home
     Sleep                     4s
