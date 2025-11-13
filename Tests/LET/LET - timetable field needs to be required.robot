@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 8. LET - timetable field needs to be required
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Contact Journal Relations
 
     ClickText                 Select a List View: Contact Journal Relations
