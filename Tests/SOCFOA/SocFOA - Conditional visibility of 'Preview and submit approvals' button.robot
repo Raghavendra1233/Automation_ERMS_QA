@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 2. SocFOA - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contract Agreements
     Sleep                     1s
