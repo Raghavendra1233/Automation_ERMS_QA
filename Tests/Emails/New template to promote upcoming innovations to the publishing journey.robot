@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 9. New template to promote upcoming innovations to the publishing journey
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Journals
 
     ClickText                 Select a List View: Journals
