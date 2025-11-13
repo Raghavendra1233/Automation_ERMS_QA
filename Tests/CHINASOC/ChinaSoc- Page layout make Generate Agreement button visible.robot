@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 3. ChinaSoc- Page layout: make "Generate Agreement" button visible
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Contract Agreements
     Sleep                     4s
     
