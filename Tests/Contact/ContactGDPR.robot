@@ -8,6 +8,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. Display contract data (if it exists) in the GDPR app for a SAR request
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contacts
     
