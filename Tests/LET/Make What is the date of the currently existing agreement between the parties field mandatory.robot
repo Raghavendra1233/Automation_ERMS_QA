@@ -10,6 +10,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 9. Make 'What is the date of the currently existing agreement between the parties?' field mandatory on LET renewal flow
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contract Agreements
     
