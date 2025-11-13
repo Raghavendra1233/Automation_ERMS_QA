@@ -11,9 +11,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 2. EMR component permissions: Review & Action tab visibility
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     
     ClickText                 Setup
     Sleep                     1s
