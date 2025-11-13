@@ -11,6 +11,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 COPROCEDIA SIF Functionality
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Sleep                     3s
     Appstate                  Home
     Sleep                     3s
