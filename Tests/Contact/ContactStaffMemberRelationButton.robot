@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. Replace Staff Member" button should only appear on Staff Contact records
      [tags]                    Sources
-     LaunchApp                 ERMS
-    Sleep                     10s
     Appstate                  Home
+    LaunchApp                 ERMS
+    Sleep                     10s
     
     ClickText                 Setup
     Sleep                     3s
