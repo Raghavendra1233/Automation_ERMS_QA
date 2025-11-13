@@ -12,6 +12,8 @@ Suite Teardown                End suite
 
 1. CJR Creation and FR-LET Interview Flow 
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contact Journal Relations 
     Sleep                     2s
