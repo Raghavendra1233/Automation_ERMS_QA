@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 2. Rename Create relationship button to Create CJR
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Cases
 
     VerifyText                00124241
