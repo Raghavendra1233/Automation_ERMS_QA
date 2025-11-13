@@ -11,6 +11,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. Hide the "Assigned To" Field from the Special Issue (SI) Record
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     
 
