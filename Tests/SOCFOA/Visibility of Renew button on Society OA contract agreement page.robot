@@ -11,6 +11,8 @@ Suite Teardown                End suite
 *** Test Cases ***
 1. Visibility of Renew button on Society OA contract agreement page
     [tags]                    Sources
+    LaunchApp                 ERMS
+    Sleep                     10s
     Appstate                  Home
     LaunchApp                 Contract Agreements
   
