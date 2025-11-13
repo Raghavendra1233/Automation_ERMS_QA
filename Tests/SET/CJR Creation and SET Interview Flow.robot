@@ -12,9 +12,9 @@ Suite Teardown                End suite
 
 1. CJR Creation and SET Interview Flow 
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Contact Journal Relations 
     Sleep                     2s
     VerifyText                New
