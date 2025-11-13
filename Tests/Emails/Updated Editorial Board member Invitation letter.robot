@@ -10,9 +10,9 @@ Suite Teardown                End suite
 *** Test Cases ***
 8. Updated Editorial Board member Invitation letter
     [tags]                    Sources
+    Appstate                  Home
     LaunchApp                 ERMS
     Sleep                     10s
-    Appstate                  Home
     LaunchApp                 Journals 
     
     VerifyText                JrlTest
