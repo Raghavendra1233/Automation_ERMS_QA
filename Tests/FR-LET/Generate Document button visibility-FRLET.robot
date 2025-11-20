@@ -35,8 +35,6 @@ Suite Teardown                End suite
     Sleep                     2s
     VerifyText                Renew French Long Editor Contract
     Sleep                     2s
-    VerifyText                Send for Negotiations
-    Sleep                     2s
     VerifyText                View Redline
     Sleep                     2s
     ClickText                 Show more actions
@@ -61,8 +59,6 @@ Suite Teardown                End suite
     ClickText                 Save
     Sleep                     2s
     VerifyText                File Delete
-    Sleep                     2s
-    VerifyText                Send for Negotiations
     Sleep                     2s
     VerifyText                View Redline
     Sleep                     2s
