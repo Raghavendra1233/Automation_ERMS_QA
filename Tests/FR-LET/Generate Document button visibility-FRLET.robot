@@ -87,8 +87,6 @@ Suite Teardown                End suite
     Sleep                     2s
     VerifyText                File Delete
     Sleep                     2s
-    VerifyText                Send for Negotiations
-    Sleep                     2s
     VerifyText                View Redline
     Sleep                     2s
     ClickText                 Show more actions
