@@ -80,6 +80,6 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Details
     Sleep                     2s
-    VerifyText                South Georgia and the South Sandwich Islands
+    VerifyText                South Georgia/South Sandwich Islands
     Sleep                     2s  
     
