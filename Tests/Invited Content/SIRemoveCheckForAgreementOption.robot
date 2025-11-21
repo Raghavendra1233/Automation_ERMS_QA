@@ -21,9 +21,9 @@ Suite Teardown                End suite
     Sleep                     1s
     ClickText                 All
     Sleep                     1s
-    TypeText                  Search this list...    SP-1\n
+    TypeText                  Search this list...    RT-1\n
     Sleep                     1s
-    ClickText                 SP-1
+    ClickText                 RT-1
     Sleep                     1s
     ClickText                 Edit Potential competing interests
     Sleep                     1s
