@@ -33,7 +33,6 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Next
     Sleep                     4s
-    
     ClickText                 Select Template    anchor=Email Templates
     Sleep                     4s
     ClickText                 Upcoming innovations to the publishing journey    anchor=Skip to Navigation
