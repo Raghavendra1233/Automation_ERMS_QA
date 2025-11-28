@@ -29,11 +29,14 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Show All
     Sleep                     2s
-    ClickCheckbox             Select Item 3    on    partial_match=False
+    ScrollTo                  Contact 2/21/25-1
+    Sleep                     2s
+    VerifyText                Contact 2/21/25-1
+    Sleep                     2s
+    ClickCheckbox             Select Item 2    on    partial_match=False 
     Sleep                     2s
     ClickText                 Next
     Sleep                     4s
-    
     ClickText                 Select Template    anchor=Email Templates
     Sleep                     4s
     ClickText                 Upcoming innovations to the publishing journey    anchor=Skip to Navigation
