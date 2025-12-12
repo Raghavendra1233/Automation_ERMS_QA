@@ -30,5 +30,5 @@ Suite Teardown                End suite
     Sleep                     3s
     VerifyText                Classifications
     Sleep                     3s
-    VerifyText                Start Date
+    VerifyText                Contact Journal Relation: Start Date
     Sleep                     3s
