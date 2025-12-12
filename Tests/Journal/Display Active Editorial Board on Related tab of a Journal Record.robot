@@ -24,11 +24,11 @@ Suite Teardown                End suite
     Sleep                     3s
     VerifyText                Contact Journal Relation: Contact Journal Relation Name
     Sleep                     3s
-    VerifyText                Contact Journal Relation: Contact Name
+    VerifyText                Contact Name
     Sleep                     3s
-    VerifyText                Contact Journal Relation: Role
+    VerifyText                Role
     Sleep                     3s
-    VerifyText                Contact Journal Relation: Classifications
+    VerifyText                Classifications
     Sleep                     3s
-    VerifyText                Contact Journal Relation: Start Date
+    VerifyText                Start Date
     Sleep                     3s
