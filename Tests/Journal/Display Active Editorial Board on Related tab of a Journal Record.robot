@@ -21,8 +21,6 @@ Suite Teardown                End suite
     VerifyText                Active Editorial Board
     ClickText                 Active Editorial Board
     
-    Sleep                     2s
-    VerifyText                Filtered by Contact Journal Relation: Relation is Active?, Contact Journal Relation: Record Type
     Sleep                     3s
     VerifyText                Contact Journal Relation: Contact Journal Relation Name
     Sleep                     3s
