@@ -29,6 +29,7 @@ Suite Teardown                End suite
     VerifyText                Login
     Sleep                     2s
     ClickText                 Login
+    ClickText                 Login
     Sleep                     1s
     LaunchApp                 Invited Content
     Sleep                     1s
