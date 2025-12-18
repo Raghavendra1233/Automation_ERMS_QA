@@ -31,7 +31,6 @@ Suite Teardown                End suite
     ClickText                 Login
     Sleep                     1s
     LaunchApp                 Cases
-
     ClickText                 Select a List View: Cases
     Sleep                     2s
     ClickText                 Editor Data Updates
