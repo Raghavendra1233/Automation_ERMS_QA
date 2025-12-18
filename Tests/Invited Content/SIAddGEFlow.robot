@@ -56,8 +56,7 @@ Special Issue Functionality
     ClickText                 SITEST-003
     Sleep                     2s                      
 
-*** Test Cases ***
-2. ADD GUEST EDITOR FLOW
+    VerifyText                Add Guest Editor
     ClickText                 Add Guest Editor
     Sleep                     2s
     UseModal                  On
@@ -83,9 +82,6 @@ Special Issue Functionality
     UseModal                  Off
     Sleep                     2s
 
-    
-*** Test Cases ***
-3. SI DELETION CODE
     LaunchApp                 Invited Content
     SLeep                     2s
     ClickText                 Select a List View: Invited Content
