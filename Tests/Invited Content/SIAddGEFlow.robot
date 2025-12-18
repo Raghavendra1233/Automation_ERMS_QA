@@ -130,7 +130,7 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All Contacts
     Sleep                     2s
-    TypeText                  Search this list...    First Last\n
+    TypeText                  Search this list...    First01 Last01\n
     Sleep                     2s
     ClickText                 Show Actions
     Sleep                     2s
