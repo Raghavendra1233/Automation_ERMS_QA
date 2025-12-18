@@ -56,19 +56,18 @@ Special Issue Functionality
     ClickText                 SITEST-003
     Sleep                     2s                      
 
-*** Test Cases ***
-2. ADD GUEST EDITOR FLOW
+    VerifyText                Add Guest Editor
     ClickText                 Add Guest Editor
     Sleep                     2s
     UseModal                  On
     Sleep                     2s
     ClickCheckbox             Existing Contact    off
     Sleep                     2s
-    TypeText                  First Name    First
+    TypeText                  First Name    First01
     Sleep                     2s
-    TypeText                  Last Name    last\n
+    TypeText                  Last Name    last01\n
     Sleep                     2s
-    TypeText                  Email    firstlast@gmail.com
+    TypeText                  Email    specialissue@gmail.com
     Sleep                     2s
     ComboBox                  Search Accounts...    3902Test
     Sleep                     2s
@@ -83,9 +82,6 @@ Special Issue Functionality
     UseModal                  Off
     Sleep                     2s
 
-    
-*** Test Cases ***
-3. SI DELETION CODE
     LaunchApp                 Invited Content
     SLeep                     2s
     ClickText                 Select a List View: Invited Content
@@ -134,7 +130,7 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All Contacts
     Sleep                     2s
-    TypeText                  Search this list...    First Last\n
+    TypeText                  Search this list...    First01 Last01\n
     Sleep                     2s
     ClickText                 Show Actions
     Sleep                     2s
