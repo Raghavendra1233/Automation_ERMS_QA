@@ -28,7 +28,6 @@ Suite Teardown                End suite
     VerifyText                Login
     Sleep                     2s
     ClickText                 Login
-    ClickText                 Login
     Sleep                     1s
     LaunchApp                 Cases
     ClickText                 Select a List View: Cases
