@@ -11,7 +11,6 @@ Suite Teardown                End suite
 7. Hide 'Save pdf' button on redline screen
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
 
