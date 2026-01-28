@@ -11,7 +11,6 @@ Suite Teardown                End suite
 6. If CJR has an end date in the past, it should not be possible to create a new agreement (or renew an existing one)
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     Sleep                     4s
