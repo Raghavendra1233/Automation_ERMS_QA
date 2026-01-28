@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. Contract Agreements Related List not available on contact record
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contacts
 
