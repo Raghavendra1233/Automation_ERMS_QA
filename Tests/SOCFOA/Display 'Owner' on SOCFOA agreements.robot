@@ -11,7 +11,6 @@ Suite Teardown                End suite
 7. Display 'Owner' on SOCFOA agreements
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     Sleep                     4s
