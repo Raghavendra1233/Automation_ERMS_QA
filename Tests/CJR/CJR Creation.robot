@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. CJR Creation
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contact Journal Relations 
     Sleep                     2s
