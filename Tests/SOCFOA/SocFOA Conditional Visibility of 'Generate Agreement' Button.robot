@@ -11,7 +11,6 @@ Suite Teardown                End suite
 5. SocFOA: Conditional Visibility of 'Generate Agreement' Button
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     Sleep                     4s
