@@ -13,7 +13,6 @@ Suite Teardown                End suite
 1. SocHyb - Conditional visibility of 'Preview and submit approvals' button
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     Sleep                     1s
