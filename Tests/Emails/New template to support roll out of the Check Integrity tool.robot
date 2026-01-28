@@ -11,7 +11,6 @@ Suite Teardown                End suite
 2. New template to support roll out of the Check Integrity tool
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     
     ClickText                 Setup
