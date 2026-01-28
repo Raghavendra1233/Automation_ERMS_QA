@@ -12,7 +12,7 @@ Suite Teardown                End suite
 1. CONTACT CREATION  
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
+
     Sleep                     10s
     LaunchApp                 Contacts
     
