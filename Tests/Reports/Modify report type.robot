@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. Modify report type
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Reports
 
