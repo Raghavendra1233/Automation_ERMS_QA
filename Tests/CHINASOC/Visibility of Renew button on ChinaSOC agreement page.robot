@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. Visibility of Renew button on ChinaSOC agreement page
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
   
