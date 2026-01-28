@@ -12,7 +12,6 @@ Suite Teardown                End suite
     [tags]                    Sources
     Sleep                     3s
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     Sleep                     3s
     LaunchApp                 Contract Agreements
