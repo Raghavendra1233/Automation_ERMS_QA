@@ -11,7 +11,6 @@ Suite Teardown                End suite
 8. Send with Conga Sign button not available for contracts with value 7-15M
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     
