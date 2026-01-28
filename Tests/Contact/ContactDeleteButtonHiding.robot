@@ -11,7 +11,6 @@ Suite Teardown                End suite
 1. Hide the "Delete" option on contact list view for all record & for all users
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contacts
 
