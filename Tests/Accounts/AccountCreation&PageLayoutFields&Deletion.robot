@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. ACCOUNT CREATION  
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Accounts
     
