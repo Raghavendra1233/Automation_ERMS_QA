@@ -11,7 +11,6 @@ Suite Teardown                End suite
 4. Add new Journal Mailbox field to the Journal record
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Journals
 
