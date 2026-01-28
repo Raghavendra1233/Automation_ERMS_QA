@@ -11,7 +11,6 @@ Suite Teardown                End suite
 3. Display the Saved Email component to additional profiles/permission sets
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
      
     ClickText                 Setup
