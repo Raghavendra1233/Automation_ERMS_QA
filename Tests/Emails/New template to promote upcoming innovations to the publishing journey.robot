@@ -11,7 +11,6 @@ Suite Teardown                End suite
 9. New template to promote upcoming innovations to the publishing journey
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Journals
 

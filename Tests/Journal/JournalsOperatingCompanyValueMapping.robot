@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. Journals Operating Company Value Mapping
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Journals
 

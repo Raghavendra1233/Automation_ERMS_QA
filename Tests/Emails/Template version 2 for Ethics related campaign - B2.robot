@@ -12,7 +12,6 @@ Suite Teardown                End suite
 7. Template version 2 for Ethics related campaign - B2
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     
 

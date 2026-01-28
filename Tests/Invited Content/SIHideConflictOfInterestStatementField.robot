@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. Hide "Conflict of Interest Statement" field from the page layout of the CSR
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
 
     ClickText                 Setup

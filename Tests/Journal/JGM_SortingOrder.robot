@@ -13,7 +13,6 @@ Suite Teardown                End suite
 JGM Sorting Order
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Journals
 

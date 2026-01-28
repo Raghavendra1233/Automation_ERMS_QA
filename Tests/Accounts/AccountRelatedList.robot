@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. Contract Agreements related list to be visible on Society Account record
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     
     LaunchApp                 Accounts

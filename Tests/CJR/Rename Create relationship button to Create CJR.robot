@@ -11,7 +11,6 @@ Suite Teardown                End suite
 2. Rename Create relationship button to Create CJR
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Cases
 

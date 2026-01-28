@@ -11,7 +11,6 @@ Suite Teardown                End suite
 5. 'Managed Clauseses' Typo on the Contract Agreement page layout
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     Sleep                     4s

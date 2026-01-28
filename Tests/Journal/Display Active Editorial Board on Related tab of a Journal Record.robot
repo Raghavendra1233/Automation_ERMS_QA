@@ -11,7 +11,6 @@ Suite Teardown                End suite
 9. Display Active Editorial Board on Related tab of a Journal Record
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Journals
    

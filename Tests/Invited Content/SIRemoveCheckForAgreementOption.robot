@@ -12,7 +12,6 @@ Suite Teardown                End suite
 1. Remove option 'Check for agreement' from potential competing interest field
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Invited Content
 

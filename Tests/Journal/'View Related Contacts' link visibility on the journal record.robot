@@ -11,7 +11,6 @@ Suite Teardown                End suite
 3. 'View Related Contacts' link visibility on the journal record
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Journals
 

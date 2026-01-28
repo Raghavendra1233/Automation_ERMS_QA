@@ -11,7 +11,6 @@ Suite Teardown                End suite
 2. Generate Document button visibility-SET
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     

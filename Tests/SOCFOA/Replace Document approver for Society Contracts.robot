@@ -11,7 +11,6 @@ Suite Teardown                End suite
 9. Replace Document approver for Society Contracts
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     Sleep                     4s  

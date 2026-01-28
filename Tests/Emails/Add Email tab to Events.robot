@@ -11,7 +11,6 @@ Suite Teardown                End suite
 10. Add Email tab to Events
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Elsevier Events
     

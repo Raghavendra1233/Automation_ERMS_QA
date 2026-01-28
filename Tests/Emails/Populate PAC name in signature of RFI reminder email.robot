@@ -11,7 +11,6 @@ Suite Teardown                End suite
 5. Populate PAC name in signature of RFI reminder email
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     
     

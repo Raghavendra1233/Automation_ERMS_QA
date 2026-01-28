@@ -11,7 +11,6 @@ Suite Teardown                End suite
 3. SOCFOA- Page layout: make "Generate Agreement" button visible
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Contract Agreements
     Sleep                     4s
