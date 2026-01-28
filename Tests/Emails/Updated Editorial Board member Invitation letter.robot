@@ -11,7 +11,6 @@ Suite Teardown                End suite
 8. Updated Editorial Board member Invitation letter
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Journals 
     
