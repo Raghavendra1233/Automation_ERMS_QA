@@ -11,7 +11,6 @@ Suite Teardown                End suite
 7. Line breaks in biography field in Journal
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
     LaunchApp                 Journals 
 
