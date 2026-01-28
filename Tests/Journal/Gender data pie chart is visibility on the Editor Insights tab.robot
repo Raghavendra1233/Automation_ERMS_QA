@@ -11,7 +11,6 @@ Suite Teardown                End suite
 8. Gender data pie chart is visibility on the Editor Insights tab
     [tags]                    Sources
     Appstate                  Home
-    LaunchApp                 ERMS
     Sleep                     10s
 
     LaunchApp                 Journals
