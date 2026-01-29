@@ -160,6 +160,7 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 New Editor TEST-1
     Sleep                     2s
+    ClickText                 Details
     VerifyText                Contact Record Type
     Sleep                     2s
     ClickText                 Details
