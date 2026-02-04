@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-LET Preview & Submit Approvals Workflow
+LET Generate Document Workflow
     [tags]                    Sources
     Appstate                  Home
     Sleep                     10s
