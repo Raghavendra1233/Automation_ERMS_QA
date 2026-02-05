@@ -85,15 +85,33 @@ LET Generate Document Workflow
     ClickText                Finish  
     ClickText                Cancel and close
     Sleep                    20s
-    
-    
+
 
     ClickText                Related
     Sleep                    3s
-    ClickItem                Contracts
-    Sleep                    3s
     ClickText                06
-    Sleep                    5s
+    Sleep                    3s
     VerifyText               CON-
     Sleep                    3s
     ClickText                CON-
+    
+    VerifyText               Contract Agreement Name
+    VerifyText               Owner
+    VerifyText               Customer Account
+    VerifyText               Contact
+    VerifyText               Status              
+    VerifyText               Agreement Type             
+    VerifyText               Type              
+    VerifyText               Contract            
+    VerifyText               Previous Contract Agreement
+    VerifyText               Exception
+    VerifyText               First Contracted Date
+    VerifyText               Amended               
+    VerifyText               Total Contract Value               
+    VerifyText               Total Contract Value (USD)              
+    VerifyText               Approval Status             
+    VerifyText               Signatory              
+    VerifyText               Currency            
+    VerifyText               Society                         
+    VerifyText               External Id             
+    VerifyText               Clause Generation Status                          
