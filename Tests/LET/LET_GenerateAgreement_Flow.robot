@@ -90,8 +90,6 @@ LET Generate Document Workflow
 
     ClickText                Related
     Sleep                    3s
-    ClickItem                Contracts
-    Sleep                    3s
     ClickText                06
     Sleep                    5s
     VerifyText               CON-
