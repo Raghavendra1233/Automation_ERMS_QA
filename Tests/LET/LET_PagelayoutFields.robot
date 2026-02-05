@@ -136,22 +136,22 @@ LET Generate Document Workflow
     VerifyText               Clause Generation Status
     Sleep                    2s    
 
-    ScrollTo                Include Request Changes To Aims & Scope 
-    Sleep                   2s     
-    VerifyText              Include who can appoint editorial board 
-    Sleep                   2s 
-    VerifyText              Who Appoints The Board 
-    Sleep                   2s            
-    VerifyText              Include Editor Responsibilities 
-    Sleep                   2s             
-    VerifyText              Include Other Editor Responsibilities
-    Sleep                   2s 
-    VerifyText              Who Appoints Board Alternative
-    Sleep                   2s 
-    VerifyText              Institution Requesting to be Party
-    Sleep                   2s 
-    VerifyText              Authorised Signatory
-    Sleep                   2s 
+    ScrollTo                 Include Request Changes To Aims & Scope 
+    Sleep                    2s     
+    VerifyText               Include who can appoint editorial board 
+    Sleep                    2s 
+    VerifyText               Who Appoints The Board 
+    Sleep                    2s            
+    VerifyText               Include Editor Responsibilities 
+    Sleep                    2s             
+    VerifyText               Include Other Editor Responsibilities
+    Sleep                    2s 
+    VerifyText               Who Appoints Board Alternative
+    Sleep                    2s 
+    VerifyText               Institution Requesting to be Party
+    Sleep                    2s 
+    VerifyText               Authorised Signatory
+    Sleep                    2s 
 
     VerifyText               Who has ultimate editorial responsibilit
     Sleep                    2s
@@ -207,16 +207,16 @@ LET Generate Document Workflow
     VerifyText               Claimed Expenses
     Sleep                    2s
 
-    ScrollTo                Maxiumum Terms
-    Sleep                   2s 
-    VerifyText              If Editor Leaves
-    Sleep                   2s
-    VerifyText              Aims and Scope
-    Sleep                   2s
-    VerifyText              Months Termination
-    Sleep                   2s              
-    VerifyText              Editor Notice 
-    Sleep                   2s
+    ScrollTo                 Maxiumum Terms
+    Sleep                    2s 
+    VerifyText               If Editor Leaves
+    Sleep                    2s
+    VerifyText               Aims and Scope
+    Sleep                    2s
+    VerifyText               Months Termination
+    Sleep                    2s              
+    VerifyText               Editor Notice 
+    Sleep                    2s
 
     VerifyText               Effective Date
     Sleep                    2s  
