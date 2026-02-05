@@ -82,8 +82,36 @@ LET Generate Document Workflow
     Sleep                    1s
     ClickText                Next
     Sleep                    1s
-    ClickText                Finish                        anchor=Previous
-    Sleep                    20s
+    ClickText                Finish  
+    ClickText                Cancel and close
+    
+
+    ClickText                Related
+    ClickText                Details
+    VerifyText               CON-
+    ClickText                CON-
+    VerifyText               Status
+    ClickText                Edit Status
+    PickList                 *Status    In Process
+    ClickText                Save
+    ClickText                Related
+    ClickText                Details
+    ClickFieldValue          Contract
+    ClickText                CON-
+    VerifyText               Clause Generation Status
+    ClickText                Edit Clause Generation Status
+    PickList                 Clause Generation Status    To Be Processed
+    ClickText                Save
+    VerifyText               Generate Agreement
+    ClickText                Generate Agreement
+    Sleep                    90s
+    VerifyText               Return to Contract Agreement
+    ClickText                Return to Contract Agreement
+    VerifyText               Status
+    VerifyText               Document Generated
+    
+
+
 
 
 
