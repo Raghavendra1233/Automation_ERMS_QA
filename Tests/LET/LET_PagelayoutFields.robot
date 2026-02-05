@@ -96,22 +96,42 @@ LET Generate Document Workflow
     ClickText                CON-
     
     VerifyText               Contract Agreement Name
+    Sleep                    2s
     VerifyText               Owner
+    Sleep                    2s
     VerifyText               Customer Account
+    Sleep                    2s
     VerifyText               Contact
-    VerifyText               Status              
-    VerifyText               Agreement Type             
-    VerifyText               Type              
-    VerifyText               Contract            
+    Sleep                    2s
+    VerifyText               Status 
+    Sleep                    2s             
+    VerifyText               Agreement Type  
+    Sleep                    2s           
+    VerifyText               Type  
+    Sleep                    2s            
+    VerifyText               Contract  
+    Sleep                    2s          
     VerifyText               Previous Contract Agreement
+    Sleep                    2s
     VerifyText               Exception
+    Sleep                    2s
     VerifyText               First Contracted Date
-    VerifyText               Amended               
-    VerifyText               Total Contract Value               
-    VerifyText               Total Contract Value (USD)              
-    VerifyText               Approval Status             
-    VerifyText               Signatory              
-    VerifyText               Currency            
-    VerifyText               Society                         
-    VerifyText               External Id             
-    VerifyText               Clause Generation Status                          
+    Sleep                    2s
+    VerifyText               Amended  
+    Sleep                    2s             
+    VerifyText               Total Contract Value 
+    Sleep                    2s              
+    VerifyText               Total Contract Value (USD) 
+    Sleep                    2s             
+    VerifyText               Approval Status  
+    Sleep                    2s           
+    VerifyText               Signatory  
+    Sleep                    2s            
+    VerifyText               Currency   
+    Sleep                    2s         
+    VerifyText               Society  
+    Sleep                    2s                       
+    VerifyText               External Id  
+    Sleep                    2s           
+    VerifyText               Clause Generation Status
+    Sleep                    2s                          
