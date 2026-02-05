@@ -26,7 +26,6 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Login
     Sleep                     1s
-    LaunchApp                 ERMS
     LaunchApp                 Cases
     ClickText                 Select a List View: Cases
     Sleep                     2s
