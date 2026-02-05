@@ -154,3 +154,88 @@ LET Generate Document Workflow
     Sleep                   2s 
 
     VerifyText               Who has ultimate editorial responsibilit
+    Sleep                    2s
+
+    VerifyText               Editorial Office
+    Sleep                    2s
+    VerifyText               Editorial Office Address 
+    Sleep                    2s
+    VerifyText               Describe Timetable 
+    Sleep                    2s              
+    VerifyText               Is Submission Fee Contract? 
+    Sleep                    2s
+    VerifyText               Production Schedule Editor Consulted
+    Sleep                    2s 
+    VerifyText               Editor's Obligations
+    Sleep                    2s
+    VerifyText               Refereeing Weeks
+    Sleep                    2s
+
+    ScrollTo                 Fixed fee for Editorial Office
+    Sleep                    2s 
+    VerifyText               Royalty payment
+    Sleep                    2s
+    VerifyText               Is the editor a US Government Employee?
+    Sleep                    2s
+    VerifyText               Valid exemption certificate
+    Sleep                    2s
+    VerifyText               SD and Scopus access
+    Sleep                    2s
+
+    VerifyText               Automatic Honorarium
+    Sleep                    2s
+    VerifyText               In what installments will you pay the ho
+    Sleep                    2s
+    VerifyText               Honorarium pro rata
+    Sleep                    2s
+    VerifyText               Honorarium Months
+    Sleep                    2s
+    VerifyText               Honorarium Installments
+    Sleep                    2s
+    VerifyText               Honorarium Months Repeat
+    Sleep                    2s
+    VerifyText               Honorarium Value
+    Sleep                    2s
+    VerifyText               Honorarium Annual Increase
+    Sleep                    2s
+    VerifyText               Honorarium increase each year
+    Sleep                    2s
+    VerifyText               Honorarium Increase Value
+    Sleep                    2s
+    VerifyText               Automatic Honorarium Repeat
+    Sleep                    2s
+    VerifyText               Claimed Expenses
+    Sleep                    2s
+
+    ScrollTo                Maxiumum Terms
+    Sleep                   2s 
+    VerifyText              If Editor Leaves
+    Sleep                   2s
+    VerifyText              Aims and Scope
+    Sleep                   2s
+    VerifyText              Months Termination
+    Sleep                   2s              
+    VerifyText              Editor Notice 
+    Sleep                   2s
+
+    VerifyText               Effective Date
+    Sleep                    2s  
+    VerifyText               Expiration Date
+    Sleep                    2s 
+    VerifyText               Term Type 
+    Sleep                    2s
+    VerifyText               First Contracted Date 
+    Sleep                    2s
+    VerifyText               Renewal Interval (months)  
+    Sleep                    2s
+    VerifyText               Notice Period (days) 
+    Sleep                    2s 
+    VerifyText               Notice Date 
+    Sleep                    2s 
+    VerifyText               Date of current agreement 
+    Sleep                    2s
+
+    VerifyText               Created By
+    Sleep                    2s
+    VerifyText               Last Modified By
+    Sleep                    2s           
