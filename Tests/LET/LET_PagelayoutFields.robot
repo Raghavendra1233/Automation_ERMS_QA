@@ -134,4 +134,23 @@ LET Generate Document Workflow
     VerifyText               External Id  
     Sleep                    2s           
     VerifyText               Clause Generation Status
-    Sleep                    2s                          
+    Sleep                    2s    
+
+    ScrollTo                Include Request Changes To Aims & Scope 
+    Sleep                   2s     
+    VerifyText              Include who can appoint editorial board 
+    Sleep                   2s 
+    VerifyText              Who Appoints The Board 
+    Sleep                   2s            
+    VerifyText              Include Editor Responsibilities 
+    Sleep                   2s             
+    VerifyText              Include Other Editor Responsibilities
+    Sleep                   2s 
+    VerifyText              Who Appoints Board Alternative
+    Sleep                   2s 
+    VerifyText              Institution Requesting to be Party
+    Sleep                   2s 
+    VerifyText              Authorised Signatory
+    Sleep                   2s 
+
+    VerifyText               Who has ultimate editorial responsibilit
