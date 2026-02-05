@@ -82,7 +82,8 @@ LET Generate Document Workflow
     Sleep                    1s
     ClickText                Next
     Sleep                    1s
-    ClickText                Finish
+    ClickText                Finish                        anchor=Previous
+    Sleep                    20s
 
 
 
