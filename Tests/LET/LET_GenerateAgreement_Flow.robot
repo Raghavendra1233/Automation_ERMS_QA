@@ -84,31 +84,56 @@ LET Generate Document Workflow
     Sleep                    1s
     ClickText                Finish  
     ClickText                Cancel and close
+    Sleep                    20s
+    
     
 
     ClickText                Related
-    ClickText                Details
+    Sleep                    3s
+    ClickItem                Contracts
+    Sleep                    3s
+    ClickText                06
+    Sleep                    5s
     VerifyText               CON-
+    Sleep                    3s
     ClickText                CON-
+    Sleep                    3s
     VerifyText               Status
+    Sleep                    3s
     ClickText                Edit Status
+    Sleep                    3s
     PickList                 *Status    In Process
+    Sleep                    10s
     ClickText                Save
+    Sleep                    3s
     ClickText                Related
+    Sleep                    3s
     ClickText                Details
+    Sleep                    3s
     ClickFieldValue          Contract
+    Sleep                    3s
     ClickText                CON-
+    Sleep                    3s
     VerifyText               Clause Generation Status
+    Sleep                    3s
     ClickText                Edit Clause Generation Status
+    Sleep                    3s
     PickList                 Clause Generation Status    To Be Processed
+    Sleep                    20s
     ClickText                Save
+    Sleep                    20s
     VerifyText               Generate Agreement
+    Sleep                    3s
     ClickText                Generate Agreement
     Sleep                    90s
     VerifyText               Return to Contract Agreement
+    Sleep                    3s
     ClickText                Return to Contract Agreement
+    Sleep                    3s
     VerifyText               Status
+    Sleep                    3s
     VerifyText               Document Generated
+    Sleep                    3s
     
 
 
