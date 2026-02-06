@@ -94,3 +94,51 @@ LET Approvals Workflow
     VerifyText               CON-
     Sleep                    3s
     ClickText                CON-
+
+    
+
+    ClickText                Edit Status
+    Sleep                    3s
+    PickList                 *Status    In Process
+    Sleep                    3s
+    ClickText                Save
+    Sleep                    10s
+    ClickText                Edit Clause Generation Status
+    Sleep                    3s
+    PickList                 Clause Generation Status    Generating
+    Sleep                    3s
+    ClickText                Save
+    Sleep                    30s
+    ClickText                Related
+    Sleep                    3s
+    VerifyText               MC-369
+    Sleep                    3s
+    ClickText                MC-369
+    Sleep                    3s
+    
+
+    ClickText                Edit Latest Revision Text (Rich)
+    Sleep                    3s
+    TypeText                 Latest Revision Text (Rich)    For the purpose of performing the editorial activities under this Agreement (including all editorial communications) the Editor shall use the Publisher’s preferred electronic submission system. The Editor shall use all functionality provided by that system in order to ensure that the review and publication process for the Journal operates on a timely and transparent basis and shall in addition regularly update the Publisher’s database of reviewers for the Journal contained in the submission system. The Editor acknowledges and agrees that certain automated messages and/or messages from staff working on the Journal may be sent out on behalf of the Editor and/or Journal via that system in order to facilitate the editorial review process and assist the Editor in managing the overall editorial workload.QA TEST
+    Sleep                    3s
+    ClickText                Save
+    Sleep                    3s
+    VerifyText               CON-
+    Sleep                    3s
+    ClickText                CON-
+    Sleep                    3s
+    VerifyText               Generate Agreement
+    Sleep                    3s
+    ClickText                Generate Agreement
+    Sleep                    90s
+    VerifyText               Return to Contract Agreement
+    Sleep                    3s
+    ClickText                Return to Contract Agreement
+    Sleep                    3s
+    VerifyText               Preview & Submit Approvals
+    Sleep                    3s
+    ClickText                Preview & Submit Approvals
+    Sleep                    90s
+    VerifyText               Utkarsh Tiwary  
+    Sleep                    3s           
+    
