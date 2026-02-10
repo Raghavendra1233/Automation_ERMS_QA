@@ -161,5 +161,5 @@ LET Terminate Workflow
     ClickText                 Next
     Sleep                     3s
 
-    ClickText                Cancel and close
-    Sleep                    20s
+    ClickText                 Cancel and close
+    Sleep                     20s
