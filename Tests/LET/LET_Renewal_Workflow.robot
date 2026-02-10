@@ -106,3 +106,37 @@ LET Renewal Workflow
     Sleep                    3s
     ClickText                Renew Long Editor Contract
     Sleep                    3s
+    
+
+    ScrollTo                 Select a date for Contract Start Date
+    Sleep                    3s
+    ClickText                Select a date for    anchor=Contract Start Date
+    Sleep                    3s
+    ClickText                Today
+    Sleep                    3s
+    ClickText                Select a date for What is the date of the currently existing agreement between the parties?
+    Sleep                    3s
+    ClickText                Today
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    DropDown                 Please pick a signatory for this contract    Georgina Joyce
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    ClickText                Cancel and close
+    Sleep                    3s
+    ClickText                Edit Clause Generation Status
+    Sleep                    3s
+    PickList                 Clause Generation Status    Generating
+    Sleep                    3s
+    ClickText                Save
+    Sleep                    30s
