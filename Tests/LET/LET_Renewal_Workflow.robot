@@ -95,10 +95,14 @@ LET Renewal Workflow
     Sleep                    3s
     ClickText                CON-
 
-    
 
     ClickText                Edit Status
     Sleep                    3s
-    PickList                 *Status    In Process
+    PickList                 *Status    Active
     Sleep                    3s
     ClickText                Save
+
+    VerifyText               Renew Long Editor Contract
+    Sleep                    3s
+    ClickText                Renew Long Editor Contract
+    Sleep                    3s
