@@ -207,13 +207,30 @@ LET Terminate Workflow
     Sleep                    3s
     ClickText                Save
 
-    
-
-    ClickText                Show more actions
+    VerifyText               View Redline
     Sleep                    3s
-    ClickText                Terminate Contract
+    ClickText                View Redline
     Sleep                    3s
-    UseModal                 On
+    VerifyText               True-Up
+    Sleep                    3s
+    ClickText                True-Up
+    Sleep                    3s
+    VerifyText               Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                CON-05
+    Sleep                    3s
 
     
     
