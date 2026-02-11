@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-LET Terminate Workflow
+LET View Redline Workflow
     [tags]                    Sources
     Appstate                  Home
     Sleep                     10s
