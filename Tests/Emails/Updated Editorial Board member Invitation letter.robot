@@ -17,8 +17,8 @@ Suite Teardown                End suite
     VerifyText                JrlTest
     ClickText                 JrlTest
     ClickText                 Related
-    VerifyText                CJR - 1498629
-    ClickText                 CJR - 1498629
+    VerifyText                CJR - 149
+    ClickText                 CJR - 149
     Sleep                     2s
     ClickText                 Email
     Sleep                     2s
