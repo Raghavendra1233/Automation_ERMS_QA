@@ -10,7 +10,7 @@ Suite Teardown                End suite
 
 *** Test Cases ***
 
-LET Terminate Workflow
+LET View Redline Workflow
     [tags]                    Sources
     Appstate                  Home
     Sleep                     10s
@@ -163,3 +163,79 @@ LET Terminate Workflow
 
     ClickText                 Cancel and close
     Sleep                     20s
+
+    ClickText                Related
+    Sleep                    3s
+    ClickText                06
+    Sleep                    3s
+    VerifyText               CON-
+    Sleep                    3s
+    ClickText                CON-
+
+    VerifyText               Status
+    Sleep                    3s
+    ClickText                Edit Status
+    Sleep                    3s
+    PickList                 *Status    In Process
+    Sleep                    10s
+    ClickText                Save
+    Sleep                    3s
+    ClickText                Related
+    Sleep                    3s
+    ClickText                Details
+    Sleep                    3s
+    VerifyText               Clause Generation Status
+    Sleep                    3s
+    ClickText                Edit Clause Generation Status
+    Sleep                    3s
+    PickList                 Clause Generation Status    To Be Processed
+    Sleep                    20s
+    ClickText                Save
+    Sleep                    20s
+    VerifyText               Generate Agreement
+    Sleep                    3s
+    ClickText                Generate Agreement
+    Sleep                    90s
+    VerifyText               Return to Contract Agreement
+    Sleep                    3s
+    ClickText                Return to Contract Agreement
+    Sleep                    3s
+
+    ClickText                Edit Status
+    Sleep                    3s
+    PickList                 *Status    Active
+    Sleep                    3s
+    ClickText                Save
+
+    VerifyText               View Redline
+    Sleep                    3s
+    ClickText                View Redline
+    Sleep                    3s
+    VerifyText               True-Up
+    Sleep                    3s
+    ClickText                True-Up
+    Sleep                    3s
+    VerifyText               Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                Save and Continue
+    Sleep                    3s
+    ClickText                CON-05
+    Sleep                    3s
+
+    
+    
+    
+
+    
+
+    
