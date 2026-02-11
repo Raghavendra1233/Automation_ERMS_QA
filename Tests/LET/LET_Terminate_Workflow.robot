@@ -172,9 +172,68 @@ LET Terminate Workflow
     Sleep                    3s
     ClickText                CON-
 
+    VerifyText               Status
+    Sleep                    3s
+    ClickText                Edit Status
+    Sleep                    3s
+    PickList                 *Status    In Process
+    Sleep                    10s
+    ClickText                Save
+    Sleep                    3s
+    ClickText                Related
+    Sleep                    3s
+    ClickText                Details
+    Sleep                    3s
+    VerifyText               Clause Generation Status
+    Sleep                    3s
+    ClickText                Edit Clause Generation Status
+    Sleep                    3s
+    PickList                 Clause Generation Status    To Be Processed
+    Sleep                    20s
+    ClickText                Save
+    Sleep                    20s
+    VerifyText               Generate Agreement
+    Sleep                    3s
+    ClickText                Generate Agreement
+    Sleep                    90s
+    VerifyText               Return to Contract Agreement
+    Sleep                    3s
+    ClickText                Return to Contract Agreement
+    Sleep                    3s
 
     ClickText                Edit Status
     Sleep                    3s
     PickList                 *Status    Active
     Sleep                    3s
     ClickText                Save
+
+    
+
+    ClickText                Show more actions
+    Sleep                    3s
+    ClickText                Terminate Contract
+    Sleep                    3s
+    UseModal                 On
+    Sleep                    3s
+    TypeText                 Termination Reason    QA TEST1
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    ClickText                Upload FilesOr drop files
+    Sleep                    3s
+    TypeText                 FileUpload_2    C:\\fakepath\\CJR Creation and LET Interview Flow.robot
+    Sleep                    3s
+    ClickText                Done
+    Sleep                    3s
+    UseModal                 Off
+    Sleep                    3s
+    TypeText                 Termination Reason    QA TEST2
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    ClickText                Next
+    Sleep                    3s
+    ClickText                Finish
+    Sleep                    3s
+    VerifyText               Status
+    Sleep                    3s
