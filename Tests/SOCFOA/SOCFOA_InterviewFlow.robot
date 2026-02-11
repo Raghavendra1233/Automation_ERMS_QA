@@ -20,3 +20,23 @@ SOCFOA Interview Flow
     ClickText                 All Accounts
     TypeText                  Search this list...    3902Test\n
     ClickText                 3902Test
+
+    VerifyText                Society Full Open Access Contract
+    Sleep                     1s
+    VerifyText                Begin    anchor=Society Full Open Access Contract
+    Sleep                     1s
+    ClickText                 Begin
+    Sleep                     10s
+    
+    VerifyText                Journal Title                 
+    ${*Journal Title}=           Generate Random String      5-10 
+    Sleep                     2s   
+    TypeText                  Journal Title               ${*Journal Title}
+    VerifyText                *Please enter the SVP for this Journal:
+    ComboBox                  Search Contacts...    Georgina Joyce
+    VerifyText                *Please enter the Publishing Director for this Journal:
+    ComboBox                  Search Contacts...    Georgina Joyce
+    VerifyText                *Please enter the Business Controller for this Journal:
+    ComboBox                  Search Contacts...    Georgina Joyce
+    VerifyText                *Please enter the Publishing Assistant Editorial Contracts & Payments (PA ECP) for this journal:
+    ComboBox                  Search Contacts...    Georgina Joyce
