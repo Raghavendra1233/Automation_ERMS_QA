@@ -40,3 +40,16 @@ SOCFOA Interview Flow
     ComboBox                  Search Contacts...    Georgina Joyce
     VerifyText                *Please enter the Publishing Assistant Editorial Contracts & Payments (PA ECP) for this journal:
     ComboBox                  Search Contacts...    Georgina Joyce
+    VerifyText                If you are working with a member of the Society Business Development team on this contract, please add their name here: 
+    ClickCheckbox             Is the Journal transferring to Elsevier from another publisher?    on
+    ClickCheckbox             Is the Journal transferring to Elsevier from another publisher?    off
+    VerifyText                Please select the Operating Company for this title:
+    VerifyText                Elsevier B.V.
+    ClickText                 Select Item 1
+    VerifyText                *When will the term of this agreement begin?
+    ClickText                 Select a date for When will the term of this agreement begin?
+    ClickText                 Today
+    VerifyText                *When will the term of this agreement end?
+    VerifyText                *In what currency will any amounts due under this agreement payable?
+    DropDown                  In what currency will any amounts due under this agreement payable?    GBP - British Pound
+    ClickText                 Next
