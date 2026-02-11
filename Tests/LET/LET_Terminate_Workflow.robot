@@ -214,26 +214,11 @@ LET Terminate Workflow
     ClickText                Terminate Contract
     Sleep                    3s
     UseModal                 On
-    Sleep                    3s
-    TypeText                 Termination Reason    QA TEST1
-    Sleep                    3s
-    ClickText                Next
-    Sleep                    3s
-    ClickText                Upload FilesOr drop files
-    Sleep                    3s
-    TypeText                 FileUpload_2    C:\\fakepath\\CJR Creation and LET Interview Flow.robot
-    Sleep                    3s
-    ClickText                Done
-    Sleep                    3s
-    UseModal                 Off
-    Sleep                    3s
-    TypeText                 Termination Reason    QA TEST2
-    Sleep                    3s
-    ClickText                Next
-    Sleep                    3s
-    ClickText                Next
-    Sleep                    3s
-    ClickText                Finish
-    Sleep                    3s
-    VerifyText               Status
-    Sleep                    3s
+
+    
+    
+    
+
+    
+
+    
