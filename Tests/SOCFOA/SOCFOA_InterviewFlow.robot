@@ -53,3 +53,19 @@ SOCFOA Interview Flow
     VerifyText                *In what currency will any amounts due under this agreement payable?
     DropDown                  In what currency will any amounts due under this agreement payable?    GBP - British Pound
     ClickText                 Next
+
+
+
+    ClickCheckbox             Society Signee Exists in ERMS    on
+    ComboBox                  Search Contacts...    Contact Record3/14/2025-2
+    VerifyText                *Society Signee Name
+    ClickText                 Next
+
+
+    VerifyText                Journal Title:
+    VerifyText                Journal OpCo: 
+    VerifyText                Society Name:
+    VerifyText                *What rights is the Journal obtaining from authors for Open Access Articles?
+    VerifyText                *Will the Journal be:
+    DropDown                  Will the Journal be:    The official Journal of the [Society Name]
+    ClickText                 Next
