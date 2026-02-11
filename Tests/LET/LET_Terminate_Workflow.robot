@@ -163,3 +163,18 @@ LET Terminate Workflow
 
     ClickText                 Cancel and close
     Sleep                     20s
+
+    ClickText                Related
+    Sleep                    3s
+    ClickText                06
+    Sleep                    3s
+    VerifyText               CON-
+    Sleep                    3s
+    ClickText                CON-
+
+
+    ClickText                Edit Status
+    Sleep                    3s
+    PickList                 *Status    Active
+    Sleep                    3s
+    ClickText                Save
