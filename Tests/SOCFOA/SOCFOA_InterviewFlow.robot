@@ -40,7 +40,7 @@ SOCFOA Interview Flow
     ComboBox                  Search Contacts...    Georgina Joyce
     VerifyText                *Please enter the Publishing Assistant Editorial Contracts & Payments (PA ECP) for this journal:
     ComboBox                  Search Contacts...    Georgina Joyce
-    VerifyText                If you are working with a member of the Society Business Development team on this contract, please add their name here: 
+    ScrollTo                  If you are working with a member of the Society Business Development team on this contract, please add their name here: 
     ClickCheckbox             Is the Journal transferring to Elsevier from another publisher?    on
     ClickCheckbox             Is the Journal transferring to Elsevier from another publisher?    off
     VerifyText                Please select the Operating Company for this title:
@@ -95,7 +95,7 @@ SOCFOA Interview Flow
     TypeText                  What's the cost for each page?    23
     VerifyText                *How will APCS be paid?
     DropDown                  How will APCS be paid?    Authors pay all of the APCS
-    VerifyText                What types of articles will be published in the Journal?
+    ScrollTo                  What types of articles will be published in the Journal?
     ClickCheckbox             full length research papers    on
     ClickCheckbox             Review type articles    on
     ClickCheckbox             short communications    on
@@ -105,7 +105,7 @@ SOCFOA Interview Flow
     ClickCheckbox             Other types of article will be published in the Journal    on
     VerifyText                *Enter other article type(s) that will appear in the Journal                
     TypeText                  Enter other article type(s) that will appear in the Journal    QA YT
-    VerifyText                *On demand copies...
+    ScrollTo                  *On demand copies...
     DropDown                  On demand copies...    The Society is entitled to purchase print on demand copies at the price schedule provided by the Publisher
     ClickCheckbox             Will the Publisher offer a discount to the Open Access Fee to Members of the Society?    on
     VerifyText                *Discount on the Open Access Fee shall only apply to Articles for which:
@@ -123,7 +123,7 @@ SOCFOA Interview Flow
     ClickCheckbox             Will any changes to print size, format, design, etc. be upon mutual agreement of the parties?    on
     ClickCheckbox             The Publisher will consult the Editor-in-Chief in regard to the Production Schedule    on
     ClickCheckbox             Do you want to include a certain number and type of Articles to be published in the Journal each year?    on
-    VerifyText                *Enter the number and type of Articles to be published in the Journal each year
+    ScrollTo                  *Enter the number and type of Articles to be published in the Journal each year
     TypeText                  Enter the number and type of Articles to be published in the Journal each year    qa
     ClickCheckbox             Will there be a limit to the number of volumes and issues published each year?    on
     VerifyText                *How many times each year will the Journal be published?
@@ -133,7 +133,7 @@ SOCFOA Interview Flow
     ClickCheckbox             Will the Society/Publisher pay/grant APC waivers, for XX number of articles, to be offered to authors as APC waivers, at the Society’s/Publisher’s discretion?    on
     VerifyText                *Who will be entitled to grant waivers?
     ClickCheckbox             Publisher    on
-    VerifyText                *How many waivers can be granted?
+    ScrollTo                  *How many waivers can be granted?
     TypeText                  How many waivers can be granted?    3
     ClickCheckbox             Will Society Content be published in the Journal at no charge to the Society?    on
     VerifyText                *Up to how many pages of Society Content will we include in the Journal?
