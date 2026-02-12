@@ -151,3 +151,32 @@ SET Generate Agreement Workflow
     Sleep                     10s
     ClickText                 Finish                        anchor=Previous
     Sleep                     20s
+
+    VerifyText               Status
+    Sleep                    3s
+    ClickText                Edit Status
+    Sleep                    3s
+    PickList                 *Status    In Process
+    Sleep                    2s
+    ClickText                Save
+    Sleep                    10s
+    VerifyText               Clause Generation Status
+    Sleep                    3s
+    ClickText                Edit Clause Generation Status
+    Sleep                    3s
+    PickList                 Clause Generation Status    To Be Processed
+    Sleep                    2s
+    ClickText                Save
+    Sleep                    20s
+    VerifyText               Generate Agreement
+    Sleep                    3s
+    ClickText                Generate Agreement
+    Sleep                    90s
+    VerifyText               Return to Contract Agreement
+    Sleep                    3s
+    ClickText                Return to Contract Agreement
+    Sleep                    3s
+    VerifyText               Status
+    Sleep                    3s
+    VerifyText               Document Generated
+    Sleep                    3s
