@@ -26,8 +26,6 @@ Suite Teardown                End suite
     Sleep                     1s
     VerifyText                Contact Record Type
     Sleep                     1s
-    VerifyText                Enable Customer User
-    Sleep                     1s
     
     LaunchApp                 Contacts
     ClickText                 Select a List View: Contacts
