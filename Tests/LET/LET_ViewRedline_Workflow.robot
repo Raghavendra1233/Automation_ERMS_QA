@@ -86,7 +86,14 @@ LET View Redline Workflow
     ClickText                 Today
     Sleep                     1s
     ClickText                 Next
-    Sleep                     1s        
+    Sleep                     1s 
+
+    ScrollTo                  Supersede Existing Agreement
+    Sleep                     2s
+    ClickCheckbox             Supersede Existing Agreement    off
+    Sleep                     2s
+    ClickText                 Next
+    Sleep                     5s       
 
     VerifyText                Do you wish to include the following clause?
     Sleep                     3s                 
