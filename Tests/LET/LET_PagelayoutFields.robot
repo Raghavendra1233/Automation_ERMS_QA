@@ -316,8 +316,6 @@ LET Page layout Fields
     Sleep                    2s 
     VerifyText               Notice Date 
     Sleep                    2s 
-    VerifyText               Date of current agreement 
-    Sleep                    2s
 
     VerifyText               Created By
     Sleep                    2s
