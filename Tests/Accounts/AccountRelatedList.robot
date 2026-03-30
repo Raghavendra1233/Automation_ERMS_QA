@@ -49,7 +49,9 @@ Suite Teardown                End suite
 
     ClickText                 Select a List View: Accounts
     Sleep                     2s
-    ClickText                 Elsevier_accounts
+    ClickText                 All
+    Sleep                     2s
+    TypeText                  Search this list...    Elsevier España S.L.U\n
     Sleep                     2s
     ClickText                 Elsevier España S.L.U
     Sleep                     2s
