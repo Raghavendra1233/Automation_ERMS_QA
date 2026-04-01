@@ -19,9 +19,9 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    CON-049582\n
+    TypeText                  Search this list...    CON-051609\n
     Sleep                     2s
-    ClickText                 CON-049582
+    ClickText                 CON-051609
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
@@ -46,9 +46,9 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    CON-049582\n
+    TypeText                  Search this list...    CON-051609\n
     Sleep                     2s
-    ClickText                 CON-049582
+    ClickText                 CON-051609
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
@@ -73,9 +73,9 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    CON-049582\n
+    TypeText                  Search this list...    CON-051609\n
     Sleep                     2s
-    ClickText                 CON-049582
+    ClickText                 CON-051609
     Sleep                     2s
     ClickText                 Edit Status
     Sleep                     2s
