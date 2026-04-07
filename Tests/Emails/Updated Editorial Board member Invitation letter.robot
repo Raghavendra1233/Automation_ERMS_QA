@@ -12,13 +12,22 @@ Suite Teardown                End suite
     [tags]                    Sources
     Appstate                  Home
     Sleep                     10s
-    LaunchApp                 Journals 
-    
-    VerifyText                JrlTest
-    ClickText                 JrlTest
+    LaunchApp                 Journals
+
+    Sleep                     2s
+    ClickText                 Select a List View: Journals
+    Sleep                     2s
+    ClickText                 All
+    Sleep                     2s
+    TypeText                  Search this list...    JFNCR04\n
+    Sleep                     2s
+    ClickText                 JFNCR04
+    Sleep                     2s
     ClickText                 Related
-    VerifyText                CJR - 149
-    ClickText                 CJR - 149
+    Sleep                     2s
+    VerifyText                CJR - 151
+    Sleep                     2s
+    ClickText                 CJR - 151
     Sleep                     2s
     ClickText                 Email
     Sleep                     2s
@@ -26,10 +35,16 @@ Suite Teardown                End suite
     ClickText                 Insert, create, or update template
     Sleep                     3s
     ClickText                 Insert a template...
+    Sleep                     2s
     UseModal                  On
+    Sleep                     2s
     TypeText                  Search templates...    EAB
+    Sleep                     2s
     ClickText                 EBM (EAB) Invitation letter
+    Sleep                     2s
     UseModal                  Off
+    Sleep                     2s
     ClickText                 Send
     Sleep                     3s
     VerifyText                Invitation to join the board of Test Journal
+    Sleep                     2s
