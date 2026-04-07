@@ -16,7 +16,7 @@ Suite Teardown                End suite
 
     ClickText                 Select a List View: Contact Journal Relations
     Sleep                     1s
-    ClickText                 All
+    ClickText                 Recently Viewed
     Sleep                     1s
     TypeText                  Search this list...    CJR - 1497648\n
     Sleep                     1s

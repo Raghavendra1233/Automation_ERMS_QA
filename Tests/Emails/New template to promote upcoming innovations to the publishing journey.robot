@@ -18,9 +18,9 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    JrlTest\n
+    TypeText                  Search this list...    JFNCR04\n
     Sleep                     2s
-    ClickText                 JrlTest
+    ClickText                 JFNCR04
     Sleep                     2s
     ClickText                 Email    anchor=Homepage Management
     Sleep                     2s
@@ -28,9 +28,9 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Show All
     Sleep                     2s
-    ScrollTo                  Contact 2/21/25-1
+    ScrollTo                  Georgina Joyce
     Sleep                     2s
-    VerifyText                Contact 2/21/25-1
+    VerifyText                Georgina Joyce
     Sleep                     2s
     ClickCheckbox             Select Item 2    on    partial_match=False 
     Sleep                     2s
