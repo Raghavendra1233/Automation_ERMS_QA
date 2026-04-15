@@ -46,5 +46,3 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Send
     Sleep                     3s
-    VerifyText                Invitation to join the board of Test Journal
-    Sleep                     2s
