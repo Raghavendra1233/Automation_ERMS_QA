@@ -195,9 +195,9 @@ LET Approvals Workflow
     Sleep                    30s
     ClickText                Related
     Sleep                    3s
-    VerifyText               MC-3
+    VerifyText               MC-4
     Sleep                    3s
-    ClickText                MC-3
+    ClickText                MC-4
     Sleep                    3s
     
 
