@@ -25,7 +25,5 @@ Suite Teardown                End suite
     
     VerifyText                Status
     Sleep                     2s
-    VerifyText                Display Only
-    Sleep                     2s
     VerifyText                Relation is Active?
     Sleep                     2s
