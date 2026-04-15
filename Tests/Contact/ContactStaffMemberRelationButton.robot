@@ -39,7 +39,9 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Select a List View: Contacts
     Sleep                     2s
-    ClickText                 Editors
+    ClickText                 All Contacts
+    Sleep                     1s
+    TypeText                  Search this list...    Abhi Kanan\n
     Sleep                     2s
     ClickText                 Abhi Kanan
     Sleep                     2s
