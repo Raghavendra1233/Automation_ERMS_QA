@@ -25,9 +25,9 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Related
     Sleep                     2s
-    VerifyText                CJR - 152
+    VerifyText                CJR - 153
     Sleep                     2s
-    ClickText                 CJR - 152
+    ClickText                 CJR - 153
     Sleep                     2s
     ClickText                 Email
     Sleep                     2s
