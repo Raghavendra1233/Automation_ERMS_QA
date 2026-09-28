@@ -32,7 +32,7 @@ Suite Teardown                End suite
     ClickText                 Select a List View: Journals
     ClickText                 All
     Sleep                     1s
-    VerifyText                JrlTest
+    TypeText                  Search this list...    JrlTest\n
     Sleep                     1s
     ClickText                 JrlTest
     Sleep                     1s
