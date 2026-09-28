@@ -65,9 +65,9 @@ LET Renewal Workflow
     VerifyText                Is the editor employed by an Institution that is requesting to be a party to this editor's contract?
     Sleep                     3s
     
-    VerifyText                Journal Name: Test Journal 
+    VerifyText                Journal Name: Jahnavi Test  
     Sleep                     3s                  
-    VerifyText                Acronym: JrlTest
+    VerifyText                Acronym: JT-1
     Sleep                     3s               
     VerifyText                Journal EPH Ownership:
     Sleep                     3s
