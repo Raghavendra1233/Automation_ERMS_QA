@@ -28,7 +28,7 @@ SET Generate Agreement Workflow
     Sleep                     2s
     PickList                  Role    Accepting Editor
     Sleep                     2s
-    ComboBox                  Search Journals...    JrlTest
+    ComboBox                  Search Journals...    JT-1
     Sleep                     2s
     PickList                  Classifications    2
     Sleep                     2s
