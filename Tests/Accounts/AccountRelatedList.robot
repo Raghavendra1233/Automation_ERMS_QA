@@ -28,17 +28,17 @@ Suite Teardown                End suite
     Sleep                     1s
     VerifyText                Contract Agreements
     Sleep                     1s
-    VerifyText                CON-049306
+    VerifyText                CON-053507
     Sleep                     1s
-    VerifyText                CON-049307
+    VerifyText                CON-053506
     Sleep                     1s
-    VerifyText                CON-049316
+    VerifyText                CON-051159
     Sleep                     1s
-    VerifyText                CON-049315
+    VerifyText                CON-051221
     Sleep                     1s
-    VerifyText                CON-049317
+    VerifyText                CON-050813
     Sleep                     1s
-    VerifyText                CON-049321
+    VerifyText                CON-049355
     Sleep                     1s
     
 *** Test Cases ***
