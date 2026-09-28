@@ -20,11 +20,11 @@ Suite Teardown                End suite
     Sleep                     1s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    CON-051437\n
+    TypeText                  Search this list...    CON-053693\n
     Sleep                     2s
-    VerifyText                CON-051437
+    VerifyText                CON-053693
     Sleep                     1s
-    ClickText                 CON-051437
+    ClickText                 CON-053693
     Sleep                     1s
     VerifyNoText              Approval Request Status
     Sleep                     1s
