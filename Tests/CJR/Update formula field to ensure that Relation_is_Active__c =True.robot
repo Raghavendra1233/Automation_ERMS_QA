@@ -18,9 +18,9 @@ Suite Teardown                End suite
     Sleep                     1s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...   CJR - 1498543\n
+    TypeText                  Search this list...   CJR - 1605852\n
     Sleep                     2s
-    ClickText                 CJR - 1498543
+    ClickText                 CJR - 1605852
     Sleep                     2s
     
     VerifyText                Status
