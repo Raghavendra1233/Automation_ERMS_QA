@@ -46,7 +46,7 @@ The character limit of the Short Special issue Name on the SI record should be s
     Sleep                     1s
     ClickText                 Save
     Sleep                     1s
-    VerifyText                This field cannot exceed 60 characters 
+    VerifyText                This field cannot exceed 30 characters 
     Sleep                     2s                    
     ClickText                 Cancel
     Sleep                     1s
