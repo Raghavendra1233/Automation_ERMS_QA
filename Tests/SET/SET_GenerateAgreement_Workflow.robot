@@ -85,17 +85,9 @@ SET Generate Agreement Workflow
     ClickText                 Next
     Sleep                     10s
     
-    ClickText                 Help    anchor=Is this for an Economics Editor who receives payment on a per manuscript basis?
+    VerifyText                Is this for an Economics Editor who receives payment on a per manuscript basis?
     Sleep                     2s
-    VerifyText                This is only applicable for Economics Journals with Submission Fees, please leave unchecked if this is not the case for your journal
-    Sleep                     2s
-    VerifyText                This is only applicable for Economics Journals with Submission Fees, please leave unchecked if this is not the case for your journal
-    Sleep                     2s
-    ClickText                 Close
-    Sleep                     2s
-    ClickText                 Help    anchor=Besides the Editor-in-Chief, will the Editor be coordinating with anyone else?
-    Sleep                     2s
-    ClickText                 Close
+    VerifyText                Besides the Editor-in-Chief, will the Editor be coordinating with anyone else?
     Sleep                     2s
     VerifyText                Next
     ClickText                 Next
