@@ -19,15 +19,15 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    JFNCR04\n
+    TypeText                  Search this list...    JT-5\n
     Sleep                     2s
-    ClickText                 JFNCR04
+    ClickText                 JT-5
     Sleep                     2s
     ClickText                 Related
     Sleep                     2s
-    VerifyText                CJR - 153
+    VerifyText                CJR - 160
     Sleep                     2s
-    ClickText                 CJR - 153
+    ClickText                 CJR - 160
     Sleep                     2s
     ClickText                 Email
     Sleep                     2s
