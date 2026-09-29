@@ -63,11 +63,11 @@ Special Issue Functionality
     Sleep                     2s
     ClickCheckbox             Existing Contact    off
     Sleep                     2s
-    TypeText                  First Name    First01
+    TypeText                  First Name    First02
     Sleep                     2s
-    TypeText                  Last Name    last01\n
+    TypeText                  Last Name    last02\n
     Sleep                     2s
-    TypeText                  Email    specialissue@gmail.com
+    TypeText                  Email    specialissue02@gmail.com
     Sleep                     2s
     ComboBox                  Search Accounts...    3902Test
     Sleep                     2s
@@ -131,7 +131,7 @@ Special Issue Functionality
     Sleep                     2s
     ClickText                 All Contacts
     Sleep                     2s
-    TypeText                  Search this list...    First01 Last01\n
+    TypeText                  Search this list...    First02 Last02\n
     Sleep                     2s
     ClickText                 Show Actions
     Sleep                     2s
