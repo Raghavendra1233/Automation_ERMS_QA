@@ -28,6 +28,10 @@ Suite Teardown                End suite
     ClickText                 Begin
     Sleep                     30s                    
 
+    
+
+    ClickElement              /html[1]/body[1]/div[4]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/flowruntime-flow[1]/flowruntime-lwc-body[1]/div[1]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[4]/flowruntime-list-container[1]/div[1]/flowruntime-section-with-header[1]/lightning-accordion[1]/div[1]/slot[1]/lightning-accordion-section[1]/div[1]/section[1]/div[2]/slot[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[2]/flowruntime-list-container[1]/div[1]/flowruntime-base-section[1]/div[1]/flowruntime-screen-field[2]/flowruntime-lwc-field[1]/div[1]/flowruntime-lookup[1]/lightning-lookup[1]/lightning-lookup-desktop[1]/lightning-grouped-combobox[1]/div[1]/div[1]/lightning-base-combobox[1]/div[1]/div[1]/div[1]
+    ComboBox                  Search Accounts...    3902Test
     ScrollTo                  *Contract Start Date
     Sleep                     2s
     ClickText                 Select a date for    anchor=Contract Start Date
@@ -39,7 +43,10 @@ Suite Teardown                End suite
     ClickText                 Next
     Sleep                     5s
     
+    
 
+    ClickCheckbox             Supersede Existing Agreement    off
+    Sleep                     2s
     ClickText                 Next
     Sleep                     5s
 
