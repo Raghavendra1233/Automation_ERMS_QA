@@ -163,7 +163,7 @@ Suite Teardown                End suite
     Sleep                     2s
     VerifyText                *Veuillez sélectionner le mois. au cours duquel les paiements d'honoraires seront effectués
     Sleep                     2s
-    ClickCheckbox             Janvier    on
+    ClickCheckbox             Février    on
     Sleep                     2s
     ClickText                 Next
     Sleep                     2s
