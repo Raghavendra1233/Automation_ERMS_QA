@@ -39,12 +39,6 @@ Suite Teardown                End suite
     ClickText                 Next
     Sleep                     5s
     
-    ScrollTo                  Supersede Existing Agreement
-    Sleep                     2s
-    ClickCheckbox             Supersede Existing Agreement    off
-    Sleep                     2s
-    ClickText                 Next
-    Sleep                     5s
 
     ClickText                 Next
     Sleep                     5s

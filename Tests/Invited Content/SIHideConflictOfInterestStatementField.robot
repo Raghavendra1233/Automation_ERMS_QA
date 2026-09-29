@@ -30,8 +30,9 @@ Suite Teardown                End suite
 
     ClickText                 Select a List View: Invited Content
     Sleep                     1s
-    ClickText                 My Special Issues
+    ClickText                 All
     Sleep                     1s
+    TypeText                  Search this list...    abc\n
     VerifyText                abc
     Sleep                     1s
     ClickText                 abc
