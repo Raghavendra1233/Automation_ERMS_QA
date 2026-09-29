@@ -96,6 +96,7 @@ Suite Teardown                End suite
     Sleep                     2s
     VerifyText                *What is the Journal website address (Eg: www.[urladdress].com)?
     Sleep                     2s
+    TypeText                  What is the Journal website address (Eg: www.[urladdress].com)?    4
     VerifyText                Next
     Sleep                     2s
     ClickText                 Next
