@@ -212,10 +212,10 @@ LET Approvals Workflow
     VerifyText               Generate Agreement
     Sleep                    3s
     ClickText                Generate Agreement
-    # Sleep                    90s
-    # VerifyText               Return to Contract Agreement
-    # Sleep                    3s
-    # ClickText                Return to Contract Agreement
+    Sleep                    90s
+    VerifyText               Return to Contract Agreement
+    Sleep                    3s
+    ClickText                Return to Contract Agreement
     Sleep                    3s
     VerifyText               Preview & Submit Approvals
     Sleep                    3s
