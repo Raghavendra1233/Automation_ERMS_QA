@@ -133,7 +133,7 @@ Suite Teardown                End suite
     Sleep                     2s
     VerifyText                Please pick a signatory for this contract
     Sleep                     2s
-    DropDown                  Please pick a signatory for this contract    Georgina Joyce
+    DropDown                  Please pick a signatory for this contract    new staff
     Sleep                     2s
     VerifyText                Please pick a signatory for this contract
     Sleep                     2s
