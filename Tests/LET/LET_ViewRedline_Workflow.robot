@@ -155,7 +155,7 @@ LET View Redline Workflow
 
     VerifyText                *What is the maximum total cumulative term that the Editor may serve? [Elsevier policy is for a maximum of ten years, but shorter terms are possible.]
     Sleep                     3s
-    VerifyText                For Elsevier Inc.
+    VerifyText                For Elsevier Ltd
     Sleep                     3s
     VerifyText                *Please pick a signatory for this contract
     Sleep                     3s
