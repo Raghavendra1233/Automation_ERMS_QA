@@ -154,11 +154,11 @@ LET Send For Negotiations Workflow
 
     VerifyText                *What is the maximum total cumulative term that the Editor may serve? [Elsevier policy is for a maximum of ten years, but shorter terms are possible.]
     Sleep                     3s
-    VerifyText                For Elsevier Ltd
+    VerifyText                For Elsevier Inc.
     Sleep                     3s
     VerifyText                *Please pick a signatory for this contract
     Sleep                     3s
-    DropDown                  Please pick a signatory for this contract    Myles Alexander
+    DropDown                  Please pick a signatory for this contract    Georgina Joyce
     Sleep                     3s
     VerifyText                Include Aims & Scope in the text box below
     Sleep                     3s
