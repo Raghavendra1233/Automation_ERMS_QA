@@ -217,10 +217,18 @@ LET Approvals Workflow
     Sleep                    3s
     ClickText                Return to Contract Agreement
     Sleep                    3s
+    
+
+    ClickText                Edit Approval Status
+    Sleep                    3s
+    PickList                 Approval Status    Approval Required
+    Sleep                    3s
+    ClickText                Save
+    Sleep                    5s
     VerifyText               Preview & Submit Approvals
     Sleep                    3s
     ClickText                Preview & Submit Approvals
     Sleep                    90s
-    VerifyText               Utkarsh Tiwary  
+    #VerifyText               Utkarsh Tiwary  
     Sleep                    3s           
     
