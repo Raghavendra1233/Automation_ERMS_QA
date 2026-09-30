@@ -129,7 +129,7 @@ Suite Teardown                End suite
     ClickText                 Next
     Sleep                     2s
     
-    VerifyText                Please ensure the Publisher selected as the signatory for this contract is employed by Elsevier Inc.
+    VerifyText                Please ensure the Publisher selected as the signatory for this contract is employed by Elsevier Ltd.
     Sleep                     2s
     VerifyText                Please pick a signatory for this contract
     Sleep                     2s

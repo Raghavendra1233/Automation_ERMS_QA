@@ -86,6 +86,11 @@ Suite Teardown                End suite
     ClickText                 Next
     Sleep                     1s
 
+    ClickCheckbox             Supersede Existing Agreement    off
+    Sleep                     2s
+    ClickText                 Next
+    Sleep                     5s   
+
 
     VerifyText                Do you wish to include the following clause?
     Sleep                     3s                 
@@ -149,7 +154,7 @@ Suite Teardown                End suite
 
     VerifyText                *What is the maximum total cumulative term that the Editor may serve? [Elsevier policy is for a maximum of ten years, but shorter terms are possible.]
     Sleep                     3s
-    VerifyText                For Elsevier Inc.
+    VerifyText                For Elsevier Ltd
     Sleep                     3s
     VerifyText                *Please pick a signatory for this contract
     Sleep                     3s
