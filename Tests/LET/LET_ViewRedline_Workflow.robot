@@ -159,7 +159,7 @@ LET View Redline Workflow
     Sleep                     3s
     VerifyText                *Please pick a signatory for this contract
     Sleep                     3s
-    DropDown                  Please pick a signatory for this contract    Georgina Joyce
+    DropDown                  Please pick a signatory for this contract    new staff
     Sleep                     3s
     VerifyText                Include Aims & Scope in the text box below
     Sleep                     3s
