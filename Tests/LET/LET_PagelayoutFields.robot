@@ -159,7 +159,7 @@ LET Page layout Fields
     Sleep                     3s
     VerifyText                *Please pick a signatory for this contract
     Sleep                     3s
-    DropDown                  Please pick a signatory for this contract    new staff
+    DropDown                  Please pick a signatory for this contract    Myles Alexander
     Sleep                     3s
     VerifyText                Include Aims & Scope in the text box below
     Sleep                     3s
