@@ -24,11 +24,11 @@ LET Renewal Workflow
     Sleep                     2s
     ClickText                 Next
     Sleep                     2s
-    ComboBox                  Search Contacts...    Georgina Joyce
+    ComboBox                  Search Contacts...    Raghavendra Reddy
     Sleep                     2s
     PickList                  Role    Accepting Editor
     Sleep                     2s
-    ComboBox                  Search Journals...    JT-1
+    ComboBox                  Search Journals...    TOJrnl
     Sleep                     2s
     PickList                  Classifications    2
     Sleep                     2s
@@ -52,22 +52,22 @@ LET Renewal Workflow
     Sleep                     3s
     VerifyText                If information in this section is incorrect, or incomplete, please return to the onboarding process
     Sleep                     3s
-    VerifyText                Contact Name: Georgina Joyce
+    VerifyText                Contact Name: Raghavendra Reddy
     Sleep                     3s
     VerifyText                Role: Accepting Editor 
     Sleep                     3s              
-    VerifyText                Affiliation: Elsevier
+    VerifyText                Affiliation: 3902Test
     Sleep                     3s
-    VerifyText                Address: ,
+    VerifyText                Address:
     Sleep                     3s
     VerifyText                Editor in UK: false
     Sleep                     3s
     VerifyText                Is the editor employed by an Institution that is requesting to be a party to this editor's contract?
     Sleep                     3s
     
-    VerifyText                Journal Name: Jahnavi Test  
+    VerifyText                Journal Name: Test Order Journal
     Sleep                     3s                  
-    VerifyText                Acronym: JT-1
+    VerifyText                Acronym: TOJrnl
     Sleep                     3s               
     VerifyText                Journal EPH Ownership:
     Sleep                     3s
@@ -87,10 +87,11 @@ LET Renewal Workflow
     ClickText                 Next
     Sleep                     1s 
 
-    ClickCheckbox             Supersede Existing Agreement    off
-    Sleep                     2s
-    ClickText                 Next
-    Sleep                     5s        
+    #ScrollTo                  Supersede Existing Agreement
+    #ClickCheckbox             Supersede Existing Agreement    off
+    #Sleep                     2s
+    #ClickText                 Next
+    #Sleep                     5s      
 
     VerifyText                Do you wish to include the following clause?
     Sleep                     3s                 
@@ -154,11 +155,11 @@ LET Renewal Workflow
 
     VerifyText                *What is the maximum total cumulative term that the Editor may serve? [Elsevier policy is for a maximum of ten years, but shorter terms are possible.]
     Sleep                     3s
-    VerifyText                For Elsevier Ltd
+    VerifyText                For Elsevier España S.L.U
     Sleep                     3s
     VerifyText                *Please pick a signatory for this contract
     Sleep                     3s
-    DropDown                  Please pick a signatory for this contract    Georgina Joyce
+    DropDown                  Please pick a signatory for this contract    susanne Publisher
     Sleep                     3s
     VerifyText                Include Aims & Scope in the text box below
     Sleep                     3s
