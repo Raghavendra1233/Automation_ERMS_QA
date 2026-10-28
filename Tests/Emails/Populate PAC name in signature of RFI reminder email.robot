@@ -32,9 +32,9 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 All
     Sleep                     2s
-    TypeText                  Search this list...    JT-5\n
+    TypeText                  Search this list...    T0001\n
     Sleep                     2s
-    ClickText                 JT-5
+    ClickText                 T0001
     Sleep                     2s
     ClickText                 Email    anchor=Homepage Management
     Sleep                     2s
