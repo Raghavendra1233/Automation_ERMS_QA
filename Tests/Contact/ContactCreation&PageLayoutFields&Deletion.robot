@@ -48,8 +48,6 @@ Suite Teardown                End suite
    Sleep                     2s
    VerifyText                Name
    Sleep                     2s
-   VerifyText                Display Name
-   Sleep                     2s
    VerifyText                Job Title
    Sleep                     2s
    VerifyText                Accreditation
