@@ -19,11 +19,11 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 All Contacts
     Sleep                     2s
-    TypeText                  Search this list...    Test Editor Contact\n
+    TypeText                  Search this list...    Docebo Testing\n
     Sleep                     2s
-    VerifyText                Test Editor Contact
+    VerifyText                Docebo Testing
     Sleep                     2s
-    ClickText                 Test Editor Contact
+    ClickText                 Docebo Testing
     Sleep                     2s
     ClickText                 Details
     Sleep                     2s
@@ -61,11 +61,11 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 All Contacts
     Sleep                     2s
-    TypeText                  Search this list...    Test Editor Contact\n
+    TypeText                  Search this list...    Docebo Testing\n
     Sleep                     2s
-    VerifyText                Test Editor Contact
+    VerifyText                Docebo Testing
     Sleep                     2s
-    ClickText                 Test Editor Contact
+    ClickText                 Docebo Testing
     Sleep                     2s
     ClickText                 Details
     SLeep                     2s

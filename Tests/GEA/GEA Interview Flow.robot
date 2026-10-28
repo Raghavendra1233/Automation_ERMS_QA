@@ -28,7 +28,7 @@ Suite Teardown                End suite
     Sleep                     2s
     PickList                  Role    Accepting Editor
     Sleep                     2s
-    ComboBox                  Search Journals...    JT-1
+    ComboBox                  Search Journals...    JT-5
     Sleep                     2s
     PickList                  Classifications    2
     Sleep                     2s

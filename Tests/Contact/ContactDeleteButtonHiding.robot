@@ -18,9 +18,9 @@ Suite Teardown                End suite
     Sleep                     1s
     ClickText                 All Contacts
     Sleep                     1s
-    TypeText                  Search this list...    Test Editor Contact\n
+    TypeText                  Search this list...    Docebo Testing\n
     Sleep                     2s
-    ClickText                 Test Editor Contact
+    ClickText                 Docebo Testing
     Sleep                     1s
     ClickText                 Details
     Sleep                     1s
