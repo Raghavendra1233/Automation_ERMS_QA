@@ -25,6 +25,7 @@ COPROCEDIA SIF Functionality
     TypeText                  Search Setup    Test CAS
     ClickText                 Test CAS
     Sleep                     2s
+    ClickText                 Test CAS
     VerifyText                Login
     Sleep                     2s
     ClickText                 Login
