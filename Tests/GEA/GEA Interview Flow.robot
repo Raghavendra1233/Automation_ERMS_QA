@@ -104,7 +104,7 @@ Suite Teardown                End suite
     
     VerifyText                *Please pick a signatory for this contract
     Sleep                     2s
-    DropDown                  Please pick a signatory for this contract    Georgina Joyce
+    DropDown                  Please pick a signatory for this contract    Staff Contact1
     Sleep                     2s
     ClickText                 Finish
     Sleep                     20s
