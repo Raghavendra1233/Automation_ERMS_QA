@@ -24,6 +24,7 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Test CAS
     Sleep                     2s
+    ClickText                 Test CAS
     VerifyText                Login
     Sleep                     2s
     ClickText                 Login
