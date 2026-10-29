@@ -70,7 +70,7 @@ Special Issue Functionality
     Sleep                     1s
     VerifyText                ASJC Codes
     Sleep                     1s
-    VerifyText                Scope of the Special Issue
+    VerifyText                Scope of the SI in one Sentence
     Sleep                     1s
     VerifyText                Send Author Outreach Messages on Behalf
     Sleep                     1s
