@@ -25,6 +25,7 @@ Suite Teardown                End suite
     Sleep                     2s
     ClickText                 Login
     Sleep                     1s
+    ClickText                 Login
     
     LaunchApp                 Journals
     Sleep                     1s
