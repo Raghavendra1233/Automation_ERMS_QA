@@ -23,6 +23,7 @@ The character limit of the Short Special issue Name on the SI record should be s
     TypeText                  Search Setup    Test CAS
     ClickText                 Test CAS
     Sleep                     2s
+    ClickText                 Test CAS
     VerifyText                Login
     Sleep                     2s
     ClickText                 Login
